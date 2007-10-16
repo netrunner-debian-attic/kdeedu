@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: kdeedu
 Architecture: any
-Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), keduca (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klatin (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kverbos (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
+Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), keduca (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kverbos (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
 Description: educational apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -246,29 +246,6 @@ Description: Japanese reference/study tool for KDE
  English to Japanese and Japanese to English dictionary.  Secondly, it
  is a Kanji dictionary, with multiple ways to look up specific
  characters.  Thirdly, it is a tool to help you learn Kanji.
- .
- This package is part of KDE, as a component of the KDE education module.
- See the 'kde' and 'kdeedu' packages for more information.
-
-Package: klatin
-Architecture: any
-Section: kde
-Depends: ${shlibs:Depends}
-Suggests: khelpcenter, kdeedu-doc-html
-Description: application to help revise/teach Latin
- KLatin is a program to help revise Latin.  There are three "sections"
- in which different aspects of the language can be revised.  These are
- the vocabulary, grammar and verb testing sections.  In addition there
- is a set of revision notes that can be used for self-guided revision.
- .
- In the vocabulary section an XML file is loaded containing various
- words and their local language translations.  KLatin asks you what
- each of these words translate into.  The questions take place in a
- multiple-choice environment.
- .
- In the grammar and verb sections KLatin asks for a particular part of
- a noun or a verb, such as the "ablative singular", or the "1st person
- indicative passive plural", and is not multiple choice.
  .
  This package is part of KDE, as a component of the KDE education module.
  See the 'kde' and 'kdeedu' packages for more information.
