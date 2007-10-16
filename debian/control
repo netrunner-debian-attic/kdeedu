@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: kdeedu
 Architecture: any
-Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), keduca (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kverbos (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
+Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), keduca (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
 Description: educational apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -392,23 +392,6 @@ Description: educational Logo programming environment
  Note that this version of Logo is only focused on the educational
  qualities of the programming language and will not try to suit
  professional programmers' needs.
- .
- This package is part of KDE, as a component of the KDE education module.
- See the 'kde' and 'kdeedu' packages for more information.
-
-Package: kverbos
-Architecture: any
-Section: kde
-Depends: ${shlibs:Depends}
-Suggests: khelpcenter, kdeedu-doc-html
-Description: Spanish verb form study application for KDE
- Kverbos allows the user to learn the forms of Spanish verbs.  The
- program suggests a verb and a time and the user enters the different
- verb forms.  The program corrects the user input and gives feedback.
- .
- The user can edit the list of the verbs that can be studied.  The
- program can build regular verb forms by itself.  Irregular verb forms
- have to be entered by the user.
  .
  This package is part of KDE, as a component of the KDE education module.
  See the 'kde' and 'kdeedu' packages for more information.

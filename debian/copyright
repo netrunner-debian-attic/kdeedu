@@ -1,12 +1,54 @@
 This package was debianized by Ana Beatriz Guerrero Lopez <ana@debian.org> on
 Thu, 24 May 2007 04:15:11 +0200.
 
-It was downloaded from <url://example.com>
+It was downloaded from http://www.kde.org/download
 
 Upstream Author(s): 
 
-    <put author's name and email here>
-    <likewise for another author>
+  Blinken: Albert Astals Cid <tsdgeos@terra.es>,
+      Danny Allen <danny@dannyallen.co.uk>
+  Kalgebra: Aleix Pol Gonzalez <aleixpol@gmail.com>
+  Kalzium: Carsten Niehaus <cniehaus@kde.org>,
+      Pino Toscano, Benoit Jacob, Thomas Nagy,
+      Jörg Buchwald, Marco Martin, Anne-Marie Mahfouf,
+      Daniel Haas, Brian Beck, Lee Olson, Inge Wallin
+  KAnagram: Joshua Keel <joshuakeel@gmail.com>,
+      Danny Allen <danny@dannyallen.co.uk>, Jeremy Whiting <jeremy@scitools.com>
+  KBruch: Sebastian Stein <seb.kde@hpfsc.de>,
+      Eva Brucherseifer <eva@kde.org> and others
+  KGeography: Albert Astals Cid <tsdgeos@terra.es>
+  KHangMan: Primoz Anzur <zerokode@gmx.net>, Anne-Marie Mahfouf <annma@kde.org>
+  Kig: Kig developers <kde-edu-devel@kde.org>
+  Kiten: Jason Katz-Brown <jason@katzbrown.com>,
+      Jim Breen <jwb@csse.monash.edu.au>,
+      Neil Stevens <neil@qualityassistant.com>,
+      Joseph Kerian <jkerian@gmail.com>,
+      Eric Kjeldergaard <kjelderg@gmail.com>
+  KLettres: Anne-Marie Mahfouf <annma@kde.org> and many others
+  KmPlot: Klaus-Dieter Möller <kdmoeller@foni.net>,
+      Matthias Messmer <bmlmessmer@web.de>,
+      Fredrik Edemar <f_edemar@linux.se>,
+      David Saxton <david@bluehaze.org>,
+  KPercentage: Matthias Messmer <bmlmessmer@web.de>,
+      Carsten Niehaus <cniehaus@gmx.de>,
+      Robert Gogolok <mail@robert-gogolok.de>
+  KStars: Jason Harris <jharris@30doradus.org>
+      Jasem Mutlaq <mutlaqja@ikarustech.com>, James Bowlin <bowlin@mindspring.com>,
+      Pablo de Vicente <pvicentea@wanadoo.es>, Thomas Kabelmann <tk78@gmx.de>,
+      Heiko Evermann <heiko.evermann@gmx.de>, Mark Hollomon <mhh@mindspring.com>,
+      Carsten Niehaus <cniehaus@gmx.de>, Vincent Jagot <vincent.jagot@free.fr>,
+      Martin Piskernig <martin.piskernig@stuwo.at>
+  KTouch: Håvard Frøiland <haavard@solveien.net>,
+      Andreas Nicolai <Andreas.Nicolai@gmx.net>
+  KTurtle: Cies Breijs <cies # kde.nl>,
+      Niels Slot <nielsslot # gmail.com>
+  KWordQuiz: Peter Hedlund <peter@peterandlinda.com>
+  libkdeedu: Scott Wheeler <wheeler@kde.org>
+  marble: Torsten Rahn <rahn@kde.org>,
+      Inge Wallin <inge@lysator.liu.se>
+  parley: Ewald Arnold <ewald@ewald-arnold.de>,
+      Peter Hedlund <peter@peterandlinda.com>,
+      Frederik Gladhorn <frederik.gladhorn@kdemail.net>
 
 Copyright: 
 
