@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: kdeedu
 Architecture: any
-Depends: blinken, kalgebra, kalzium, kanagram, keduca, kgeography, khangman, kig, kiten, klatin, klettres, kmplot, kpercentage, kstars, ktouch, kturtle, kverbos, kwordquiz, indi, marble, parley
+Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), keduca (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klatin (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kverbos (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
 Description: educational apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
