@@ -534,12 +534,29 @@ Package: marble
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, libmarble4 (= ${binary:Version}), marble-data (>= ${source:Version})
-Description: foo
+Description: generic geographical map widget
+ Marble is meant to be a generic geographical map widget. It shows the earth as
+ a sphere but doesn't make use of any hardware acceleration (NO OpenGL). So
+ although it might look similar to professional applications like Google Earth
+ or Nasa World Wind it's rather meant to be a small light weight multi purpose
+ widget for KDE.
+ .
+ This package is part of KDE, as a component of the KDE education module.
+ See the 'kde' and 'kdeedu' packages for more information.
+ .
+  Homepage: http://edu.kde.org/marble/
 
 Package: marble-data
 Architecture: all
 Section: kde
-Description: foo
+Description: 
+ This package contains the architecture-independent data files for Marble, the
+ generic map widget tool for KDE and others.  This includes map and flag images.
+ .
+ See the marble package for more information.
+ .
+ This package is part of KDE, as a component of the KDE education module.
+ See the 'kde' and 'kdeedu' packages for more information.
 
 Package: libmarble4
 Architecture: any
