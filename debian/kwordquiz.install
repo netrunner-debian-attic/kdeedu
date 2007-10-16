@@ -1,0 +1,17 @@
+etc/kde4/kwordquiz.knsrc
+usr/bin/kwordquiz
+usr/share/applications/kde4/kwordquiz.desktop
+usr/share/kde4/apps/kwordquiz
+usr/share/kde4/apps/kwordquiz/icons/hicolor/128x128/apps/kwordquiz.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/128x128/mimetypes/kwordquiz_doc.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/16x16/apps/kwordquiz.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/16x16/mimetypes/kwordquiz_doc.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/22x22/apps/kwordquiz.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/22x22/mimetypes/kwordquiz_doc.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/32x32/apps/kwordquiz.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/32x32/mimetypes/kwordquiz_doc.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/48x48/apps/kwordquiz.png
+usr/share/kde4/apps/kwordquiz/icons/hicolor/48x48/mimetypes/kwordquiz_doc.png
+usr/share/kde4/apps/kwordquiz/kwordquiz.notifyrc
+usr/share/kde4/apps/kwordquiz/kwordquizui.rc
+usr/share/kde4/config.kcfg/kwordquiz.kcfg
