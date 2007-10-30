@@ -2,7 +2,7 @@ Source: kdeedu
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.94.0), ocaml, libfacile-ocaml-dev
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.95.0), ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev, libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev
 Standards-Version: 3.7.2
 
 Package: kdeedu
@@ -430,7 +430,7 @@ Description: library for use with KDE educational apps
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.94.0)
+Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.95.0)
 Description: development files for KDE educational library
  The KDE-based library libkdeedu is used with educational
  applications.  It currently provides support for data plotting and
@@ -462,7 +462,7 @@ Description: library for Kiten Japanese reference/study tool
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.94.0)
+Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.95.0)
 Description: development files for Kiten library
  Kiten is a Japanese reference/study tool for KDE.  The library
  libkiten contains portions of Kiten that may be useful for other
@@ -527,7 +527,7 @@ Description: foo
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.94.0)
+Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.95.0)
 Description: foo
 
 Package: parley
