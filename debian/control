@@ -2,7 +2,9 @@ Source: kdeedu
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.95.0), ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev, libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.95.0),
+ ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
+ libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev
 Standards-Version: 3.7.2
 
 Package: kdeedu

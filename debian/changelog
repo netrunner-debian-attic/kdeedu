@@ -1,13 +1,19 @@
 kdeedu (4:3.95.0-1) unstable; urgency=low
 
+  +++ Changes by Armin Berres:
+
   * New upstream release.
   * Create *.install files for all built packages and update debian/control
     accordingly.
   * Add build dependency on libopenbabel-dev, libeigen-dev,
-    libboost-python-dev, libcfitsio3-dev, libreadline5-dev and libgps-dev.
+    libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev.
   * Make libkdeedu-dev arch-all.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 31 Oct 2007 00:12:01 +0000
+  +++ Changes by Fathi Boudra:
+
+  * Add libusb-dev build dependency.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2007 00:12:01 +0000
 
 kdeedu (4:3.90.1-1) unstable; urgency=low
 
