@@ -51,7 +51,7 @@ Description: KDE edutainment documentation in HTML format
 Package: blinken
 Architecture: any
 Section: games
-Depends: ${shlibs:Depends}, ttf-sjfonts, kdeedu-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ttf-sjfonts
 Suggests: khelpcenter, kdeedu-doc-html
 Description: KDE version of the Simon Says electronic memory game
  Blinken is based on an electronic game released in 1978, which
