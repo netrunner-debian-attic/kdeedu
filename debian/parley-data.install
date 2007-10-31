@@ -13,6 +13,7 @@ usr/share/doc/kde4/HTML/en/parley/entry5-dlg.png
 usr/share/doc/kde4/HTML/en/parley/entry6-dlg.png
 usr/share/doc/kde4/HTML/en/parley/entry7-dlg.png
 usr/share/doc/kde4/HTML/en/parley/get-new-stuff.png
+usr/share/doc/kde4/HTML/en/parley/index.cache.bz2
 usr/share/doc/kde4/HTML/en/parley/index.docbook
 usr/share/doc/kde4/HTML/en/parley/lang1-dlg.png
 usr/share/doc/kde4/HTML/en/parley/mainview.png
@@ -101,6 +102,6 @@ usr/share/kde4/apps/parley/icons/hicolor/32x32/actions/statistics.png
 usr/share/kde4/apps/parley/icons/hicolor/32x32/apps/kvoctrain.png
 usr/share/kde4/apps/parley/icons/hicolor/48x48/apps/kvoctrain.png
 usr/share/kde4/apps/parley/parleyui.rc
+usr/share/kde4/config.kcfg/documentsettings.kcfg
 usr/share/kde4/config.kcfg/languagesettings.kcfg
 usr/share/kde4/config.kcfg/parley.kcfg
-usr/share/kde4/config.kcfg/presettings.kcfg

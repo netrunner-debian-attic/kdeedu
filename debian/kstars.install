@@ -1,5 +1,12 @@
+usr/bin/indi_apogee_alta
+usr/bin/indi_fli_ccd
+usr/bin/indi_meade_lpi
+usr/bin/indi_sbig_ccd
+usr/bin/indi_sbig_stv
+usr/bin/indi_v4l_generic
+usr/bin/indi_v4l_philips
 usr/bin/kstars
 usr/lib/libSatLib.so.4
 usr/lib/libSatLib.so.4.0.0
-usr/lib/libsbigudrv.so.4
 usr/lib/libsbigudrv.so.1.0.0
+usr/lib/libsbigudrv.so.4

@@ -428,7 +428,7 @@ Description: library for use with KDE educational apps
  See the 'kde' and 'kdeedu' packages for more information.
 
 Package: libkdeedu-dev
-Architecture: any
+Architecture: all
 Section: libdevel
 Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.95.0)
 Description: development files for KDE educational library

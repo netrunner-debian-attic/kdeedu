@@ -18,6 +18,7 @@ usr/share/icons/hicolor/64x64/apps/kig.png
 usr/share/icons/hicolor/64x64/mimetypes/application-x-kig.png
 usr/share/icons/hicolor/scalable/apps/kig.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-kig.svgz
+usr/share/kde4/apps/katepart/syntax/python-kig.xml
 usr/share/kde4/apps/kig
 usr/share/kde4/apps/kig/builtin-macros/circle_by_center_and_line.kigt
 usr/share/kde4/apps/kig/builtin-macros/circle_by_point_and_diameter.kigt
