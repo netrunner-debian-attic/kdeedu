@@ -2,6 +2,7 @@ Source: kdeedu
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.95.0),
  ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
  libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev
@@ -29,24 +30,6 @@ Description: debugging symbols for kdeedu
  They will automatically be used by gdb for debugging kdeedu-related
  issues.
 
-Package: kdeedu-doc-html
-Architecture: all
-Section: doc
-Suggests: konqueror | www-browser, kdeedu
-Description: KDE4 edutainment documentation in HTML format
- By default the educational applications provided with KDE (the K
- Desktop Environment) only provide their documentation in KDE docbook
- format, which can only be read by Konqueror or KHelpCenter. This
- package provides all of the KDE edutainment documentation converted
- to HTML format so it can be read with any web browser.
- .
- The documentation will be installed into the usual directories
- /usr/share/doc/kde/HTML/<language>/<app>/, for instance
- /usr/share/doc/kde/HTML/en/kalzium/. Documentation is provided for
- most KDE educational packages.
- .
- This package is part of KDE4, as a component of the KDE4 education module.
- See the 'kde' and 'kdeedu' packages for more information.
 
 Package: blinken
 Architecture: any
@@ -150,18 +133,6 @@ Description: fraction calculation teaching tool for KDE4
  KBruch is a small program to practice calculating with fractions.
  Different exercises are provided for this purpose.  The program
  checks the user's input and gives feedback.
- .
- This package is part of KDE4, as a component of the KDE4 education module.
- See the 'kde' and 'kdeedu' packages for more information.
-
-Package: keduca
-Architecture: any
-Section: kde
-Depends: ${shlibs:Depends}
-Suggests: khelpcenter, kdeedu-doc-html
-Description: interactive form-based tests for KDE4
- KEduca is a flash-card application which allows you to make
- interactive form-based tests.
  .
  This package is part of KDE4, as a component of the KDE4 education module.
  See the 'kde' and 'kdeedu' packages for more information.
