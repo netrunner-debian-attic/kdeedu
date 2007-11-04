@@ -1,8 +1,9 @@
-kdeedu (4:3.95.0-1) unstable; urgency=low
+kdeedu (4:3.95.0-1) experimental; urgency=low
+
+  * New upstream release: KDE4 beta4. First upload to the Debian archive.
 
   +++ Changes by Armin Berres:
 
-  * New upstream release.
   * Create *.install files for all built packages and update debian/control
     accordingly.
   * Add build dependency on libopenbabel-dev, libeigen-dev,
@@ -16,11 +17,12 @@ kdeedu (4:3.95.0-1) unstable; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Polish and complete package descriptions.
+  * Write copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Nov 2007 21:12:12 +0100
 
 
-kdeedu (4:3.90.1-1) unstable; urgency=low
+kdeedu (4:3.90.1-1) alioth; urgency=low
 
   * Initial release.
 
