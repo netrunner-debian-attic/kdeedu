@@ -1,9 +1,9 @@
 This package was debianized by Ana Beatriz Guerrero Lopez <ana@debian.org> on
 Thu, 24 May 2007 04:15:11 +0200.
 
-It was downloaded from http://www.kde.org/download
+It was downloaded from ftp://ftp.kde.org
 
-Upstream Author(s): 
+Upstream Authors: 
 
   Blinken: Albert Astals Cid <tsdgeos@terra.es>,
       Danny Allen <danny@dannyallen.co.uk>
@@ -50,17 +50,75 @@ Upstream Author(s):
       Peter Hedlund <peter@peterandlinda.com>,
       Frederik Gladhorn <frederik.gladhorn@kdemail.net>
 
-Copyright: 
+Copyright:
+Unless something else is mentioned, copyright is
+(C) 1996-2007, The K Desktop Enviroment project http://www.kde.org
 
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
 
 License:
 
-    <Put the license of the package here indented by 4 spaces>
+Unless something else is mentioned, the code files in this package are under
+the GNU General Public License:
 
-The Debian packaging is (C) 2007, Ana Beatriz Guerrero Lopez <ana@debian.org> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2 dated June, 1991.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2.
+
+
+
+The documentation docbook files in this package, placed under docs/, are under 
+the GNU Free Documentation License:
+
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
+
+  The full text of the GNU Free Documentation License is available on
+  Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+As well, all the Manpages.dox included are under this license, unless specified 
+otherwise below.
+
+
+Files under blinken
+Files under cmake
+Files under kalgebra
+Files under kalzium
+Files under kanagram
+Files under kbruch
+Files under kgeography
+Files under khangman
+Files under kig
+Files under kiten
+Files under klettres
+Files under kmplot
+Files under kpercentage
+Files under kstars
+Files under ktouch
+Files under kturtle
+Files under kwordquiz
+Files under libkdeedu
+Files under marble
+Files under parley
+
+
+
+
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
+see `/usr/share/common-licenses/GPL'.
+
