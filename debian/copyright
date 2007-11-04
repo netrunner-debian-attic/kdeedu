@@ -94,13 +94,60 @@ As well, all the Manpages.dox included are under this license, unless specified
 otherwise below.
 
 
-Files under blinken
-Files under cmake
-Files under kalgebra
-Files under kalzium
-Files under kanagram
-Files under kbruch
-Files under kgeography
+Files under blinken/
+
+ Copyright (C) 2005-2007 by Albert Astals Cid <aacid@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under cmake/
+
+ cmake/modules/FindBoostPython.cmake ~ BSD ~ Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
+ cmake/modules/FindCFitsio.cmake ~ BSD ~ Copyright (c) 2006, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ cmake/modules/FindLibfacile.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
+                                             Copyright (c) 2006, Montel Laurent, <montel@kde.org>
+ cmake/modules/FindOCaml.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
+                                         Copyright (c) 2006, Montel Laurent, <montel@kde.org>
+ cmake/modules/FindOpenBabel2.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
+ cmake/modules/FindReadline.cmake ~ unspec ~ unspec
+ cmake/modules/FindSBIG.cmake ~ BSD ~ Copyright (c) 2006, Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+On Debian systems, you can find the complete text of the BSD license at:
+/usr/share/common-licenses/BSD
+
+
+Files under kalgebra/
+
+ Copyright (C) 2007 by Aleix Pol <aleixpol@gmail.com>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+Files under kalzium/
+
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+Files under kanagram/
+
+ Copyright (C) 2005 by Joshua Keel <joshuakeel@gmail.com>             
+           (C) 2007 by Jeremy Whiting <jeremy@scitools.com> 
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+Files under kbruch/
+
+ Copyright (c) 2001-2007 by Sebastian Stein <seb.kde@hpfsc.de>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kgeography/
+
+ Copyright (C) 2004-2007 by Albert Astals Cid <aacid@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
 Files under khangman
 Files under kig
 Files under kiten
