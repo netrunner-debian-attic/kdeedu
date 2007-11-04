@@ -13,7 +13,12 @@ kdeedu (4:3.95.0-1) unstable; urgency=low
 
   * Add libusb-dev build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2007 00:12:01 +0000
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Polish and complete package descriptions.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Nov 2007 21:12:12 +0100
+
 
 kdeedu (4:3.90.1-1) unstable; urgency=low
 
