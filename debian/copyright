@@ -148,19 +148,101 @@ Files under kgeography/
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
-Files under khangman
-Files under kig
-Files under kiten
-Files under klettres
-Files under kmplot
-Files under kpercentage
-Files under kstars
-Files under ktouch
-Files under kturtle
-Files under kwordquiz
-Files under libkdeedu
-Files under marble
-Files under parley
+
+Files under khangman/
+
+ Copyright (C) 2001-2007  Anne-Marie Mahfouf <annma@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kig/
+
+ Copyright (C) 2002-2007 The Kig Developers <kde-edu-devel@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kiten/
+
+ Copyright (C) 2001-2007 Jason Katz-Brown <jason@katzbrown.com>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under klettres/
+
+ Copyright (C) 2001-2007  Anne-Marie Mahfouf <annma@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kmplot/
+
+ Copyright (C) 2001-2007  Klaus-Dieter Möller <kdmoeller@foni.net>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kpercentage/
+
+ Copyright (C) 2001-2007  Matthias Meßmer <matthias@familie-messmer.de>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kstars/
+
+ Copyright (C) 2001-2007  the KStars Team.
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under ktouch/
+
+ Copyright (C)  2000-2007 Haavard Froeiland <haavard@users.sourceforge.net> 
+                          and Andreas Nicolai  <ghorwin@users.sourceforge.net>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kturtle/
+
+ Copyright (C)  2003-2007 Cies Breijs <cies@kde.nl>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under kwordquiz/
+
+ Copyright (C)  2003-2007 Peter Hedlund <peter@peterandlinda.com>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under libkdeedu/
+
+ Copyright (C)  2003-2007 Scott Wheeler <wheeler@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under marble/
+
+ Copyright (C) 2005-2007 Torsten Rahn <tackat@kde.org>
+ Copyright (c) 2007      Inge Wallin  <ingwa@kde.org>"
+
+ All files are under GNU Lesser General Public License as published by the Free Software 
+ Foundation; version 2.1.
+
+On Debian systems, you can find the complete text of the LGPLG license version 2.1 at:
+/usr/share/common-licenses/LGPL-2.1
+
+
+Files under parley/
+ Copyright (C) 2000-2007 The Parley Developers
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 
