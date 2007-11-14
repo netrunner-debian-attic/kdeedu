@@ -337,6 +337,7 @@ usr/share/kde4/apps/marble/data/mwdbii/PUSA48.DIFF.PNT
 usr/share/kde4/apps/marble/data/mwdbii/PUSA48.PNT
 usr/share/kde4/apps/marble/data/mwdbii/RIVER.PNT
 usr/share/kde4/apps/marble/data/placemarks/baseplacemarks.cache
+usr/share/kde4/apps/marble/data/placemarks/boundaryplacemarks.cache
 usr/share/kde4/apps/marble/data/placemarks/cityplacemarks.cache
 usr/share/kde4/apps/marble/data/placemarks/elevplacemarks.cache
 usr/share/kde4/apps/marble/data/placemarks/otherplacemarks.cache

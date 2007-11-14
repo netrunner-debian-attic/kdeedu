@@ -1,3 +1,14 @@
+kdeedu (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
+
+  * Build depend on up to date kdelibs5.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:48:44 +0000
+
 kdeedu (4:3.95.0-1) experimental; urgency=low
 
   * New upstream release: KDE4 beta4. First upload to the Debian archive.
