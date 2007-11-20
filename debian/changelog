@@ -1,3 +1,9 @@
+kdeedu (4:3.96.0-2) experimental; urgency=low
+
+  * Remove dep on keduca (Removed in KDE4). 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 20 Nov 2007 22:24:11 +0100
+
 kdeedu (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
