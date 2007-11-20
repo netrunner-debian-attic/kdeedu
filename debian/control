@@ -7,10 +7,11 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.96.0),
  ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
  libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev
 Standards-Version: 3.7.2
+Homepage: http://edu.kde.org/
 
 Package: kdeedu
 Architecture: any
-Depends: blinken (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), indi (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
+Depends: blinken (>= ${binary:Version}), indi (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), kbruch (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
 Description: educational apps from the official KDE4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -29,7 +30,6 @@ Description: debugging symbols for kdeedu
  This package contains the debugging symbols associated with kdeedu.
  They will automatically be used by gdb for debugging kdeedu-related
  issues.
-
 
 Package: blinken
 Architecture: any
@@ -61,8 +61,6 @@ Description: mathematical calculator for KDE4
  .
  This package is part of KDE4, as a component of the KDE4 education module.
  See the 'kde' and 'kdeedu' packages for more information.
- .
-  Homepage: http://kalgebra.berlios.de/
 
 Package: kalzium
 Architecture: any
@@ -475,8 +473,6 @@ Description: generic geographical map widget
  .
  This package is part of KDE4, as a component of the KDE4 education module.
  See the 'kde' and 'kdeedu' packages for more information.
- .
-  Homepage: http://edu.kde.org/marble/
 
 Package: marble-data
 Architecture: all

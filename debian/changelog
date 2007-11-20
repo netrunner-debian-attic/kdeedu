@@ -1,6 +1,7 @@
 kdeedu (4:3.96.0-2) experimental; urgency=low
 
-  * Remove dep on keduca (Removed in KDE4). 
+  * Fix metapackage: remove keduca, add kbruch.
+  * Add kdeedu homepage to control field.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 20 Nov 2007 22:24:11 +0100
 
