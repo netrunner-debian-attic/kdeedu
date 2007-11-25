@@ -1,3 +1,11 @@
+kdeedu (4:3.96.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Remove kdeedu-doc-html suggests.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org> Fathi Boudra  Mon, 26 Nov 2007 00:16:22 +0100
+
 kdeedu (4:3.96.0-2) experimental; urgency=low
 
   * Fix metapackage: remove keduca, add kbruch.
