@@ -1,4 +1,4 @@
-kdeedu (4:3.96.0-3) UNRELEASED; urgency=low
+kdeedu (4:3.96.0-3) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
@@ -6,9 +6,8 @@ kdeedu (4:3.96.0-3) UNRELEASED; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Patch away apparantly unused include only available on some platforms.
-    (Closes: #452724)
-
+  * Patch away apparently unused include only available on some platforms.
+    Patch 03_noio.h.diff (Closes: #452724)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Nov 2007 22:06:22 +0100
 
