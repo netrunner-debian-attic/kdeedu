@@ -4,7 +4,13 @@ kdeedu (4:3.96.0-3) UNRELEASED; urgency=low
 
   * Remove kdeedu-doc-html suggests.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org> Fathi Boudra  Mon, 26 Nov 2007 00:16:22 +0100
+  +++ Changes by Sune Vuorela:
+
+  * Patch away apparantly unused include only available on some platforms.
+    (Closes: #452724)
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Nov 2007 22:06:22 +0100
 
 kdeedu (4:3.96.0-2) experimental; urgency=low
 
