@@ -6,7 +6,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <an
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.97.0),
  ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
  libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
 
 Package: kdeedu
@@ -501,7 +501,7 @@ Description: library for Marble
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.96.0)
+Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.97.0)
 Description: development files for Marble
  This is the development package which contains the headers for the
  libmarble4 library.
