@@ -1,12 +1,19 @@
 kdeedu (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
+  
+  +++ Changes by Armin Berres:
+  
   * Build depend on kdelibs5-dev >= 4:3.97.0.
   * Update installed files and some files from the kiten into libkiten1.
   * Remove no more needed patch 03_noio.h.diff.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
   * Update Standards-Version to 3.7.3.
+  * Add build-depend on libnova-dev.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 08 Dec 2007 11:47:32 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Dec 2007 16:36:45 +0100
 
 kdeedu (4:3.96.0-3) experimental; urgency=low
 

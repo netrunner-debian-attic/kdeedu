@@ -5,7 +5,8 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.97.0),
  ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
- libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev
+ libboost-python-dev, libcfitsio3-dev, libreadline5-dev, libgps-dev, libusb-dev,
+ libnova-dev
 Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
 
