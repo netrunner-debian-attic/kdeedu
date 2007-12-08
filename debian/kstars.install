@@ -2,7 +2,6 @@ usr/bin/indi_apogee_alta
 usr/bin/indi_fli_ccd
 usr/bin/indi_meade_lpi
 usr/bin/indi_sbig_ccd
-usr/bin/indi_sbig_stv
 usr/bin/indi_v4l_generic
 usr/bin/indi_v4l_philips
 usr/bin/kstars

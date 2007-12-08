@@ -1,12 +1,6 @@
 usr/bin/kiten
 usr/bin/kitengen
 usr/bin/kitenradselect
-usr/include/libkiten
-usr/include/libkiten/kitenEdit.h
-usr/include/libkiten/libkitenexport.h
-usr/lib/libkiten.so
-usr/lib/libkiten.so.4
-usr/lib/libkiten.so.4.0.0
 usr/share/applications/kde4/kiten.desktop
 usr/share/applications/kde4/radselect.desktop
 usr/share/doc/kde4/HTML/en/kiten
