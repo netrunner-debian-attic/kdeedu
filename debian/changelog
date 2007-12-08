@@ -12,6 +12,7 @@ kdeedu (4:3.97.0-1) experimental; urgency=low
   
   * Update Standards-Version to 3.7.3.
   * Add build-depend on libnova-dev.
+  * Update indi.install
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Dec 2007 16:36:45 +0100
 
