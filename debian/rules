@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
 
-#454812 has to be resolved first
-#export LDFLAGS+="-Wl,--as-needed"
+export LDFLAGS+="-Wl,--as-needed"
 include debian/cdbs/kde.mk

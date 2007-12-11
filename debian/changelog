@@ -7,7 +7,8 @@ kdeedu (4:3.97.0-1) experimental; urgency=low
   * Build depend on kdelibs5-dev >= 4:3.97.0.
   * Update installed files and some files from the kiten into libkiten1.
   * Remove no more needed patch 03_noio.h.diff.
-  
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps happier.
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
   
   * Update Standards-Version to 3.7.3.
