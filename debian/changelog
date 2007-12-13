@@ -1,3 +1,11 @@
+kdeedu (4:3.97.0-2) experimental; urgency=low
+
+  * Add patch to link against libm when needed and build depend on latest
+    libcfitsio3-dev  for beeing able to build with
+    LDFLAGS+="-Wl,-z -Wl,--as-needed".
+
+ -- Armin Berres <trigger+debian@space-based.de>  Thu, 13 Dec 2007 18:38:14 +0000
+
 kdeedu (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
