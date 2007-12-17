@@ -1,3 +1,4 @@
+Add missin links agains libm. Reported (and applied for thenext release) upstream at https://bugs.kde.org/show_bug.cgi?id=153989
 --- a/kstars/kstars/indi/CMakeLists.txt
 +++ b/kstars/kstars/indi/CMakeLists.txt
 @@ -349,7 +349,7 @@
