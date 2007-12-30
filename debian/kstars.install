@@ -7,5 +7,5 @@ usr/bin/indi_v4l_philips
 usr/bin/kstars
 usr/lib/libSatLib.so.4
 usr/lib/libSatLib.so.4.0.0
+/usr/lib/libsbigudrv.so.1
 usr/lib/libsbigudrv.so.1.0.0
-usr/lib/libsbigudrv.so.4

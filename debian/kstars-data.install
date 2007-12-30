@@ -8,11 +8,6 @@ usr/share/icons/hicolor/48x48/apps/kstars.png
 usr/share/icons/hicolor/64x64/apps/kstars.png
 usr/share/icons/hicolor/scalable/apps/kstars.svgz
 usr/share/kde4/apps/kstars
-usr/share/kde4/apps/kstars/icons/crystalsvg/128x128/actions/kstars_geo.png
-usr/share/kde4/apps/kstars/icons/crystalsvg/16x16/actions/kstars_geo.png
-usr/share/kde4/apps/kstars/icons/crystalsvg/32x32/actions/kstars_geo.png
-usr/share/kde4/apps/kstars/icons/crystalsvg/48x48/actions/kstars_geo.png
-usr/share/kde4/apps/kstars/icons/crystalsvg/64x64/actions/kstars_geo.png
 usr/share/kde4/apps/kstars/icons/hicolor/22x22/actions/kstars_cbound.png
 usr/share/kde4/apps/kstars/icons/hicolor/22x22/actions/kstars_clines.png
 usr/share/kde4/apps/kstars/icons/hicolor/22x22/actions/kstars_cnames.png

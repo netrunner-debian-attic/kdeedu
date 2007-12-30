@@ -7,6 +7,11 @@ usr/share/doc/kde4/HTML/en/marble/measure-1.png
 usr/share/doc/kde4/HTML/en/marble/quick-1.png
 usr/share/doc/kde4/HTML/en/marble/search-1.png
 usr/share/doc/kde4/HTML/en/marble/search-2.png
+/usr/share/icons/hicolor/128x128/apps/marble.png
+/usr/share/icons/hicolor/16x16/apps/marble.png
+/usr/share/icons/hicolor/32x32/apps/marble.png
+/usr/share/icons/hicolor/48x48/apps/marble.png
+/usr/share/icons/hicolor/64x64/apps/marble.png
 usr/share/kde4/apps/marble/data/bitmaps/airport.png
 usr/share/kde4/apps/marble/data/bitmaps/bathymetry_0.png
 usr/share/kde4/apps/marble/data/bitmaps/bathymetry_-11000.png
@@ -345,6 +350,7 @@ usr/share/kde4/apps/marble/data/svg/compass.svg
 usr/share/kde4/apps/marble/data/svg/marble-logo-72dpi.png
 usr/share/kde4/apps/marble/data/svg/marble-logo.png
 usr/share/kde4/apps/marble/data/svg/marble-logo.svg
+/usr/share/kde4/apps/marble/marble.knsrc
 usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/apps/marble_part/marble_part.rc
 usr/share/kde4/config.kcfg/marble.kcfg

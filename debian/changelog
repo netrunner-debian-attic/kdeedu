@@ -1,3 +1,13 @@
+kdeedu (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+  * Update installed files.
+  * Remove patch 05 - applied upstream.
+  * Remove build dependency on libgps-dev, it is broken right now.
+    Should be readded ASAP.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 30 Dec 2007 01:17:44 +0000
+
 kdeedu (4:3.97.0-2) experimental; urgency=low
 
   * Add patch to link against libm when needed and build depend on latest
