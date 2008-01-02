@@ -1,6 +1,6 @@
 usr/bin/kig
 usr/bin/pykig.py
-usr/lib/kde4/libkigpart.so
+usr/lib/kde4/kigpart.so
 usr/share/applications/kde4/kig.desktop
 usr/share/doc/kde4/HTML/en/kig
 usr/share/doc/kde4/HTML/en/kig/man-kig.1.docbook
