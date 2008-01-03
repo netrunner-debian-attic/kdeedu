@@ -11,7 +11,7 @@ Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
 
 Package: kdeedu
-Architecture: any
+Architecture: all
 Depends: blinken (>= ${binary:Version}), indi (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), kbruch (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
 Description: educational apps from the official KDE4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical

@@ -3,6 +3,9 @@ kdeedu (4:3.98.0~svn755919-1) experimental; urgency=low
   * New svn snapshot release to revision 755919.
   * Add libphonon-dev build dependency.
   * Update kig.install.
+  * Change kdeedu to Architecture: all.
+  * Remove LDFLAGS+="-Wl,--as-needed". It was integrated into
+    cdbs/kde.mk.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 02 Jan 2008 22:47:49 +0100
 
