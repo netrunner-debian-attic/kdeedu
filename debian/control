@@ -412,10 +412,12 @@ Description: development files for KDE4 educational library
  This package is part of KDE4, as a component of the KDE4 education module.
  See the 'kde' and 'kdeedu' packages for more information.
 
-Package: libkiten1
+Package: libkiten4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, edict, kanjidic
+Replaces: libkiten1 (>= 4:3.95.0-1)
+Conflicts: libkiten1 (>= 4:3.95.0-1)
 Recommends: ttf-kochi-gothic | ttf-kochi-mincho
 Description: library for Kiten Japanese reference/study tool
  Kiten is a Japanese reference/study tool for KDE.  The library
