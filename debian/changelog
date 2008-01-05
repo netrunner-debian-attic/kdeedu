@@ -1,6 +1,14 @@
-kdeedu (4:3.98.0~svn755919-2) UNRELEASED; urgency=low
+kdeedu (4:4.0.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
 
   * Rename libkiten1 to libkiten4 according to the soname.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update years in copyright.
 
  -- Armin Berres <trigger+debian@space-based.de>  Fri, 04 Jan 2008 12:54:05 +0100
 
