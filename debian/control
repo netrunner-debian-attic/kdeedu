@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:3.98.0~svn753247),
- libphonon-dev (>= 4:3.98.0~svn753247), ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>= 4:4.0.0-1),
+ libphonon-dev (>= 4:4.0.0-1), ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev,
  libboost-python-dev, libcfitsio3-dev (>=3.040-5), libreadline5-dev, libusb-dev,
  libnova-dev
 Standards-Version: 3.7.3
@@ -401,7 +401,7 @@ Description: library for use with KDE4 educational apps
 Package: libkdeedu-dev
 Architecture: all
 Section: libdevel
-Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.98.0~svn753247)
+Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for KDE4 educational library
  The KDE-based library libkdeedu is used with educational
  applications.  It currently provides support for data plotting and
@@ -435,7 +435,7 @@ Description: library for Kiten Japanese reference/study tool
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:3.98.0~svn753247-1)
+Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for Kiten library
  Kiten is a Japanese reference/study tool for KDE.  The library
  libkiten contains portions of Kiten that may be useful for other
