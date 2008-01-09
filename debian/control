@@ -54,7 +54,6 @@ Package: kalgebra
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Homepage: http://kalgebra.berlios.de/
 Description: mathematical calculator for KDE4
  KAlgebra is a mathematical calculator based content markup MathML language.
  Nowadays it is capable to make simple MathML operations (arithmetic and logical)
