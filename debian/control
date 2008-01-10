@@ -401,7 +401,7 @@ Description: library for use with KDE 4 educational apps
 Package: libkdeedu-dev
 Architecture: all
 Section: libdevel
-Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libkdeedu4 (>= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for KDE 4 educational library
  The KDE-based library libkdeedu is used with educational
  applications.  It currently provides support for data plotting and
