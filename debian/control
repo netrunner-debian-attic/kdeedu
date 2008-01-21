@@ -27,7 +27,7 @@ Description: Educational applications from the official KDE 4 release
 Package: kdeedu-dbg
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg
+Depends: kdebase-runtime-dbg
 Section: libdevel
 Description: Debugging symbols for kdeedu
  This package contains the debugging symbols associated with kdeedu.
