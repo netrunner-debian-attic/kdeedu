@@ -1,11 +1,15 @@
-kdeedu (4:4.0.0-2) experimental; urgency=low
+kdeedu (4:4.0.0-2) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
   * Tweak package descriptions.
   * Change KDE 4 dependency version to 4:4.0.0-1.
   * Remove unnecessary version from libkiten1 conflict.
+  * Change libkiten-dev and libmarble-dev to Architecture: all.
+  * Use source:Version for kdebase metapackage.
   * Change kdeedu-dbg Depends from kdelibs-dbg to kdebase-runtime-dbg.
+  * Add Suggests: kdeedu to kdeedu-dbg.
+  * libmarble_part.so should not be in libmarble-dev, move it to marble.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Jan 2008 02:21:08 -0500
 

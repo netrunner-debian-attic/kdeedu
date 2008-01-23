@@ -12,7 +12,16 @@ Homepage: http://edu.kde.org/
 
 Package: kdeedu
 Architecture: all
-Depends: blinken (>= ${binary:Version}), indi (>= ${binary:Version}), kalgebra (>= ${binary:Version}), kalzium (>= ${binary:Version}), kanagram (>= ${binary:Version}), kbruch (>= ${binary:Version}), kgeography (>= ${binary:Version}), khangman (>= ${binary:Version}), kig (>= ${binary:Version}), kiten (>= ${binary:Version}), klettres (>= ${binary:Version}), kmplot (>= ${binary:Version}), kpercentage (>= ${binary:Version}), kstars (>= ${binary:Version}), ktouch (>= ${binary:Version}), kturtle (>= ${binary:Version}), kwordquiz (>= ${binary:Version}), marble (>= ${binary:Version}), parley (>= ${binary:Version})
+Depends: blinken (>= ${source:Version}), indi (>= ${source:Version}),
+ kalgebra (>= ${source:Version}), kalzium (>= ${source:Version}),
+ kanagram (>= ${source:Version}), kbruch (>= ${source:Version}),
+ kgeography (>= ${source:Version}), khangman (>= ${source:Version}),
+ kig (>= ${source:Version}), kiten (>= ${source:Version}),
+ klettres (>= ${source:Version}), kmplot (>= ${source:Version}),
+ kpercentage (>= ${source:Version}), kstars (>= ${source:Version}),
+ ktouch (>= ${source:Version}), kturtle (>= ${source:Version}),
+ kwordquiz (>= ${source:Version}), marble (>= ${source:Version}),
+ parley (>= ${source:Version})
 Description: Educational applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -26,9 +35,10 @@ Description: Educational applications from the official KDE 4 release
 
 Package: kdeedu-dbg
 Architecture: any
+Section: libdevel
 Priority: extra
 Depends: kdebase-runtime-dbg
-Section: libdevel
+Suggests: kdeedu (= ${source:Version})
 Description: Debugging symbols for kdeedu
  This package contains the debugging symbols associated with kdeedu.
  They will automatically be used by gdb for debugging kdeedu-related issues.
@@ -302,7 +312,7 @@ Description: Libraries for KDE 4 educational applications
 Package: libkdeedu-dev
 Architecture: all
 Section: libdevel
-Depends: libkdeedu4 (>= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libkdeedu4 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the KDE 4 educational libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the KDE 4 educational libraries.
@@ -325,9 +335,9 @@ Description: Libraries for the Kiten Japanese reference and study aid
  This package is part of the KDE 4 education module.
 
 Package: libkiten-dev
-Architecture: any
+Architecture: all
 Section: libdevel
-Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libkiten4 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the Kiten libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the Kiten libraries.
@@ -379,9 +389,9 @@ Description: Marble globe widget library
  This package is part of the KDE 4 education module.
 
 Package: libmarble-dev
-Architecture: any
+Architecture: all
 Section: libdevel
-Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libmarble4 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the Marble globe widget
  This package contains headers and other related files needed to build
  applications that use the Marble globe widget.
