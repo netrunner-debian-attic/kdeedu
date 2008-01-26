@@ -22,7 +22,7 @@ Depends: blinken (>= ${source:Version}), indi (>= ${source:Version}),
  ktouch (>= ${source:Version}), kturtle (>= ${source:Version}),
  kwordquiz (>= ${source:Version}), marble (>= ${source:Version}),
  parley (>= ${source:Version})
-Description: Educational applications from the official KDE 4 release
+Description: educational applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -39,7 +39,7 @@ Section: libdevel
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeedu (= ${source:Version})
-Description: Debugging symbols for kdeedu
+Description: debugging symbols for kdeedu
  This package contains the debugging symbols associated with kdeedu.
  They will automatically be used by gdb for debugging kdeedu-related issues.
 
@@ -64,7 +64,7 @@ Package: kalgebra
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Description: Algebraic graphing calculator for KDE 4
+Description: algebraic graphing calculator for KDE 4
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
  .
@@ -75,7 +75,7 @@ Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, kalzium-data (>= ${source:Version})
 Suggests: khelpcenter
-Description: Periodic table and chemistry tools for KDE 4
+Description: periodic table and chemistry tools for KDE 4
  Kalzium is a full-featured chemistry application for KDE 4, including a
  Periodic Table of Elements, chemical reference, chemical equation solver, and
  3D molecule viewer.
@@ -85,7 +85,7 @@ Description: Periodic table and chemistry tools for KDE 4
 Package: kalzium-data
 Architecture: all
 Section: science
-Description: Data files for Kalzium
+Description: data files for Kalzium
  This package contains architecture-independent data files for Kalzium, the
  KDE periodic table application.
  .
@@ -96,7 +96,7 @@ Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Jumble word puzzle for KDE 4
+Description: jumble word puzzle for KDE 4
  KAnagram is a game where a random word is shown with its letters scrambled.
  To win, the player must rearrange the letters into the correct order.
  .
@@ -107,7 +107,7 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Fraction learning aid for KDE 4
+Description: fraction learning aid for KDE 4
  KBruch is an aid for learning how to calculate with fractions.
  .
  This package is part of the KDE 4 education module.
@@ -117,7 +117,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kgeography-data (>= ${source:Version})
 Suggests: khelpcenter
-Description: Geography learning aid for KDE 4
+Description: geography learning aid for KDE 4
  KGeography is an aid for learning about world geography.  You can use it to
  explore a map, show information about regions and features, and play quiz
  games to test your geography knowledge.
@@ -127,7 +127,7 @@ Description: Geography learning aid for KDE 4
 Package: kgeography-data
 Architecture: all
 Section: kde
-Description: Data files for KGeography
+Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
  .
@@ -139,7 +139,7 @@ Section: games
 Depends: ${shlibs:Depends}, ttf-dustin
 Suggests: khelpcenter
 Description: Hangman word puzzle for KDE 4
- KHangMan is the well-known hangman game, aimed towards children aged 6 and
+ KHangMan is the well-known Hangman game, aimed towards children aged 6 and
  above.
  .
  It picks a random word which the player must reveal by guessing if it contains
@@ -153,7 +153,7 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Interactive geometry tool for KDE 4
+Description: interactive geometry tool for KDE 4
  Kig is an application for interactive geometric construction, allowing
  students to draw and explore mathematical figures and concepts using the
  computer.
@@ -179,7 +179,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, klettres-data (>= ${source:Version})
 Suggests: khelpcenter
-Description: Foreign alphabet tutor for KDE 4
+Description: foreign alphabet tutor for KDE 4
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
  .
@@ -191,7 +191,7 @@ Description: Foreign alphabet tutor for KDE 4
 Package: klettres-data
 Architecture: all
 Section: kde
-Description: Data files for KLettres foreign alphabet tutor
+Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE 4.
  .
@@ -202,7 +202,7 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Mathematical function plotter for KDE 4
+Description: mathematical function plotter for KDE 4
  KmPlot is a powerful mathematical plotter KDE 4, capable of plotting multiple
  functions simultaneously and combining them into new functions.
  .
@@ -222,7 +222,7 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Percentage calculation learning aid for KDE 4
+Description: percentage calculation learning aid for KDE 4
  KPercentage is an aid for learning how to calculate with percentages.
  .
  This package is part of the KDE 4 education module.
@@ -232,7 +232,7 @@ Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, kstars-data (>= ${source:Version}), indi (= ${binary:Version})
 Suggests: konqueror, khelpcenter
-Description: Desktop planetarium for KDE 4
+Description: desktop planetarium for KDE 4
  KStars is a desktop planetarium for KDE 4, depicting an accurate graphical
  simulation of the night sky, from any location on Earth, at any date and time.
  The display includes 130,000 stars, 13,000 deep-sky objects, all 8 planets,
@@ -244,7 +244,7 @@ Description: Desktop planetarium for KDE 4
 Package: kstars-data
 Architecture: all
 Section: science
-Description: Data files for KStars desktop planetarium
+Description: data files for KStars desktop planetarium
  This package contains architecture-independent data files for KStars,
  the graphical desktop planetarium for KDE, including star catalogues and
  astronomical images.
@@ -256,7 +256,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Touch typing tutor for KDE 4
+Description: touch typing tutor for KDE 4
  KTouch is an aid for learning how to type with speed and accuracy.  It
  provides a sample text to type and indicates which fingers should be used for
  each key.
@@ -287,7 +287,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Flashcard learning program for KDE 4
+Description: flashcard learning program for KDE 4
  KWordQuiz is a general purpose flashcard program, typically used for
  vocabulary training.
  .
@@ -303,7 +303,7 @@ Section: libs
 Depends: ${shlibs:Depends}
 Conflicts: libkdeedu1
 Replaces: libkdeedu1
-Description: Libraries for KDE 4 educational applications
+Description: libraries for KDE 4 educational applications
  This package contains shared libraries used by KDE 4 educational applications.
  It provides support for data plotting and vocabulary data in the kvtml format.
  .
@@ -313,7 +313,7 @@ Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
 Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the KDE 4 educational libraries
+Description: development files for the KDE 4 educational libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the KDE 4 educational libraries.
  .
@@ -326,7 +326,7 @@ Depends: ${shlibs:Depends}, edict, kanjidic
 Replaces: libkiten1
 Conflicts: libkiten1
 Recommends: ttf-kochi-gothic | ttf-kochi-mincho
-Description: Libraries for the Kiten Japanese reference and study aid
+Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
  the the Kiten Japanese reference and study aid.  Portions of this library,
  such as dictionary and character lookup widgets, may be useful for other
@@ -338,7 +338,7 @@ Package: libkiten-dev
 Architecture: any
 Section: libdevel
 Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the Kiten libraries
+Description: development files for the Kiten libraries
  This package contains headers and other related files needed to build KDE 4
  applications that use the Kiten libraries.
  .
@@ -373,7 +373,7 @@ Description: Marble globe and map widget
 Package: marble-data
 Architecture: all
 Section: kde
-Description: Data files for Marble
+Description: data files for Marble
  This package contains the architecture-independent data files for the Marble
  desktop globe.
  .
@@ -392,7 +392,7 @@ Package: libmarble-dev
 Architecture: any
 Section: libdevel
 Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the Marble globe widget
+Description: development files for the Marble globe widget
  This package contains headers and other related files needed to build
  applications that use the Marble globe widget.
  .
@@ -404,7 +404,7 @@ Section: kde
 Depends: ${shlibs:Depends}, ${perl:Depends}, libwww-perl,
  parley-data (>= ${source:Version})
 Suggests: khelpcenter
-Description: Vocabulary trainer for KDE 4
+Description: vocabulary trainer for KDE 4
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.
  .
@@ -413,7 +413,7 @@ Description: Vocabulary trainer for KDE 4
 Package: parley-data
 Architecture: all
 Section: kde
-Description: Data files for the Parley vocabulary trainer
+Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
  .
