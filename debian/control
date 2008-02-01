@@ -39,9 +39,9 @@ Section: libdevel
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeedu (= ${source:Version})
-Description: debugging symbols for kdeedu
- This package contains the debugging symbols associated with kdeedu.
- They will automatically be used by gdb for debugging kdeedu-related issues.
+Description: debugging symbols for the KDE 4 education module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 education module.
 
 Package: blinken
 Architecture: any
@@ -314,9 +314,9 @@ Architecture: any
 Section: libdevel
 Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for the KDE 4 educational libraries
- This package contains headers and other related files needed to build KDE 4
- applications that use the KDE 4 educational libraries.
- .
+ This package contains development files for building software that uses the
+ KDE 4 educational libraries.
+.
  This package is part of the KDE 4 education module.
 
 Package: libkiten4
@@ -338,9 +338,9 @@ Package: libkiten-dev
 Architecture: any
 Section: libdevel
 Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: development files for the Kiten libraries
- This package contains headers and other related files needed to build KDE 4
- applications that use the Kiten libraries.
+Description: development files for the Kiten Japanese reference libraries
+ This package contains development files for building software that uses the
+ Kiten Japanese reference libraries.
  .
  This package is part of the KDE 4 education module.
 
@@ -392,9 +392,9 @@ Package: libmarble-dev
 Architecture: any
 Section: libdevel
 Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: development files for the Marble globe widget
- This package contains headers and other related files needed to build
- applications that use the Marble globe widget.
+Description: development files for the Marble globe widget library
+ This package contains development files for building software that uses the
+ Marble globe widget library.
  .
  This package is part of the KDE 4 education module.
 
