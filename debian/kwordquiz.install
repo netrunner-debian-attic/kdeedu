@@ -1,6 +1,7 @@
 etc/kde4/kwordquiz.knsrc
 usr/bin/kwordquiz
 usr/share/applications/kde4/kwordquiz.desktop
+usr/share/doc/kde4/HTML/en/kwordquiz/common
 usr/share/doc/kde4/HTML/en/kwordquiz/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kwordquiz/index.docbook
 usr/share/doc/kde4/HTML/en/kwordquiz/kwq-dlg-characters.png

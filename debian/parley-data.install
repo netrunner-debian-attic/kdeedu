@@ -1,6 +1,7 @@
 etc/kde4/parley.knsrc
 usr/share/applications/kde4/parley.desktop
 usr/share/doc/kde4/HTML/en/parley/art-query-dlg.png
+usr/share/doc/kde4/HTML/en/parley/common
 usr/share/doc/kde4/HTML/en/parley/comp-query-dlg.png
 usr/share/doc/kde4/HTML/en/parley/docprop1-dlg.png
 usr/share/doc/kde4/HTML/en/parley/docprop2-dlg.png
