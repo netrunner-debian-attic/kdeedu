@@ -1,5 +1,5 @@
-kdeedu (4:4.0.1-1) UNRELEASED; urgency=low
- 
+kdeedu (4:4.0.1-1) experimental; urgency=low
+
   * New upstream release.
 
   +++ Changes by Matthew Rosewarne:
@@ -13,12 +13,16 @@ kdeedu (4:4.0.1-1) UNRELEASED; urgency=low
   * libmarble_part.so should not be in libmarble-dev, move it to marble.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
-  * Update to debhelper 6.
-  * Bump build-depends to >=4.0.1-1.
+
+  * Bump compat/debhelper 6.
+  * Bump build-depends to >= 4.0.1-1.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 04:49:06 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Feb 2008 23:13:20 +0100
 
 kdeedu (4:4.0.0-1) experimental; urgency=low
 

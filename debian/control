@@ -9,6 +9,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
  libcfitsio3-dev (>=3.040-5), libreadline5-dev, libusb-dev, libnova-dev
 Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeedu
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdeedu
 
 Package: kdeedu
 Architecture: all
