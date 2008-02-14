@@ -64,7 +64,7 @@ Description: KDE 4 version of the Simon electronic memory game
 
 Package: kalgebra
 Architecture: any
-Section: kde
+Section: math
 Depends: ${shlibs:Depends}
 Description: algebraic graphing calculator for KDE 4
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
