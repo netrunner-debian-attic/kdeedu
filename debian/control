@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
- kdelibs5-dev (>= 4:4.0.1-1), libphonon-dev (>= 4:4.0.1-1), ocaml,
+ kdelibs5-dev (>= 4:4.0.2), libphonon-dev (>= 4:4.0.2), ocaml,
  libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev, libboost-python-dev,
  libcfitsio3-dev (>=3.040-5), libreadline5-dev, libusb-dev, libnova-dev
 Standards-Version: 3.7.3
@@ -314,7 +314,7 @@ Description: libraries for KDE 4 educational applications
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.1-1)
+Depends: libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.2)
 Description: development files for the KDE 4 educational libraries
  This package contains development files for building software that uses the
  KDE 4 educational libraries.
@@ -339,7 +339,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.1-1)
+Depends: libkiten4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.2)
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -393,7 +393,7 @@ Description: Marble globe widget library
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.1-1)
+Depends: libmarble4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.2)
 Description: development files for the Marble globe widget library
  This package contains development files for building software that uses the
  Marble globe widget library.
