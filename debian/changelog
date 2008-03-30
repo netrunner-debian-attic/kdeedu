@@ -1,10 +1,8 @@
-kdeedu (4:4.0.2-2) UNRELEASED; urgency=low
+kdeedu (4:4.0.66+svn791114-1) experimental; urgency=low
 
-  * Per upstream's request: Do not split libmarble4 from marble and do not
-    ship development stuff. (It will be ok split for 4.1 when it is polished
-    and no more BC)
+  * Update to KDE 4.1 snapshot.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Mar 2008 15:47:28 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 30 Mar 2008 09:42:19 +0000
 
 kdeedu (4:4.0.2-1) experimental; urgency=low
 

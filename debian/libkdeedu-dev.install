@@ -6,3 +6,4 @@ usr/lib/libkeduvocdocument.so
 usr/lib/libSatLib.so
 usr/lib/libsbigudrv.so
 usr/lib/libscience.so
+usr/share/kde4/apps/cmake/modules/FindKDEEdu.cmake

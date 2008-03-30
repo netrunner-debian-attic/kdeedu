@@ -5,8 +5,11 @@ usr/lib/avogadro-kalzium/engines/libsphereengine-kalzium.so
 usr/lib/avogadro-kalzium/engines/libstickengine-kalzium.so
 usr/lib/avogadro-kalzium/engines/libwireengine-kalzium.so
 usr/lib/avogadro-kalzium/tools/libnavigatetool-kalzium.so
+usr/lib/kde4/plasma_applet_didyouknow.so
+usr/lib/kde4/plasma_applet_kalzium.so
+usr/lib/kde4/plasma_engine_kalzium.so
 usr/lib/kde4/plugins/designer/kalziumuiwidgets.so
 usr/lib/libavogadro-kalzium.so.0
 usr/lib/libavogadro-kalzium.so.0.0.1
 usr/lib/libcompoundviewer.so.4
-usr/lib/libcompoundviewer.so.4.0.0
+usr/lib/libcompoundviewer.so.4.1.0

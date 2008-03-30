@@ -25,13 +25,7 @@ usr/share/icons/hicolor/16x16/apps/kwordquiz.png
 usr/share/icons/hicolor/22x22/apps/kwordquiz.png
 usr/share/icons/hicolor/32x32/apps/kwordquiz.png
 usr/share/icons/hicolor/48x48/apps/kwordquiz.png
-usr/share/icons/oxygen/128x128/apps/kwordquiz.png
-usr/share/icons/oxygen/16x16/apps/kwordquiz.png
-usr/share/icons/oxygen/22x22/apps/kwordquiz.png
-usr/share/icons/oxygen/32x32/apps/kwordquiz.png
-usr/share/icons/oxygen/48x48/apps/kwordquiz.png
-usr/share/icons/oxygen/64x64/apps/kwordquiz.png
-usr/share/icons/oxygen/scalable/apps/kwordquiz.svgz
+usr/share/icons/hicolor/64x64/apps/kwordquiz.png
 usr/share/kde4/apps/kwordquiz
 usr/share/kde4/apps/kwordquiz/kwordquiz.notifyrc
 usr/share/kde4/apps/kwordquiz/kwordquizui.rc
