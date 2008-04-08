@@ -16,3 +16,4 @@ usr/include/marble/ViewportParams.h
 usr/include/marble/global.h
 usr/include/marble/marble_export.h
 usr/lib/libmarblewidget.so
+usr/share/kde4/apps/cmake/modules/FindMarbleWidget.cmake

@@ -1,3 +1,11 @@
+kdeedu (4:4.0.68+svn794641-1) experimental; urgency=low
+
+  * New upstream snapshot. 
+  * Update installed files.
+  * Add build depend on libopenbabel-dev.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 08 Apr 2008 15:20:57 +0200
+
 kdeedu (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.
