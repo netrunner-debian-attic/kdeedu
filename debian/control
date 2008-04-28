@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
  kdelibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66), libplasma-dev (>= 4:4.0.66),
  ocaml, libfacile-ocaml-dev, libopenbabel-dev, libeigen-dev, libboost-python-dev,
  libcfitsio3-dev (>=3.040-5), libreadline5-dev, libusb-dev, libnova-dev, libgs-dev,
- libopenbabel-dev (>= 2.2.0~beta4~r2299-1)
+ libopenbabel-dev (>= 2.2.0~beta4~r2299-1), libxslt-dev
 Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeedu

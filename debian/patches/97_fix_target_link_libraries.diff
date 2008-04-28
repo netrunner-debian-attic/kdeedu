@@ -1,0 +1,75 @@
+Index: b/kig/CMakeLists.txt
+===================================================================
+--- a/kig/CMakeLists.txt
++++ b/kig/CMakeLists.txt
+@@ -144,7 +144,7 @@
+ 
+ kde4_add_plugin(kigpart ${kigpart_PART_SRCS})
+ 
+-target_link_libraries(kigpart ${KDE4_KPARTS_LIBS} ${KDE4_KUTILS_LIBS} )
++target_link_libraries(kigpart ${KDE4_KPARTS_LIBS} ${KDE4_KUTILS_LIBS} ${QT_QTSVG_LIBRARY} ${QT_QTXML_LIBRARY} )
+ if(BOOST_PYTHON_FOUND)
+   target_link_libraries(kigpart ${BOOST_PYTHON_LIBS} ${KDE4_KTEXTEDITOR_LIBS})
+ endif(BOOST_PYTHON_FOUND)
+Index: b/kmplot/kmplot/CMakeLists.txt
+===================================================================
+--- a/kmplot/kmplot/CMakeLists.txt
++++ b/kmplot/kmplot/CMakeLists.txt
+@@ -57,7 +57,7 @@
+ 
+ 
+ 
+-target_link_libraries(kmplotpart  ${KDE4_KPARTS_LIBS} ${QT_QTXML_LIBRARY} )
++target_link_libraries(kmplotpart  ${KDE4_KPARTS_LIBS} ${QT_QTXML_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTSVG_LIBRARY} )
+ 
+ install(TARGETS kmplotpart  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 
+Index: b/kstars/kstars/indi/CMakeLists.txt
+===================================================================
+--- a/kstars/kstars/indi/CMakeLists.txt
++++ b/kstars/kstars/indi/CMakeLists.txt
+@@ -409,7 +409,7 @@
+ 
+ kde4_add_executable(indi_fli_ccd ${fliccd_SRCS} ${libfli_SRCS} ${liblilxml_SRCS} ${libindicom_SRCS})
+ 
+-target_link_libraries(indi_fli_ccd ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} m)
++target_link_libraries(indi_fli_ccd ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} m ${ZLIB_LIBRARY})
+ 
+ if (NOVA_FOUND)
+   target_link_libraries(indi_fli_ccd ${NOVA_LIBRARIES})
+@@ -431,7 +431,7 @@
+ 
+ kde4_add_executable(indi_apogee_alta ${apogee_alta_SRCS} ${libfli_SRCS} ${liblilxml_SRCS} ${libindicom_SRCS})
+ 
+-target_link_libraries(indi_apogee_alta ${KDE4_KDECORE_LIBS} ${LIBUSB_LIBRARIES} ${CFITSIO_LIBRARIES})
++target_link_libraries(indi_apogee_alta ${KDE4_KDECORE_LIBS} ${LIBUSB_LIBRARIES} ${CFITSIO_LIBRARIES} ${ZLIB_LIBRARY} ${ZLIB_LIBRARY})
+ 
+ if (NOVA_FOUND)
+   target_link_libraries(indi_apogee_alta ${NOVA_LIBRARIES})
+@@ -453,7 +453,7 @@
+ 
+ kde4_add_executable(indi_sbig_ccd ${sbigccd_SRCS} ${liblilxml_SRCS} ${libindicom_SRCS})
+ 
+-target_link_libraries(indi_sbig_ccd ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} ${SBIG_LIBRARIES})
++target_link_libraries(indi_sbig_ccd ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} ${SBIG_LIBRARIES} ${ZLIB_LIBRARY})
+ 
+ if (NOVA_FOUND)
+   target_link_libraries(indi_sbig_ccd ${NOVA_LIBRARIES})
+@@ -480,7 +480,7 @@
+ 
+ kde4_add_executable(indi_sbig_stv NOGUI ${stv_SRCS} ${liblilxml_SRCS} ${libindicom_SRCS})
+ 
+-target_link_libraries(indi_sbig_stv ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} ${NOVA_LIBRARIES})
++target_link_libraries(indi_sbig_stv ${KDE4_KDECORE_LIBS} ${CFITSIO_LIBRARIES} ${NOVA_LIBRARIES} ${ZLIB_LIBRARY})
+ 
+ install(TARGETS indi_sbig_stv DESTINATION ${BIN_INSTALL_DIR} )
+ 
+@@ -502,7 +502,7 @@
+ 
+ kde4_add_executable(indi_meade_lpi ${meade_lpi_SRCS} ${libwebcam_SRCS} ${liblilxml_SRCS} ${libindicom_SRCS})
+ 
+-target_link_libraries(indi_meade_lpi ${KDE4_KDECORE_LIBS}  ${CFITSIO_LIBRARIES})
++target_link_libraries(indi_meade_lpi ${KDE4_KDECORE_LIBS}  ${CFITSIO_LIBRARIES} ${ZLIB_LIBRARY})
+ 
+ if (NOVA_FOUND)
+   target_link_libraries(indi_meade_lpi ${NOVA_LIBRARIES})
