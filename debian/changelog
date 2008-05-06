@@ -1,18 +1,19 @@
-kdeedu (4:4.0.71+svn801741-1) experimental; urgency=low
+kdeedu (4:4.0.72-1) experimental; urgency=low
 
-  * Newer snapshot
-  * Needs libxslt-dev
-  * Add target link libraries fix
+  * New upstream snapshot.
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 28 Apr 2008 08:19:50 +0200
+  +++ Changes by Sune Vuorela:
+  
+  * Add build depend on libxslt-dev.
+  * Add patch 97_fix_target_link_libraries.diff.
 
-kdeedu (4:4.0.68+svn794641-1) experimental; urgency=low
+  +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * New upstream snapshot. 
+  * Bump build-depends to >= 4.0.72.
   * Update installed files.
   * Add build depend on libopenbabel-dev.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 08 Apr 2008 15:20:57 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 10:18:26 +0200
 
 kdeedu (4:4.0.66+svn791114-1) experimental; urgency=low
 
