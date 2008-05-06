@@ -62,9 +62,6 @@ usr/share/icons/hicolor/64x64/apps/parley.png
 usr/share/icons/hicolor/scalable/apps/parley-parley.svgz
 usr/share/icons/hicolor/scalable/apps/parley-simple.svgz
 usr/share/icons/hicolor/scalable/apps/parley.svgz
-usr/share/kde4/apps/desktoptheme/default/widgets/parley_plasma_card.svg
-usr/share/kde4/apps/parley/defaulttheme/card.svg
-usr/share/kde4/apps/parley/defaulttheme/layout.svg
 usr/share/kde4/apps/parley/examples/sample-de.kvtml
 usr/share/kde4/apps/parley/examples/sample-en.kvtml
 usr/share/kde4/apps/parley/icons/oxygen/16x16/actions/advanced-setup.png
@@ -147,5 +144,3 @@ usr/share/kde4/apps/parley/tips
 usr/share/kde4/config.kcfg/documentsettings.kcfg
 usr/share/kde4/config.kcfg/languagesettings.kcfg
 usr/share/kde4/config.kcfg/parley.kcfg
-usr/share/kde4/services/plasma-dataengine-parley.desktop
-usr/share/kde4/services/plasma_parley.desktop
