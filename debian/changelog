@@ -11,7 +11,7 @@ kdeedu (4:4.0.72-1) experimental; urgency=low
 
   * Bump build-depends to >= 4.0.72.
   * Update installed files.
-  * Add build depend on zlib1g-dev.
+  * Add build depend on zlib1g-dev and libglu1-mesa-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 10:18:26 +0200
 
