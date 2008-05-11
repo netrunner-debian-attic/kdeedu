@@ -10,10 +10,13 @@ kdeedu (4:4.0.72-1) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-depends to >= 4.0.72.
-  * Update installed files.
+  * Update installed files. Some plasmoids are not in this snapshot.
   * Add build depend on zlib1g-dev and libglu1-mesa-dev.
+  * Add disable_indi support patch. Disable indi stuff that does not build
+    even after fix target link libraries with zlib. Needs to be fixed for next
+    uploads.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 May 2008 10:18:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 14:41:16 +0200
 
 kdeedu (4:4.0.66+svn791114-1) experimental; urgency=low
 

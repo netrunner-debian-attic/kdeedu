@@ -1,0 +1,9 @@
+--- kdeedu-4.0.72.orig/kstars/kstars/CMakeLists.txt
++++ kdeedu-4.0.72/kstars/kstars/CMakeLists.txt
+@@ -1,6 +1,5 @@
+ add_subdirectory( skycomponents ) 
+ add_subdirectory( widgets ) 
+-add_subdirectory( indi ) 
+ add_subdirectory( tools ) 
+ add_subdirectory( data ) 
+ add_subdirectory( icons ) 

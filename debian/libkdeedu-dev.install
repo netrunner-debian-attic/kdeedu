@@ -1,9 +1,6 @@
 usr/include/libkdeedu/
-usr/lib/libavogadro-kalzium.so
-usr/lib/libcompoundviewer.so
 usr/lib/libkdeeduui.so
 usr/lib/libkeduvocdocument.so
 usr/lib/libSatLib.so
-usr/lib/libsbigudrv.so
 usr/lib/libscience.so
 usr/share/kde4/apps/cmake/modules/FindKDEEdu.cmake

@@ -1,3 +1,7 @@
+usr/include/marble/ClipPainter.h
+usr/include/marble/ExtDateTime.h
+usr/include/marble/GeoDataPoint.h
+usr/include/marble/SunLocator.h
 usr/include/marble/AbstractProjection.h
 usr/include/marble/EquirectProjection.h
 usr/include/marble/MarbleControlBox.h

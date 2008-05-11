@@ -1,3 +1,5 @@
+usr/share/kde4/apps/parley/xslt/flashcards.xsl
+usr/share/kde4/apps/parley/xslt/table.xsl
 etc/kde4/parley.knsrc
 usr/share/applications/kde4/parley.desktop
 usr/share/doc/kde4/HTML/en/parley/art-query-dlg.png
