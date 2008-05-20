@@ -1,1 +1,3 @@
 usr/bin/parley
+usr/lib/kde4/plasma_applet_parley.so
+usr/lib/kde4/plasma_engine_parley.so

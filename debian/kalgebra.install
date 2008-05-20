@@ -1,11 +1,12 @@
 usr/bin/calgebra
 usr/bin/kalgebra
+usr/lib/kde4/plasma_applet_kalgebra.so
 usr/lib/libanalitza.so
 usr/share/applications/kde4/kalgebra.desktop
-usr/share/doc/kde4/HTML/en/kalgebra
-usr/share/doc/kde4/HTML/en/kalgebra/kalgebra-main-window.png
+usr/share/doc/kde4/HTML/en/kalgebra/
 usr/share/icons/hicolor/128x128/apps/kalgebra.png
 usr/share/icons/hicolor/16x16/apps/kalgebra.png
 usr/share/icons/hicolor/32x32/apps/kalgebra.png
 usr/share/icons/hicolor/48x48/apps/kalgebra.png
 usr/share/icons/hicolor/64x64/apps/kalgebra.png
+usr/share/kde4/services/kalgebraplasmoid.desktop

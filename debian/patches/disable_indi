@@ -1,5 +1,5 @@
---- kdeedu-4.0.72.orig/kstars/kstars/CMakeLists.txt
-+++ kdeedu-4.0.72/kstars/kstars/CMakeLists.txt
+--- a/kstars/kstars/CMakeLists.txt
++++ b/kstars/kstars/CMakeLists.txt
 @@ -1,6 +1,5 @@
  add_subdirectory( skycomponents ) 
  add_subdirectory( widgets ) 

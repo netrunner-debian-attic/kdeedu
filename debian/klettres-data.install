@@ -1,12 +1,6 @@
 etc/kde4/klettres.knsrc
 usr/share/applications/kde4/klettres.desktop
-usr/share/doc/kde4/HTML/en/klettres
-usr/share/doc/kde4/HTML/en/klettres/klettres1.png
-usr/share/doc/kde4/HTML/en/klettres/klettres2.png
-usr/share/doc/kde4/HTML/en/klettres/klettres3.png
-usr/share/doc/kde4/HTML/en/klettres/klettres4.png
-usr/share/doc/kde4/HTML/en/klettres/klettres5.png
-usr/share/doc/kde4/HTML/en/klettres/klettres6.png
+usr/share/doc/kde4/HTML/en/klettres/
 usr/share/icons/hicolor/128x128/apps/klettres.png
 usr/share/icons/hicolor/16x16/apps/klettres.png
 usr/share/icons/hicolor/22x22/apps/klettres.png
@@ -14,12 +8,5 @@ usr/share/icons/hicolor/32x32/apps/klettres.png
 usr/share/icons/hicolor/48x48/apps/klettres.png
 usr/share/icons/hicolor/64x64/apps/klettres.png
 usr/share/icons/hicolor/scalable/apps/klettres.svgz
-usr/share/kde4/apps/klettres
-usr/share/kde4/apps/klettres/klettresui.rc
-usr/share/kde4/apps/klettres/pics/desert/klettres_desert.svg
-usr/share/kde4/apps/klettres/pics/kids/klettres_kids.svg
-usr/share/kde4/apps/klettres/pics/klettres_desert.png
-usr/share/kde4/apps/klettres/pics/klettres_grownup.png
-usr/share/kde4/apps/klettres/pics/klettres_kids.jpeg
-usr/share/kde4/apps/klettres/pics/savannah/klettres_savannah.svg
+usr/share/kde4/apps/klettres/
 usr/share/kde4/config.kcfg/klettres.kcfg

@@ -1,6 +1,6 @@
 usr/bin/kpercentage
 usr/share/applications/kde4/kpercentage.desktop
-usr/share/doc/kde4/HTML/en/kpercentage
+usr/share/doc/kde4/HTML/en/kpercentage/
 usr/share/icons/hicolor/128x128/apps/kpercentage.png
 usr/share/icons/hicolor/16x16/apps/kpercentage.png
 usr/share/icons/hicolor/22x22/apps/kpercentage.png
@@ -8,4 +8,4 @@ usr/share/icons/hicolor/32x32/apps/kpercentage.png
 usr/share/icons/hicolor/48x48/apps/kpercentage.png
 usr/share/icons/hicolor/64x64/apps/kpercentage.png
 usr/share/icons/hicolor/scalable/apps/kpercentage.svgz
-usr/share/kde4/apps/kpercentage
+usr/share/kde4/apps/kpercentage/

@@ -1,9 +1,18 @@
+kdeedu (4:4.0.74-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Add libopenbabel-dev and libqt4-opengl-dev build dependencies.
+  * Remove libfacile-ocaml-dev. It will be re-enabled later.
+  * Update installed files.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 20 May 2008 00:41:00 +0200
+
 kdeedu (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot.
 
   +++ Changes by Sune Vuorela:
-  
+
   * Add build depend on libxslt-dev.
   * Add patch 97_fix_target_link_libraries.diff.
 
@@ -23,12 +32,12 @@ kdeedu (4:4.0.66+svn791114-1) experimental; urgency=low
   * First KDE 4.1 snapshot packaged.
 
   +++ Changes by Armin Berres:
-  
+
   * Update to KDE 4.1 snapshot.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
-  * Re-add build depend on libgps-dev 
+
+  * Re-add build depend on libgps-dev
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 01 Apr 2008 21:43:36 +0200
 

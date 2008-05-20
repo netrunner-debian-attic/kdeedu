@@ -1,12 +1,11 @@
 usr/share/applications/kde4/kgeography.desktop
-usr/share/doc/kde4/HTML/en/kgeography
-usr/share/doc/kde4/HTML/en/kgeography/kgeography.png
+usr/share/doc/kde4/HTML/en/kgeography/
 usr/share/icons/hicolor/128x128/apps/kgeography.png
 usr/share/icons/hicolor/16x16/apps/kgeography.png
 usr/share/icons/hicolor/22x22/apps/kgeography.png
 usr/share/icons/hicolor/32x32/apps/kgeography.png
 usr/share/icons/hicolor/48x48/apps/kgeography.png
 usr/share/icons/hicolor/64x64/apps/kgeography.png
-usr/share/kde4/apps/kgeography
-usr/share/kde4/apps/kgeography/kgeographyui.rc
+usr/share/icons/hicolor/scalable/apps/kgeography.svgz
+usr/share/kde4/apps/kgeography/
 usr/share/kde4/config.kcfg/kgeography.kcfg

@@ -1,4 +1,7 @@
-usr/bin/tilecreator
 usr/bin/geodatatest
 usr/bin/marble
+usr/bin/tilecreator
 usr/lib/kde4/libmarble_part.so
+usr/share/kde4/apps/marble/data/plugins/libMarbleOverviewMap.so
+usr/share/kde4/apps/marble/data/plugins/libMarbleTestPlugin.so
+usr/share/kde4/apps/marble/data/plugins/libSatellitesPlugin.so

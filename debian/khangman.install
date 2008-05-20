@@ -1,10 +1,7 @@
 etc/kde4/khangman.knsrc
 usr/bin/khangman
 usr/share/applications/kde4/khangman.desktop
-usr/share/doc/kde4/HTML/en/khangman
-usr/share/doc/kde4/HTML/en/khangman/khangman-desert.png
-usr/share/doc/kde4/HTML/en/khangman/khangman-main.png
-usr/share/doc/kde4/HTML/en/khangman/man-khangman.6.docbook
+usr/share/doc/kde4/HTML/en/khangman/
 usr/share/icons/hicolor/128x128/apps/khangman.png
 usr/share/icons/hicolor/16x16/apps/khangman.png
 usr/share/icons/hicolor/22x22/apps/khangman.png
@@ -12,8 +9,5 @@ usr/share/icons/hicolor/32x32/apps/khangman.png
 usr/share/icons/hicolor/48x48/apps/khangman.png
 usr/share/icons/hicolor/64x64/apps/khangman.png
 usr/share/icons/hicolor/scalable/apps/khangman.svgz
-usr/share/kde4/apps/khangman
-usr/share/kde4/apps/khangman/khangmanui.rc
-usr/share/kde4/apps/khangman/pics/desert/khangman_desert.svg
-usr/share/kde4/apps/khangman/pics/sea/khangman_sea.svg
+usr/share/kde4/apps/khangman/
 usr/share/kde4/config.kcfg/khangman.kcfg

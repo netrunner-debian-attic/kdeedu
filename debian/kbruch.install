@@ -1,7 +1,6 @@
 usr/bin/kbruch
 usr/share/applications/kde4/kbruch.desktop
-usr/share/doc/kde4/HTML/en/kbruch
-usr/share/doc/kde4/HTML/en/kbruch/man-kbruch.1.docbook
+usr/share/doc/kde4/HTML/en/kbruch/
 usr/share/icons/hicolor/128x128/apps/kbruch.png
 usr/share/icons/hicolor/16x16/apps/kbruch.png
 usr/share/icons/hicolor/22x22/apps/kbruch.png
@@ -9,6 +8,5 @@ usr/share/icons/hicolor/32x32/apps/kbruch.png
 usr/share/icons/hicolor/48x48/apps/kbruch.png
 usr/share/icons/hicolor/64x64/apps/kbruch.png
 usr/share/icons/hicolor/scalable/apps/kbruch.svgz
-usr/share/kde4/apps/kbruch
-usr/share/kde4/apps/kbruch/kbruchui.rc
+usr/share/kde4/apps/kbruch/
 usr/share/kde4/config.kcfg/kbruch.kcfg
