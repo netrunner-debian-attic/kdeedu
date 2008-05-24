@@ -2,7 +2,6 @@ usr/bin/kiten
 usr/bin/kitengen
 usr/bin/kitenradselect
 usr/share/applications/kde4/kiten.desktop
-usr/share/applications/kde4/radselect.desktop
 usr/share/doc/kde4/HTML/en/kiten/
 usr/share/icons/hicolor/128x128/apps/kiten.png
 usr/share/icons/hicolor/16x16/apps/kiten.png
@@ -12,5 +11,5 @@ usr/share/icons/hicolor/48x48/apps/kiten.png
 usr/share/icons/hicolor/64x64/apps/kiten.png
 usr/share/icons/hicolor/scalable/apps/kiten.svgz
 usr/share/kde4/apps/kiten/
-usr/share/kde4/apps/kitenradselect
+usr/share/kde4/apps/kitenradselect/
 usr/share/kde4/config.kcfg/kiten.kcfg
