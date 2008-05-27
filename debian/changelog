@@ -1,4 +1,4 @@
-kdeedu (4:4.0.80-1) UNRELEASED; urgency=low
+kdeedu (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update kiten.install and marble-data.install files.
