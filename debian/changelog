@@ -1,3 +1,10 @@
+kdeedu (4:4.0.81+svn814614-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Update kalgebra.install
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 01 Apr 2008 21:43:36 +0200
+
 kdeedu (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
