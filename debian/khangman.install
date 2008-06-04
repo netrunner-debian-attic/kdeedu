@@ -1,4 +1,4 @@
-etc/kde4/khangman.knsrc
+usr/share/kde4/config/khangman.knsrc
 usr/bin/khangman
 usr/share/applications/kde4/khangman.desktop
 usr/share/doc/kde4/HTML/en/khangman/

@@ -1,4 +1,4 @@
-etc/kde4/parley.knsrc
+usr/share/kde4/config/parley.knsrc
 usr/share/applications/kde4/parley.desktop
 usr/share/doc/kde4/HTML/en/parley/
 usr/share/icons/hicolor/128x128/apps/parley.png

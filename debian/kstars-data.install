@@ -1,4 +1,4 @@
-etc/kde4/kstars.knsrc
+usr/share/kde4/config/kstars.knsrc
 usr/share/applications/kde4/kstars.desktop
 usr/share/doc/kde4/HTML/en/kstars/
 usr/share/icons/hicolor/128x128/apps/kstars.png

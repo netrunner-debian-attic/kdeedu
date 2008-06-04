@@ -1,4 +1,4 @@
-etc/kde4/kwordquiz.knsrc
+usr/share/kde4/config/kwordquiz.knsrc
 usr/bin/kwordquiz
 usr/share/applications/kde4/kwordquiz.desktop
 usr/share/doc/kde4/HTML/en/kwordquiz/

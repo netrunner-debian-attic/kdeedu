@@ -1,4 +1,4 @@
-etc/kde4/kanagram.knsrc
+usr/share/kde4/config/kanagram.knsrc
 usr/bin/kanagram
 usr/share/applications/kde4/kanagram.desktop
 usr/share/doc/kde4/HTML/en/kanagram/
