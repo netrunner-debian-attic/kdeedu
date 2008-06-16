@@ -1,9 +1,11 @@
-kdeedu (4:4.0.81+svn814614-1) experimental; urgency=low
+kdeedu (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update kalgebra.install
+  * Bump build depends to 4.0.82.
+  * Build depend on phonon 4.2~.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 01 Apr 2008 21:43:36 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 16 Jun 2008 08:53:40 +0200
 
 kdeedu (4:4.0.80-1) experimental; urgency=low
 
