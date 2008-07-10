@@ -24,3 +24,5 @@ usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/apps/marble_part/marble_part.rc
 usr/share/kde4/config.kcfg/marble.kcfg
 usr/share/kde4/services/marble_part.desktop
+usr/share/kde4/apps/marble/data/precipcolors.leg
+usr/share/kde4/apps/marble/data/tempcolors.leg

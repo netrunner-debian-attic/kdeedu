@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.4.5), quilt,
- kdelibs5-dev (>= 4:4.0.84), libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.84),
+ kdelibs5-dev (>= 4:4.0.98), libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.98),
  libboost-python-dev, libcfitsio3-dev (>= 3.040), libeigen-dev,
  libglu1-mesa-dev, libgs-dev, libnova-dev, libopenbabel-dev, libqt4-opengl-dev,
  libreadline5-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev
