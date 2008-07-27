@@ -1,9 +1,0 @@
---- a/kstars/kstars/CMakeLists.txt
-+++ b/kstars/kstars/CMakeLists.txt
-@@ -1,6 +1,5 @@
- add_subdirectory( skycomponents ) 
- add_subdirectory( widgets ) 
--add_subdirectory( indi ) 
- add_subdirectory( tools ) 
- add_subdirectory( data ) 
- add_subdirectory( icons ) 
