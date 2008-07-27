@@ -1,3 +1,14 @@
+kdeedu (4:4.1.0-1) experimental; urgency=low
+
+  * New usptream release. 
+  * Add build depend on libfacile-ocaml-dev and libgps-dev. Replace
+    libopenbabel-dev with openbabel.
+  * Updated installed files.
+  * Update 97_fix_target_link_libraries.diff removing links that are not
+    longer needed. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 27 Jul 2008 11:15:45 +0200
+
 kdeedu (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release, Release Candidate 1.

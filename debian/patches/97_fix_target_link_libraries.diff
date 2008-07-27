@@ -1,29 +1,3 @@
-Index: b/kig/CMakeLists.txt
-===================================================================
---- a/kig/CMakeLists.txt
-+++ b/kig/CMakeLists.txt
-@@ -144,7 +144,7 @@
- 
- kde4_add_plugin(kigpart ${kigpart_PART_SRCS})
- 
--target_link_libraries(kigpart ${KDE4_KPARTS_LIBS} ${KDE4_KUTILS_LIBS} )
-+target_link_libraries(kigpart ${KDE4_KPARTS_LIBS} ${KDE4_KUTILS_LIBS} ${QT_QTSVG_LIBRARY} ${QT_QTXML_LIBRARY} )
- if(BOOST_PYTHON_FOUND)
-   target_link_libraries(kigpart ${BOOST_PYTHON_LIBS} ${KDE4_KTEXTEDITOR_LIBS})
- endif(BOOST_PYTHON_FOUND)
-Index: b/kmplot/kmplot/CMakeLists.txt
-===================================================================
---- a/kmplot/kmplot/CMakeLists.txt
-+++ b/kmplot/kmplot/CMakeLists.txt
-@@ -57,7 +57,7 @@
- 
- 
- 
--target_link_libraries(kmplotpart  ${KDE4_KPARTS_LIBS} ${QT_QTXML_LIBRARY} )
-+target_link_libraries(kmplotpart  ${KDE4_KPARTS_LIBS} ${QT_QTXML_LIBRARY} ${QT_QTDBUS_LIBRARY} ${QT_QTSVG_LIBRARY} )
- 
- install(TARGETS kmplotpart  DESTINATION ${PLUGIN_INSTALL_DIR} )
- 
 Index: b/kstars/kstars/indi/CMakeLists.txt
 ===================================================================
 --- a/kstars/kstars/indi/CMakeLists.txt
