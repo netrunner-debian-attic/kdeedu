@@ -15,3 +15,7 @@
 ./usr/share/doc/kde4/HTML/en/step/tutorial4.png
 ./usr/share/doc/kde4/HTML/en/step/tutorial5.png
 ./usr/share/doc/kde4/HTML/en/step/tutorials.docbook
+./usr/share/doc/kde4/HTML/en/step/mainwindow.png
+# no kstars dev package
+./usr/lib/libsbigudrv.so
+
