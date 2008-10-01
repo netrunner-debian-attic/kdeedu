@@ -1,10 +1,9 @@
-kdeedu (4:4.1.2-0) UNRELEASED; urgency=low
+kdeedu (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update not-installed.
-  * TODO: look wtf is going on with openbabel
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:08:43 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Oct 2008 01:50:20 +0200
 
 kdeedu (4:4.1.1-1) experimental; urgency=low
 

@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6), quilt,
  libboost-python-dev, libcfitsio3-dev (>= 3.040), libeigen-dev,
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline5-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
- libfacile-ocaml-dev, openbabel, libgps-dev
+ libfacile-ocaml-dev, libopenbabel-dev, openbabel, libgps-dev
 Standards-Version: 3.7.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeedu
