@@ -1,20 +1,21 @@
-kdeedu (4:4.1.1-1~lenny+1) lenny; urgency=low
+kdeedu (4:4.1.2-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 11 Sep 2008 15:39:22 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:19:13 +0200
+
+kdeedu (4:4.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update not-installed.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Oct 2008 01:50:20 +0200
 
 kdeedu (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
 
  -- Sune Vuorela <debian@pusling.com>  Mon, 01 Sep 2008 00:18:33 +0200
-
-kdeedu (4:4.1.0-1~lenny+1) lenny; urgency=low
-
-  * Backport for Lenny.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 19 Aug 2008 19:54:25 +0200
 
 kdeedu (4:4.1.0-1) experimental; urgency=low
 
