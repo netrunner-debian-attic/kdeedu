@@ -1,4 +1,4 @@
-kdeedu (4:4.1.82+svn893573-0r1) experimental; urgency=low
+kdeedu (4:4.1.82+svn893573-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
   * Bump KDE build dependencies to 4.1.82.
