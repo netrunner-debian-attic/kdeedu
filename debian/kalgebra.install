@@ -3,7 +3,7 @@ usr/bin/kalgebra
 usr/lib/kde4/plasma_applet_kalgebra.so
 usr/lib/libanalitza.so
 usr/lib/libanalitza.so.4
-usr/lib/libanalitza.so.4.1.0
+usr/lib/libanalitza.so.4.2.0
 usr/share/applications/kde4/kalgebra.desktop
 usr/share/doc/kde4/HTML/en/kalgebra/
 usr/share/icons/hicolor/128x128/apps/kalgebra.png

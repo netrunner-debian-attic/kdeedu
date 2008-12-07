@@ -3,13 +3,13 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>= 2.6), quilt,
- kdelibs5-dev (>= 4:4.1.3), libphonon-dev (>= 4:4.2), libplasma-dev (>= 4:4.1.3),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
+ kdelibs5-dev (>= 4:4.1.82), libphonon-dev (>= 4:4.2), libplasma-dev (>= 4:4.1.82),
  libboost-python-dev, libcfitsio3-dev (>= 3.040), libeigen-dev,
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline5-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
  libfacile-ocaml-dev, libopenbabel-dev, openbabel, libgps-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeedu
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdeedu
@@ -22,7 +22,7 @@ Depends: blinken (>= ${source:Version}), indi (>= ${source:Version}),
  kgeography (>= ${source:Version}), khangman (>= ${source:Version}),
  kig (>= ${source:Version}), kiten (>= ${source:Version}),
  klettres (>= ${source:Version}), kmplot (>= ${source:Version}),
- kpercentage (>= ${source:Version}), kstars (>= ${source:Version}),
+ kstars (>= ${source:Version}),
  ktouch (>= ${source:Version}), kturtle (>= ${source:Version}),
  kwordquiz (>= ${source:Version}), marble (>= ${source:Version}),
  parley (>= ${source:Version})
@@ -221,15 +221,15 @@ Description: mathematical function plotter for KDE 4
  .
  This package is part of the KDE 4 education module.
 
-Package: kpercentage
-Architecture: any
-Section: math
-Depends: ${shlibs:Depends}
-Suggests: khelpcenter
-Description: percentage calculation learning aid for KDE 4
- KPercentage is an aid for learning how to calculate with percentages.
- .
- This package is part of the KDE 4 education module.
+#Package: kpercentage
+#Architecture: any
+#Section: math
+#Depends: ${shlibs:Depends}
+#Suggests: khelpcenter
+#Description: percentage calculation learning aid for KDE 4
+# KPercentage is an aid for learning how to calculate with percentages.
+# .
+# This package is part of the KDE 4 education module.
 
 Package: kstars
 Architecture: any
