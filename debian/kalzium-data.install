@@ -1,3 +1,4 @@
+usr/share/kde4/apps/desktoptheme/default/widgets/chalkboard.svg
 usr/share/kde4/config/kalzium.knsrc
 usr/share/applications/kde4/kalzium.desktop
 usr/share/kde4/services/plasma-dataengine-kalzium.desktop
@@ -12,3 +13,5 @@ usr/share/icons/hicolor/scalable/apps/kalzium.svgz
 usr/share/kde4/apps/kalzium/
 usr/share/kde4/apps/libkdeedu/data/
 usr/share/kde4/config.kcfg/kalzium.kcfg
+usr/share/kde4/services/plasma_didyouknow.desktop
+
