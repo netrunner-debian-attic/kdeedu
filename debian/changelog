@@ -15,7 +15,7 @@ kdeedu (4:4.1.85+svn897498-0r1) UNRELEASED; urgency=low
 
   * Bump shlibs of libkdeedu4, libkiten4 and libmarble4 to upstream version.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 21 Dec 2008 11:18:38 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Dec 2008 11:21:20 +0200
 
 kdeedu (4:4.1.3-1) experimental; urgency=low
 
