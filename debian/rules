@@ -1,3 +1,7 @@
 #!/usr/bin/make -f
 
 include debian/cdbs/kde.mk
+
+DEB_DH_MAKESHLIBS_ARGS_libkdeedu4 := -V
+DEB_DH_MAKESHLIBS_ARGS_libkiten4 := -V
+DEB_DH_MAKESHLIBS_ARGS_libmarble4 := -V
