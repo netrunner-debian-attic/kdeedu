@@ -1,4 +1,3 @@
-usr/share/kde4/config/klettres.knsrc
 usr/share/applications/kde4/klettres.desktop
 usr/share/doc/kde4/HTML/en/klettres/
 usr/share/icons/hicolor/128x128/apps/klettres.png
@@ -10,3 +9,4 @@ usr/share/icons/hicolor/64x64/apps/klettres.png
 usr/share/icons/hicolor/scalable/apps/klettres.svgz
 usr/share/kde4/apps/klettres/
 usr/share/kde4/config.kcfg/klettres.kcfg
+usr/share/kde4/config/klettres.knsrc

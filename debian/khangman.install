@@ -1,4 +1,3 @@
-usr/share/kde4/config/khangman.knsrc
 usr/bin/khangman
 usr/share/applications/kde4/khangman.desktop
 usr/share/doc/kde4/HTML/en/khangman/
@@ -11,3 +10,4 @@ usr/share/icons/hicolor/64x64/apps/khangman.png
 usr/share/icons/hicolor/scalable/apps/khangman.svgz
 usr/share/kde4/apps/khangman/
 usr/share/kde4/config.kcfg/khangman.kcfg
+usr/share/kde4/config/khangman.knsrc

@@ -1,4 +1,3 @@
-usr/share/kde4/config/kwordquiz.knsrc
 usr/bin/kwordquiz
 usr/share/applications/kde4/kwordquiz.desktop
 usr/share/doc/kde4/HTML/en/kwordquiz/
@@ -10,3 +9,4 @@ usr/share/icons/hicolor/48x48/apps/kwordquiz.png
 usr/share/icons/hicolor/64x64/apps/kwordquiz.png
 usr/share/kde4/apps/kwordquiz/
 usr/share/kde4/config.kcfg/kwordquiz.kcfg
+usr/share/kde4/config/kwordquiz.knsrc

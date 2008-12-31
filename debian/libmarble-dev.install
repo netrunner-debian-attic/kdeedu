@@ -1,4 +1,4 @@
 usr/include/marble/
 usr/lib/libmarblewidget.so
-usr/share/kde4/apps/cmake/modules/FindMarbleWidget.cmake
 usr/share/kde4/apps/cmake/modules/FindMarble.cmake
+usr/share/kde4/apps/cmake/modules/FindMarbleWidget.cmake

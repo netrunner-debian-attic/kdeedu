@@ -16,14 +16,14 @@ usr/share/kde4/apps/marble/data/legend.html
 usr/share/kde4/apps/marble/data/maps/
 usr/share/kde4/apps/marble/data/mwdbii/
 usr/share/kde4/apps/marble/data/placemarks/
+usr/share/kde4/apps/marble/data/precipcolors.leg
 usr/share/kde4/apps/marble/data/seacolors.leg
 usr/share/kde4/apps/marble/data/stars/
 usr/share/kde4/apps/marble/data/svg/
+usr/share/kde4/apps/marble/data/tempcolors.leg
 usr/share/kde4/apps/marble/marble.knsrc
 usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/apps/marble_part/marble_part.rc
 usr/share/kde4/config.kcfg/marble.kcfg
 usr/share/kde4/services/marble_part.desktop
-usr/share/kde4/apps/marble/data/precipcolors.leg
-usr/share/kde4/apps/marble/data/tempcolors.leg
 usr/share/kde4/services/plasma-applet-kworldclock.desktop

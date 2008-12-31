@@ -2,5 +2,5 @@ usr/bin/geodatatest
 usr/bin/marble
 usr/bin/tilecreator
 usr/lib/kde4/libmarble_part.so
-usr/lib/kde4/plugins/marble/
 usr/lib/kde4/plasma_applet_worldclock.so
+usr/lib/kde4/plugins/marble/
