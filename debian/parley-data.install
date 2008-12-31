@@ -1,4 +1,3 @@
-usr/share/applications/kde4/parley.desktop
 usr/share/doc/kde4/HTML/en/parley/
 usr/share/icons/hicolor/128x128/apps/parley.png
 usr/share/icons/hicolor/16x16/apps/parley.png
@@ -14,5 +13,3 @@ usr/share/kde4/config.kcfg/documentsettings.kcfg
 usr/share/kde4/config.kcfg/languagesettings.kcfg
 usr/share/kde4/config.kcfg/parley.kcfg
 usr/share/kde4/config/parley.knsrc
-usr/share/kde4/services/plasma-dataengine-parley.desktop
-usr/share/kde4/services/plasma_parley.desktop

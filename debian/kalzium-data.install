@@ -1,5 +1,3 @@
-
-usr/share/applications/kde4/kalzium.desktop
 usr/share/doc/kde4/HTML/en/kalzium/
 usr/share/icons/hicolor/128x128/apps/kalzium.png
 usr/share/icons/hicolor/16x16/apps/kalzium.png
@@ -13,5 +11,4 @@ usr/share/kde4/apps/kalzium/
 usr/share/kde4/apps/libkdeedu/data/
 usr/share/kde4/config.kcfg/kalzium.kcfg
 usr/share/kde4/config/kalzium.knsrc
-usr/share/kde4/services/plasma-dataengine-kalzium.desktop
-usr/share/kde4/services/plasma_didyouknow.desktop
+usr/share/man/man1/kalzium.1

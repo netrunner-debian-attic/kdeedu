@@ -51,7 +51,7 @@ Package: blinken
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ttf-sjfonts
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: KDE 4 version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
  challenges players to remember sequences of increasing length.  On
@@ -78,7 +78,8 @@ Package: kalzium
 Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, kalzium-data (>= ${source:Version})
-Suggests: khelpcenter
+Replaces: kalzium-data (<< 4:4.1.86)
+Suggests: khelpcenter4
 Description: periodic table and chemistry tools for KDE 4
  Kalzium is a full-featured chemistry application for KDE 4, including a
  Periodic Table of Elements, chemical reference, chemical equation solver, and
@@ -99,7 +100,7 @@ Package: kanagram
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: jumble word puzzle for KDE 4
  KAnagram is a game where a random word is shown with its letters scrambled.
  To win, the player must rearrange the letters into the correct order.
@@ -110,7 +111,7 @@ Package: kbruch
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: fraction learning aid for KDE 4
  KBruch is an aid for learning how to calculate with fractions.
  .
@@ -120,7 +121,8 @@ Package: kgeography
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kgeography-data (>= ${source:Version})
-Suggests: khelpcenter
+Replaces: kgeography-data (<< 4:4.1.86)
+Suggests: khelpcenter4
 Description: geography learning aid for KDE 4
  KGeography is an aid for learning about world geography.  You can use it to
  explore a map, show information about regions and features, and play quiz
@@ -141,7 +143,7 @@ Package: khangman
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ttf-dustin
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: Hangman word puzzle for KDE 4
  KHangMan is the well-known Hangman game, aimed towards children aged 6 and
  above.
@@ -156,7 +158,7 @@ Package: kig
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: interactive geometry tool for KDE 4
  Kig is an application for interactive geometric construction, allowing
  students to draw and explore mathematical figures and concepts using the
@@ -171,7 +173,7 @@ Package: kiten
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, ttf-kochi-gothic | ttf-kochi-mincho
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: Japanese reference and study aid for KDE 4
  Kiten is a collection of Japanese reference tools and study aids for KDE 4,
  including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
@@ -182,7 +184,8 @@ Package: klettres
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, klettres-data (>= ${source:Version})
-Suggests: khelpcenter
+Replaces: klettres-data (<< 4:4.1.86)
+Suggests: khelpcenter4
 Description: foreign alphabet tutor for KDE 4
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
@@ -205,7 +208,7 @@ Package: kmplot
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: mathematical function plotter for KDE 4
  KmPlot is a powerful mathematical plotter KDE 4, capable of plotting multiple
  functions simultaneously and combining them into new functions.
@@ -225,7 +228,7 @@ Description: mathematical function plotter for KDE 4
 #Architecture: any
 #Section: math
 #Depends: ${shlibs:Depends}
-#Suggests: khelpcenter
+#Suggests: khelpcenter4
 #Description: percentage calculation learning aid for KDE 4
 # KPercentage is an aid for learning how to calculate with percentages.
 # .
@@ -235,7 +238,8 @@ Package: kstars
 Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, kstars-data (>= ${source:Version}), indi (= ${binary:Version})
-Suggests: konqueror, khelpcenter
+Replaces: kstars-data (<< 4:4.1.86)
+Suggests: konqueror, khelpcenter4
 Description: desktop planetarium for KDE 4
  KStars is a desktop planetarium for KDE 4, depicting an accurate graphical
  simulation of the night sky, from any location on Earth, at any date and time.
@@ -259,7 +263,7 @@ Package: ktouch
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: touch typing tutor for KDE 4
  KTouch is an aid for learning how to type with speed and accuracy.  It
  provides a sample text to type and indicates which fingers should be used for
@@ -275,7 +279,7 @@ Package: kturtle
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: Logo educational programming environment for KDE 4
  KTurtle is an educational programming environment which uses the Logo
  programming language to make programming as easy and accessible as possible.
@@ -290,7 +294,7 @@ Package: kwordquiz
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: flashcard learning program for KDE 4
  KWordQuiz is a general purpose flashcard program, typically used for
  vocabulary training.
@@ -366,6 +370,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, libmarble4 (= ${binary:Version}),
  marble-data (>= ${source:Version})
+Replaces: marble-data (<< 4:4.1.86)
 Description: Marble globe and map widget
  Marble is a generic geographical map widget and framework for KDE 4
  applications. The Marble widget shows the earth as a sphere but does not
@@ -407,7 +412,8 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, ${perl:Depends}, libwww-perl,
  parley-data (>= ${source:Version})
-Suggests: khelpcenter
+Replaces: parley-data (<< 4:4.1.86)
+Suggests: khelpcenter4
 Description: vocabulary trainer for KDE 4
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.

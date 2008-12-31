@@ -1,4 +1,3 @@
-usr/share/applications/kde4/marble.desktop
 usr/share/doc/kde4/HTML/en/marble/
 usr/share/icons/hicolor/128x128/apps/marble.png
 usr/share/icons/hicolor/16x16/apps/marble.png
@@ -25,5 +24,3 @@ usr/share/kde4/apps/marble/marble.knsrc
 usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/apps/marble_part/marble_part.rc
 usr/share/kde4/config.kcfg/marble.kcfg
-usr/share/kde4/services/marble_part.desktop
-usr/share/kde4/services/plasma-applet-kworldclock.desktop

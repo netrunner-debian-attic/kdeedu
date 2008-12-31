@@ -1,7 +1,6 @@
 usr/bin/calgebra
 usr/bin/kalgebra
 usr/lib/kde4/plasma_applet_kalgebra.so
-usr/lib/libanalitza.so
 usr/lib/libanalitza.so.4
 usr/lib/libanalitza.so.4.2.0
 usr/share/applications/kde4/kalgebra.desktop

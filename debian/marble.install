@@ -4,3 +4,6 @@ usr/bin/tilecreator
 usr/lib/kde4/libmarble_part.so
 usr/lib/kde4/plasma_applet_worldclock.so
 usr/lib/kde4/plugins/marble/
+usr/share/applications/kde4/marble.desktop
+usr/share/kde4/services/marble_part.desktop
+usr/share/kde4/services/plasma-applet-kworldclock.desktop

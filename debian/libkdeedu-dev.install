@@ -1,5 +1,4 @@
 usr/include/libkdeedu/
-usr/lib/libSatLib.so
 usr/lib/libkdeeduui.so
 usr/lib/libkeduvocdocument.so
 usr/lib/libscience.so

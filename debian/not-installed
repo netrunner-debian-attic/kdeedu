@@ -16,6 +16,15 @@
 ./usr/share/doc/kde4/HTML/en/step/tutorial5.png
 ./usr/share/doc/kde4/HTML/en/step/tutorials.docbook
 ./usr/share/doc/kde4/HTML/en/step/mainwindow.png
-# no kstars dev package
-./usr/lib/libsbigudrv.so
 
+# Devel symlinks without devel headers
+./usr/lib/libavogadro-kalzium.so
+./usr/lib/libcompoundviewer.so
+./usr/lib/libSatLib.so
+./usr/lib/libanalitza.so
+
+# DBus interface XMLs without respective -dev package
+./usr/share/dbus-1/interfaces/org.kde.kmplot.KmPlot.xml
+./usr/share/dbus-1/interfaces/org.kde.kmplot.MainDlg.xml
+./usr/share/dbus-1/interfaces/org.kde.kmplot.Parser.xml
+./usr/share/dbus-1/interfaces/org.kde.kmplot.View.xml

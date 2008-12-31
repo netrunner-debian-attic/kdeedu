@@ -1,10 +1,6 @@
 usr/bin/kmplot
 usr/lib/kde4/libkmplotpart.so
 usr/share/applications/kde4/kmplot.desktop
-usr/share/dbus-1/interfaces/org.kde.kmplot.KmPlot.xml
-usr/share/dbus-1/interfaces/org.kde.kmplot.MainDlg.xml
-usr/share/dbus-1/interfaces/org.kde.kmplot.Parser.xml
-usr/share/dbus-1/interfaces/org.kde.kmplot.View.xml
 usr/share/doc/kde4/HTML/en/kmplot/
 usr/share/icons/hicolor/128x128/apps/kmplot.png
 usr/share/icons/hicolor/16x16/apps/kmplot.png
@@ -16,3 +12,4 @@ usr/share/icons/hicolor/scalable/apps/kmplot.svgz
 usr/share/kde4/apps/kmplot/
 usr/share/kde4/config.kcfg/kmplot.kcfg
 usr/share/kde4/services/kmplot_part.desktop
+usr/share/man/man1/kmplot.1

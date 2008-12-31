@@ -1,0 +1,112 @@
+[libkdeedu-dev]
+from:/libkdeedu/ dst:usr/include
+from:/libkdeedu/ dst:cmake/modules/
+from:/libkdeedu/ dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
+from:/libkdeedu/ dst:/dbus-\d+/interfaces/
+
+[libkiten-dev]
+from:/kiten/lib/ dst:usr/include
+from:/kiten/lib/ dst:cmake/modules/
+from:/kiten/lib/ dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
+from:/kiten/lib/ dst:/dbus-\d+/interfaces/
+
+[libmarble-dev]
+from:/marble/src/lib/ dst:usr/include
+from:/marble/src/lib/ dst:cmake/modules/
+from:/marble/src/lib/ dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
+from:/marble/src/lib/ dst:/dbus-\d+/interfaces/
+
+[missing_virtual]
+miss dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
+miss dst:/dbus-\d+/interfaces/
+miss dst:usr/lib/libhtmesh.a$
+miss from:/step/
+miss from:/marble/ dst:/LICENSE.txt$
+
+[blinken]
+from:/blinken/
+
+[kalgebra]
+from:/kalgebra/
+
+[kalzium-data]
+skip from:/kalzium/ dst:usr/share/.*\.desktop$
+from:/kalzium/ dst:usr/share/
+
+[kalzium]
+from:/kalzium/
+
+[kanagram]
+from:/kanagram/
+
+[kbruch]
+from:/kbruch/
+
+[kgeography-data]
+skip from:/kgeography/ dst:usr/share/.*\.desktop$
+from:/kgeography/ dst:usr/share/
+
+[kgeography]
+from:/kgeography/
+
+[khangman]
+from:/khangman/
+
+[kig]
+from:/kig/
+
+[klettres-data]
+skip from:/klettres/ dst:usr/share/.*\.desktop$
+from:/klettres/
+
+[klettres]
+from:/klettres/
+
+[kmplot]
+from:/kmplot/
+
+[kstars-data]
+skip from:/kstars/ dst:usr/share/.*\.desktop$
+from:/kstars/ dst:usr/share/
+
+[kstars]
+from:/kstars/
+
+[ktouch]
+from:/ktouch/
+
+[kturtle]
+from:/kturtle/
+
+[kwordquiz]
+from:/kwordquiz/
+
+[libkdeedu4]
+from:/libkdeedu/ dst:usr/lib/libkdeedu[^/]*\.so\.4($|\.)
+from:/libkdeedu/ dst:usr/lib/libscience\.so\.4($|\.)
+
+[libkiten4]
+from:/kiten/lib/ dst:usr/lib/libkiten\.so\.4($|\.)
+
+[kiten]
+from:/kiten/
+
+[indi]
+from:/indi/
+
+[libmarble4]
+from:/marble/src/lib/ dst:usr/lib/lib[^/]+\.so\.4($|\.)
+
+[marble-data]
+skip from:/marble/ dst:usr/share/.*\.desktop$
+from:/marble/ dst:usr/share
+
+[marble]
+from:/marble/
+
+[parley-data]
+skip from:/parley/ dst:usr/share/.*\.desktop$
+from:/parley/ dst:usr/share
+
+[parley]
+from:/parley/
