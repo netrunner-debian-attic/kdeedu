@@ -1,10 +1,10 @@
-kdeedu (4:4.1.86+svn903952-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.1.87+svn905637-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump KDE build dependencies to 4.1.82.
+  * Bump KDE build dependencies to 4.1.87.
   * Drop no longer needed patch 97_fix_target_link_libraries.diff. 
   * Do not build depend on cmake explicitly.
   * Remove KPercentage, removed from upstream.
