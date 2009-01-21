@@ -50,7 +50,6 @@ Description: debugging symbols for the KDE 4 education module
 
 Package: blinken
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ttf-sjfonts
 Suggests: khelpcenter4
 Description: KDE 4 version of the Simon electronic memory game
@@ -99,7 +98,6 @@ Description: data files for Kalzium
 
 Package: kanagram
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: jumble word puzzle for KDE 4
@@ -120,7 +118,6 @@ Description: fraction learning aid for KDE 4
 
 Package: kgeography
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}, kgeography-data (>= ${source:Version})
 Replaces: kgeography-data (<< 4:4.1.86)
 Suggests: khelpcenter4
@@ -133,7 +130,6 @@ Description: geography learning aid for KDE 4
 
 Package: kgeography-data
 Architecture: all
-Section: kde
 Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
@@ -142,7 +138,6 @@ Description: data files for KGeography
 
 Package: khangman
 Architecture: any
-Section: games
 Depends: ${shlibs:Depends}, ttf-dustin
 Suggests: khelpcenter4
 Description: Hangman word puzzle for KDE 4
@@ -172,7 +167,6 @@ Description: interactive geometry tool for KDE 4
 
 Package: kiten
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}, ttf-kochi-gothic | ttf-kochi-mincho
 Suggests: khelpcenter4
 Description: Japanese reference and study aid for KDE 4
@@ -183,7 +177,6 @@ Description: Japanese reference and study aid for KDE 4
 
 Package: klettres
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}, klettres-data (>= ${source:Version})
 Replaces: klettres-data (<< 4:4.1.86)
 Suggests: khelpcenter4
@@ -198,7 +191,6 @@ Description: foreign alphabet tutor for KDE 4
 
 Package: klettres-data
 Architecture: all
-Section: kde
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE 4.
@@ -262,7 +254,6 @@ Description: data files for KStars desktop planetarium
 
 Package: ktouch
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: touch typing tutor for KDE 4
@@ -293,7 +284,6 @@ Description: Logo educational programming environment for KDE 4
 
 Package: kwordquiz
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: flashcard learning program for KDE 4
@@ -368,7 +358,6 @@ Description: Instrument Neutral Distributed Interface for astronomical devices
 
 Package: marble
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}, libmarble4 (= ${binary:Version}),
  marble-data (>= ${source:Version})
 Replaces: marble-data (<< 4:4.1.86)
@@ -382,7 +371,6 @@ Description: Marble globe and map widget
 
 Package: marble-data
 Architecture: all
-Section: kde
 Description: data files for Marble
  This package contains the architecture-independent data files for the Marble
  desktop globe.
@@ -410,7 +398,6 @@ Description: development files for the Marble globe widget library
 
 Package: parley
 Architecture: any
-Section: kde
 Depends: ${shlibs:Depends}, ${perl:Depends}, libwww-perl,
  parley-data (>= ${source:Version})
 Replaces: parley-data (<< 4:4.1.86)
@@ -423,7 +410,6 @@ Description: vocabulary trainer for KDE 4
 
 Package: parley-data
 Architecture: all
-Section: kde
 Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
@@ -432,7 +418,7 @@ Description: data files for the Parley vocabulary trainer
 
 Package: step
 Architecture: any
-Section: kde
+Section: science
 Depends: ${shlibs:Depends}
 Description: interactive physical simulator for KDE 4
  With Step you can not only learn but feel how physics works. You place some
