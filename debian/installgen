@@ -20,8 +20,10 @@ from:/marble/src/lib/ dst:/dbus-\d+/interfaces/
 miss dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
 miss dst:/dbus-\d+/interfaces/
 miss dst:usr/lib/libhtmesh.a$
-miss from:/step/
 miss from:/marble/ dst:/LICENSE.txt$
+
+[kdeedu-kvtml-data]
+from:/data/kvtml/
 
 [blinken]
 from:/blinken/
@@ -110,3 +112,6 @@ from:/parley/ dst:usr/share
 
 [parley]
 from:/parley/
+
+[step]
+from:/step/
