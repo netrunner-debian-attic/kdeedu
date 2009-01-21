@@ -98,7 +98,7 @@ Description: data files for Kalzium
 
 Package: kanagram
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kdeedu-kvtml-data
 Suggests: khelpcenter4
 Description: jumble word puzzle for KDE 4
  KAnagram is a game where a random word is shown with its letters scrambled.
@@ -138,7 +138,7 @@ Description: data files for KGeography
 
 Package: khangman
 Architecture: any
-Depends: ${shlibs:Depends}, ttf-dustin
+Depends: ${shlibs:Depends}, ttf-dustin, kdeedu-kvtml-data
 Suggests: khelpcenter4
 Description: Hangman word puzzle for KDE 4
  KHangMan is the well-known Hangman game, aimed towards children aged 6 and
@@ -284,7 +284,7 @@ Description: Logo educational programming environment for KDE 4
 
 Package: kwordquiz
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kdeedu-kvtml-data
 Suggests: khelpcenter4
 Description: flashcard learning program for KDE 4
  KWordQuiz is a general purpose flashcard program, typically used for
@@ -427,5 +427,15 @@ Description: interactive physical simulator for KDE 4
  laws of physics. You can change every property of bodies/forces in your
  experiment (even during simulation) and see how this will change evolution 
  of the experiment. 
+ .
+ This package is part of the KDE 4 education module.
+
+Package: kdeedu-kvtml-data
+Architecture: all
+Section: kde
+Replaces: kanagram ( << 4:4.2~ )
+Description: kvtml files for kdeedu programs
+ This package contains architecture-independent data files for several kdeedu
+ applications, like kanagram, khangman and kwordquiz.
  .
  This package is part of the KDE 4 education module.
