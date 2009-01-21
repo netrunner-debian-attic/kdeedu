@@ -9,6 +9,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline5-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
  libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev,
+ libgmm++-dev,
 Standards-Version: 3.8.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeedu
@@ -22,10 +23,10 @@ Depends: blinken (>= ${source:Version}), indi (>= ${source:Version}),
  kgeography (>= ${source:Version}), khangman (>= ${source:Version}),
  kig (>= ${source:Version}), kiten (>= ${source:Version}),
  klettres (>= ${source:Version}), kmplot (>= ${source:Version}),
- kstars (>= ${source:Version}),
- ktouch (>= ${source:Version}), kturtle (>= ${source:Version}),
- kwordquiz (>= ${source:Version}), marble (>= ${source:Version}),
- parley (>= ${source:Version})
+ kstars (>= ${source:Version}), ktouch (>= ${source:Version}), 
+ kturtle (>= ${source:Version}), kwordquiz (>= ${source:Version}), 
+ marble (>= ${source:Version}), parley (>= ${source:Version}),
+ step (>= ${source:Version})
 Description: educational applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -429,3 +430,16 @@ Description: data files for the Parley vocabulary trainer
  .
  This package is part of the KDE 4 education module.
 
+Package: step
+Architecture: any
+Section: kde
+Depends: ${shlibs:Depends}
+Description: interactive physical simulator for KDE 4
+ With Step you can not only learn but feel how physics works. You place some
+ bodies on the scene, add some forces such as gravity or springs, then click
+ "Simulate" and Step shows you how your scene will evolve according to the
+ laws of physics. You can change every property of bodies/forces in your
+ experiment (even during simulation) and see how this will change evolution 
+ of the experiment. 
+ .
+ This package is part of the KDE 4 education module.
