@@ -2,6 +2,9 @@ kdeedu (4:4.1.96+svn911842-0r3) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
+  TODO: add marble-data to libmarble depends if better solution is not
+  found first.
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Add build depend on libgmm++-dev and re-activate step.
