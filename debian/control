@@ -433,7 +433,7 @@ Description: interactive physical simulator for KDE 4
 Package: kdeedu-kvtml-data
 Architecture: all
 Section: kde
-Replaces: kanagram ( << 4:4.2~ )
+Replaces: kanagram (<< 4:4.2.0)
 Description: kvtml files for kdeedu programs
  This package contains architecture-independent data files for several kdeedu
  applications, like kanagram, khangman and kwordquiz.
