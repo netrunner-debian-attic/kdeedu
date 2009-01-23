@@ -1,6 +1,6 @@
-kdeedu (4:4.1.96+svn911842-0r3) UNRELEASED; urgency=low
+kdeedu (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   TODO: add marble-data to libmarble depends if better solution is not
   found first.
@@ -8,7 +8,7 @@ kdeedu (4:4.1.96+svn911842-0r3) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Add build depend on libgmm++-dev and re-activate step.
-  * Bump KDE build dependencies to 4.1.96.
+  * Bump KDE build dependencies to 4.2.0.
   * Drop no longer needed patch 97_fix_target_link_libraries.diff. 
   * Do not build depend on cmake explicitly.
   * Remove KPercentage, removed from upstream.
