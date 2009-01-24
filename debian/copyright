@@ -105,13 +105,19 @@ Files under cmake/
 
  cmake/modules/FindBoostPython.cmake ~ BSD ~ Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
  cmake/modules/FindCFitsio.cmake ~ BSD ~ Copyright (c) 2006, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ cmake/modules/FindGMM.cmake ~ BSD ~ Copyright (c) 2008 Allen Winter <winter@kde.org>
+ cmake/modules/FindGSL.cmake ~ BSD ~ Copyright (c) 2008 Allen Winter <winter@kde.org>
+ cmake/modules/FindINDI.cmake ~ BSD ~ Copyright (c) 2006 Jasem Mutlaq <mutlaqja@ikarustech.com>
+ cmake/modules/FindKDEEDU.cmake ~ any ~ Copyright (c) Patrick Spenderin <ps_ml@gmx.de>
  cmake/modules/FindLibfacile.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
                                              Copyright (c) 2006, Montel Laurent, <montel@kde.org>
+ cmake/modules/FindMarbleWidget.cmake ~ any ~ Copyright (c) Patrick Spenderin <ps_ml@gmx.de>
  cmake/modules/FindOCaml.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
                                          Copyright (c) 2006, Montel Laurent, <montel@kde.org>
  cmake/modules/FindOpenBabel2.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
+ 					 Copyright (c) Marcus D. Hanwell <marcus@cryos.org>
+ cmake/modules/FindQalculate.cmake ~ BSD ~ Copyright (c) 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
  cmake/modules/FindReadline.cmake ~ unspec ~ unspec
- cmake/modules/FindSBIG.cmake ~ BSD ~ Copyright (c) 2006, Jasem Mutlaq <mutlaqja@ikarustech.com>
 
 On Debian systems, you can find the complete text of the BSD license at:
 /usr/share/common-licenses/BSD
@@ -119,14 +125,32 @@ On Debian systems, you can find the complete text of the BSD license at:
 
 Files under kalgebra/
 
- Copyright (C) 2007 by Aleix Pol <aleixpol@gmail.com>
+ Copyright (C) 2007-2008 by Aleix Pol <aleixpol@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 Files under kalzium/
 
+ Copyright (C) 2003-2008 Carsten Niehaus <cniehaus@kde.org>
+ Copyright (C) 2007-2008 Marcus D. Hanwell <marcus@cryos.org>
+ Copyright (C) 2007 David Faure <faure@kde.org>
+ Copyright (C) 2007 Donald Ephraim Curtis
+ Copyright (C) 2007-2008 Tim Vandermeersch
+ Copyright (C) 1991-2007 Heinz van Saanen
+ Copyright (C) 2006-2007 Benoit Jacob
+ Copyright (C) 2006-2008 Geoffrey R. Hutchison
+ Copyright (C) 2007 Shahzad Ali
+ Copyright (C) 2007 Ross Braithwaite
+ Copyright (C) 2007 James Bunt
+ Copyright (C) 2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright (C) 2004 Thomas Nagy 
+ Copyright (C) 2005-2006 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright (C) 2005 Inge Wallin <inge@lysator.liu.se>
+ Copyright (C) 2007 Ian Monroe <ian@monroe.nu>
+ 
  All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License, or (at your option) any later version.
+ Foundation; either version 2 of the License, or (at your option) any later version. 
+ Some files are under other licenses, but renders everything effectively GPLv2 or later.
 
 Files under kanagram/
 
@@ -138,6 +162,9 @@ Files under kanagram/
 Files under kbruch/
 
  Copyright (c) 2001-2007 by Sebastian Stein <seb.kde@hpfsc.de>
+ Copyright (c) 2008 Danilo Balzaque <danilo.balzaque@ltia.fc.unesp.br>
+ Copyright (c) 2008 Tadeu Araujo <tadeu.araujo@ltia.fc.unesp.br>
+ Copyright (C) 2008 Tiago Porangaba <tiago.porangaba.ltia.fc.unesp.br>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -151,7 +178,7 @@ Files under kgeography/
 
 Files under khangman/
 
- Copyright (C) 2001-2007  Anne-Marie Mahfouf <annma@kde.org>
+ Copyright (C) 2001-2008  Anne-Marie Mahfouf <annma@kde.org>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -159,6 +186,9 @@ Files under khangman/
 Files under kig/
 
  Copyright (C) 2002-2007 The Kig Developers <kde-edu-devel@kde.org>
+ Copyright (c) 2002-2004 Dominique Devriese <devriese@kde.org>
+ Copyright (c) 2002-2005 Maurizio Paolini <paolini@dmf.unicatt.it>
+ Copyright (c) 2004-2007 Pino Toscano <toscano.pino@tiscali.it>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -166,20 +196,28 @@ Files under kig/
 Files under kiten/
 
  Copyright (C) 2001-2007 Jason Katz-Brown <jason@katzbrown.com>
+ Copyright (C) 2005 Paul Temple <paul.temple@gmx.net>
+ Copyright (C) 2006 Joseph Kerian <jkerian@gmail.com>
+ Copyright (C) 2006 Eric Kjeldergaard <kjelderg@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under klettres/
 
- Copyright (C) 2001-2007  Anne-Marie Mahfouf <annma@kde.org>
+ Copyright (C) 2001-2008  Anne-Marie Mahfouf <annma@kde.org>
+ Copyright (c) 2007 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright (c) 2001 Eric Bischoff <e.bischoff@noos.fr>
+ Copyright (c) 2005 Michael Goettsche <michael.goettsche@kdemail.net>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under kmplot/
 
- Copyright (C) 2001-2007  Klaus-Dieter Möller <kdmoeller@foni.net>
+ Copyright (C) 1998-2007  Klaus-Dieter Möller <kdmoeller@foni.net>
+ Copyright (C) 2004-2005 Frederik Edemar <f_edemar@linux.se>
+ Copyright (C) 2006-2007 David Saxton <david@bluehaze.org>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
