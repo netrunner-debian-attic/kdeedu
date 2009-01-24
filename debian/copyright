@@ -222,22 +222,36 @@ Files under kmplot/
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
-Files under kpercentage/
-
- Copyright (C) 2001-2007  Matthias Meßmer <matthias@familie-messmer.de>
- All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License, or (at your option) any later version.
-
-
 Files under kstars/
-
+ Copyright (C) 2008 Akarsh Simha <akarshsimha@gmail.com>
+ Copyright (C) 2003 Gyorgy Fekete
+ Copyright (C) 2003 Will O'Mullane
+ Copyright (C) 2007 James B. Bowlin
+ Copyright (C) 2000 Peter Z. Kunszt
+ Copyright (C) 1998-2000  A. Szalay
+ Copyright (C) 2001 Dennis C. Dinge
+ Copyright (C) 2000 Aniruddha R. Thakar
+ Copyright (C) 1997 Bruno Grossniklaus
+ Copyright (C) 2002 Gyorgy Fekete
+ Copyright (C) 2005 Patrick Chevalley
+ Copyright (C) 2005 Vincent Suc
+ Copyrigth (C) 2005 Jean-Baptiste Butet
+ Copyright (C) John A. Magliacan
+ Copyright (C) 2001 Yu Yongwei
+ Copyright (C) 2005 Thomas Kabelmann
+ Copyright (C) 2005 Jason Harris <kstars@30doradus.org>
+ Copyright (C) 2008 Jeremy Sonrier <jsid@emor3j.fr.eu.org>
+ Copyright (C) 2001-2004 Pablo de Vincente <vincente@oan.es>
+ Copyright (C) 2001-2003 Jasem Mutlaq <mutlaqja@ku.edu>
+ Copyright (C) 2004 Torsten Rahn <tackat@kde.org>
+ Copyright (C) 2002 Mark Hollomon <mhh@mindspring.com>
  Copyright (C) 2001-2007  the KStars Team.
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+ Some files are under a 3 clause bsd license and a few is in public domain. KStars is effectively GPLv2 or later.
 
 
 Files under ktouch/
-
  Copyright (C)  2000-2007 Haavard Froeiland <haavard@users.sourceforge.net> 
                           and Andreas Nicolai  <ghorwin@users.sourceforge.net>
  All files are under GNU General Public License as published by the Free Software 
@@ -246,7 +260,8 @@ Files under ktouch/
 
 Files under kturtle/
 
- Copyright (C)  2003-2007 Cies Breijs <cies@kde.nl>
+ Copyright (C)  2003-2008 Cies Breijs <cies@kde.nl>
+ Copyright (C)  2007 Niels Slot <nielsslot@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -261,15 +276,40 @@ Files under kwordquiz/
 Files under libkdeedu/
 
  Copyright (C)  2003-2007 Scott Wheeler <wheeler@kde.org>
+ Copyright (C)  2003-2008 Carsten Niehaus <cniehaus@kde.org>
+ Copyright (C)  2005-2007 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright (C)  2005-2006 Albert Astals Cid <aacid@kde.org>
+ Copyright (C)  2007 Jeremy Whiting <jeremy@scitools.com>
+ Copyright (C)  2007-2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright (C)  1999-2002 Ewald Arnold <kvoctrain@ewald-arnold.de>
+ Copyright (C)  2003-2008 Peter Hedlund <peter@peterandlinda.com>
+ Copyright (C)  2005 Eric Pignet <eric@erixpage.com>
+ Copyright (C)  2007 David Faure <faure@kde.org>
+ Copyright (C)  2008 Inge Wallin <inge@lysator.liu.se>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under marble/
 
- Copyright (C) 2005-2007 Torsten Rahn <tackat@kde.org>
- Copyright (c) 2007      Inge Wallin  <ingwa@kde.org>"
-
+ Copyright (C) 2008 Simon Edwards <simon@simonzone.com>
+ Copyright (C) 2004-2008 Torsten Rahn <tackat@kde.org>
+ Copyright (c) 2007-2008 Inge Wallin  <ingwa@kde.org>
+ Copyright (c) 2008 Henry de Valance <hdvalance@gmail.com>
+ Copyright (C) 2007 Andrew Manson <g.real.ate@gmail.com>
+ Copyright (c) 2007 Murad Tagirov <tmurad@gmail.com>
+ Copyright (c) 2008 Patrick Spenderin <ps_ml@gmx.de>
+ Copyright (c) 2007-2008 Nikolas Zimmermann <zimmermann@kde.org>
+ Copyright (c) 2008 Jens-Michael Hoffmann <jensmh@gmx.de>
+ Copyright (c) 2007 Carlos Licea <carlos_licea@hotmail.com>
+ Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+ Copyright (c) 2008 Pino Toscano <pino@kde.org>
+ Copyright (c) 2008 Claudio Covaci <claidio.covaci@gmail.com>
+ Copyright (c) 2007 Thomas Zander <zander@kde.org>
+ Copyright (c) 2007 Christian Ehrlicher <ch.erlicher@gmx.de>
+ Copyright (c) 2008 Simon Schmeisser  <mail_to_wrt@gmx.de>
+ Copyright (c) 2008 Dennis Niehaeser <earthwings@gentoo.org>
+ Copyright (c) 2008 Shashank Singh <shashank.personal@gmail.com>
  All files are under GNU Lesser General Public License as published by the Free Software 
  Foundation; version 2.1.
 
@@ -279,13 +319,27 @@ On Debian systems, you can find the complete text of the LGPLG license version 2
 
 Files under parley/
  Copyright (C) 2000-2007 The Parley Developers
+ Copyright (c) 1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
+ Copyright (C) 2007-2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright (c) 2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
+ Copyright (c) 2008 Daniel Laidig <d.laidig@gmx.de>
+ Copyrigth (c) 2008 Javier Goday <jgoday@gmail.com>
+ Copyright (c) 2007 Trolltech ASA. 
+ Copyright (c) 2008 David Capel <wot.narg@gmail.com>
+ Copyright (c) 2006-2007 Mauricio Piancentini <mauricio@tabuleiro.com>
+ Copyright (c) 2007 Matt Williams <matt@milliams.com>
+ Copyrigth (c) 2008 Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
+
  All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License, or (at your option) any later version.
+ Foundation; either version 2 of the License.
 
-
+Files under Step/
+ Copyright (c) 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License.
 
 
 The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers
-<debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
-see `/usr/share/common-licenses/GPL'.
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL v2 or later, 
+see `/usr/share/common-licenses/GPL-2'.
 
