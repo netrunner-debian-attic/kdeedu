@@ -45,7 +45,12 @@ kdeedu (4:4.2.0-0r1) UNRELEASED; urgency=low
     Sorry Annma it took so long.
   * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:39:12 +0200
+  +++ Changes by Pino Toscano:
+
+  * Add patch 01_r917115_cmake_findopenbabel2.diff from upstream SVN r917115
+    to fix the OpenBabel2 detection.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 23:18:12 +0200
 
 kdeedu (4:4.1.3-1) experimental; urgency=low
 
