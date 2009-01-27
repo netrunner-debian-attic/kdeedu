@@ -58,7 +58,7 @@ Index: kdeedu/cmake/modules/FindOpenBabel2.cmake
 -      endif(NOT OPENBABEL2_INCLUDE_DIR)
 -    endif(WIN32)
 -
-     find_library(OPENBABEL2_LIBRARIES NAMES openbabel openbabel-2
+     find_library(OPENBABEL2_LIBRARIES NAMES openbabel
        PATHS
 -      ${_obLinkDir}
 +      ${PC_OPENBABEL2_LIBDIR}
