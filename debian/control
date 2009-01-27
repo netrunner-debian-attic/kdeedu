@@ -380,7 +380,7 @@ Description: data files for Marble
 Package: libmarble4
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, marble-data (>= ${source:Version})
 Description: Marble globe widget library
  This package contains shared libraries for the Marble globe widget.
  .

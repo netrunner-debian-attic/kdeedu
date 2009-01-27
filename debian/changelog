@@ -1,9 +1,6 @@
-kdeedu (4:4.2.0-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
-
-  TODO: add marble-data to libmarble depends if better solution is not
-  found first.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
