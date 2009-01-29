@@ -167,7 +167,7 @@ Description: interactive geometry tool for KDE 4
 
 Package: kiten
 Architecture: any
-Depends: ${shlibs:Depends}, ttf-kochi-gothic | ttf-kochi-mincho
+Depends: ${shlibs:Depends}, ttf-sazanami-gothic | ttf-sazanami-mincho
 Suggests: khelpcenter4
 Description: Japanese reference and study aid for KDE 4
  Kiten is a collection of Japanese reference tools and study aids for KDE 4,
