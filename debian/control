@@ -381,6 +381,7 @@ Package: libmarble4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, marble-data (>= ${source:Version})
+Replaces: marble (<< 4:4.2.0-3)
 Description: Marble globe widget library
  This package contains shared libraries for the Marble globe widget.
  .
