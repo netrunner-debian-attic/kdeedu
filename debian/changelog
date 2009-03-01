@@ -4,7 +4,7 @@ kdeedu (4:4.2.0-2) UNRELEASED; urgency=low
 
   * Change Kiten's the dependency on ttf-gotchi fonts into dependencies on
     ttf-sazanami fonts. (Closes: #500477)
-  * Move marble plugins into libmarble4. (LP: #322278)
+  * Move marble plugins into libmarble4. (Closes: #517533, LP: #322278)
 
   +++ Changes by Modestas Vainius:
 
