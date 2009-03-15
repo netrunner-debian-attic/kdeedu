@@ -1,4 +1,6 @@
-kdeedu (4:4.2.0-2) UNRELEASED; urgency=low
+kdeedu (4:4.2.1-1) experimental; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Armin Berres:
 
@@ -10,7 +12,12 @@ kdeedu (4:4.2.0-2) UNRELEASED; urgency=low
 
   * Point Debian Vcs URLs to pkg-kde/trunk (new location).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Feb 2009 00:19:54 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Remove 01_r917115_cmake_findopenbabel2, merged ustream.
+  * Update installed files: step HTML docs.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Mar 2009 11:22:08 +0100
 
 kdeedu (4:4.2.0-1) experimental; urgency=low
 
