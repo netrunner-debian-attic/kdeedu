@@ -40,7 +40,7 @@ Description: educational applications from the official KDE 4 release
 
 Package: kdeedu-dbg
 Architecture: any
-Section: libdevel
+Section: debug
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdeedu (= ${source:Version})
@@ -51,6 +51,7 @@ Description: debugging symbols for the KDE 4 education module
 Package: blinken
 Architecture: any
 Depends: ${shlibs:Depends}, ttf-sjfonts
+Section: games
 Suggests: khelpcenter4
 Description: KDE 4 version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
@@ -99,6 +100,7 @@ Description: data files for Kalzium
 Package: kanagram
 Architecture: any
 Depends: ${shlibs:Depends}, kdeedu-kvtml-data
+Section: games
 Suggests: khelpcenter4
 Description: jumble word puzzle for KDE 4
  KAnagram is a game where a random word is shown with its letters scrambled.
@@ -120,6 +122,7 @@ Package: kgeography
 Architecture: any
 Depends: ${shlibs:Depends}, kgeography-data (>= ${source:Version})
 Replaces: kgeography-data (<< 4:4.1.86)
+Section: games
 Suggests: khelpcenter4
 Description: geography learning aid for KDE 4
  KGeography is an aid for learning about world geography.  You can use it to
@@ -130,6 +133,7 @@ Description: geography learning aid for KDE 4
 
 Package: kgeography-data
 Architecture: all
+Section: games
 Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
@@ -138,6 +142,7 @@ Description: data files for KGeography
 
 Package: khangman
 Architecture: any
+Section: games
 Depends: ${shlibs:Depends}, ttf-dustin, kdeedu-kvtml-data
 Suggests: khelpcenter4
 Description: Hangman word puzzle for KDE 4
@@ -358,6 +363,7 @@ Description: Instrument Neutral Distributed Interface for astronomical devices
 
 Package: marble
 Architecture: any
+Section: misc
 Depends: ${shlibs:Depends}, libmarble4 (= ${binary:Version}),
  marble-data (>= ${source:Version})
 Replaces: marble-data (<< 4:4.1.86)
@@ -371,6 +377,7 @@ Description: Marble globe and map widget
 
 Package: marble-data
 Architecture: all
+Section: misc
 Description: data files for Marble
  This package contains the architecture-independent data files for the Marble
  desktop globe.
