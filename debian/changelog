@@ -1,8 +1,10 @@
-kdeedu (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fix kmplot when calculating integrals of functions. (Closes: #442281) 
+    - kstars, improved usability of the Observing List Wizard. (Closes: #404583)
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Apr 2009 16:18:04 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Apr 2009 01:59:06 +0200
 
 kdeedu (4:4.2.1-1) experimental; urgency=low
 
