@@ -1,3 +1,11 @@
+Test on __linux__ is wrong as the behaviour does not depends on the kernel
+but on the userland, that is GNU libc, tested by __GLIBC__. Test on 
+__FreeBSD__ and __NetBSD__ are correct though as they represent both the 
+kernel and the userland.
+
+The patch does not remove __linux__ in the patch to be as conservative as
+possible.
+
 --- a/kstars/kstars/htmesh/SpatialGeneral.h
 +++ b/kstars/kstars/htmesh/SpatialGeneral.h
 @@ -80,7 +80,7 @@
