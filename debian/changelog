@@ -1,6 +1,12 @@
 kdeedu (4:4.2.2-2) UNRELEASED; urgency=low
 
+  +++ Changes by Sune Vuorela:
+
   * Fix up sections.
+
+  ++++ Changes by Aurelien Jarno:
+
+  * Add 00_kfreebsd to fix build on GNU/kFreeBSD. 
 
  -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:37:08 +0200
 
