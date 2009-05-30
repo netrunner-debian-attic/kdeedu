@@ -2,6 +2,7 @@ kdeedu (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstreams.
     - Step don't hang at 100% when using springs (Closes: 530030)
+    - Ktouch in german is now fixed in level 48 (Closes: 518854)
 
   +++ Changes by Sune Vuorela:
 
