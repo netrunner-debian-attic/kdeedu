@@ -8,7 +8,7 @@ possible.
 
 --- a/kstars/kstars/htmesh/SpatialGeneral.h
 +++ b/kstars/kstars/htmesh/SpatialGeneral.h
-@@ -80,7 +80,7 @@
+@@ -80,7 +80,7 @@ typedef unsigned long long	uint64;
  
  // emulate the standard bool type where not supported by compiler
  

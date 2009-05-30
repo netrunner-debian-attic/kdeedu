@@ -1,4 +1,7 @@
-kdeedu (4:4.2.2-2) UNRELEASED; urgency=low
+kdeedu (4:4.2.4-1) UNRELEASED; urgency=low
+
+  * New upstreams.
+    - Step don't hang at 100% when using springs (Closes: 530030)
 
   +++ Changes by Sune Vuorela:
 
