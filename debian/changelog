@@ -1,3 +1,14 @@
+kdeedu (4:4.2.96-1) experimental; urgency=low
+
+  * New upstream
+    - step now uses eigen instead of gmm
+    - add gsl and qalculate build deps for step.
+      - also add glib build-dep to work around a bug in pkg-config
+    - kstars can now use xplanet, add to build-deps.
+  * Add patch to also build with -lcln when building step with qalculate
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 11 Jul 2009 22:26:30 +0200
+
 kdeedu (4:4.2.4-1) unstable; urgency=low
 
   * New upstreams.

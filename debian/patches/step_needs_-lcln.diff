@@ -1,0 +1,11 @@
+--- a/step/step/CMakeLists.txt
++++ b/step/step/CMakeLists.txt
+@@ -48,7 +48,7 @@ if(STEP_WITH_QALCULATE)
+     add_definitions(-DSTEP_WITH_UNITSCALC)
+     add_definitions(${QALCULATE_CFLAGS})
+     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${KDE4_ENABLE_EXCEPTIONS}")
+-    set(qalculate_LIBS ${QALCULATE_LIBRARIES})
++    set(qalculate_LIBS ${QALCULATE_LIBRARIES} -lcln)
+ endif(STEP_WITH_QALCULATE)
+ 
+ find_package(KDE4 REQUIRED)
