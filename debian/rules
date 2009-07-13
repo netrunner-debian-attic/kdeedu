@@ -5,3 +5,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 DEB_DH_MAKESHLIBS_ARGS_libkdeedu4 := -V
 DEB_DH_MAKESHLIBS_ARGS_libkiten4 := -V
 DEB_DH_MAKESHLIBS_ARGS_libmarble4 := -V
+DEB_DH_SHLIBDEPS_ARGS_libmarble4 := -- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libkiten4 := -- -xkdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_libkdeedu4 := -- -xkdebase-runtime
