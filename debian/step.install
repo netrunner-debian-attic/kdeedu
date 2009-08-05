@@ -1,6 +1,12 @@
 usr/bin/step
 usr/share/applications/kde4/step.desktop
-usr/share/icons/oxygen/22x22/actions/pointer.png
+usr/share/doc/kde4/HTML/en/step/
+usr/share/icons/hicolor/128x128/apps/step.png
+usr/share/icons/hicolor/16x16/apps/step.png
+usr/share/icons/hicolor/22x22/apps/step.png
+usr/share/icons/hicolor/32x32/apps/step.png
+usr/share/icons/hicolor/48x48/apps/step.png
+usr/share/icons/hicolor/64x64/apps/step.png
 usr/share/icons/oxygen/22x22/actions/step_object_Anchor.png
 usr/share/icons/oxygen/22x22/actions/step_object_Box.png
 usr/share/icons/oxygen/22x22/actions/step_object_ChargedParticle.png
@@ -60,4 +66,3 @@ usr/share/kde4/apps/step/tutorials/tutorial4.step
 usr/share/kde4/apps/step/tutorials/tutorial5.step
 usr/share/kde4/config.kcfg/step.kcfg
 usr/share/kde4/config/step.knsrc
-usr/share/doc/kde4/HTML/en/step/
