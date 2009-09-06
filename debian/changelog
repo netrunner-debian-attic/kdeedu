@@ -1,3 +1,12 @@
+kdeedu (4:4.3.1-1) unstable; urgency=low
+
+  * New upstream release. 
+  * Bump KDE build dependencies to 4.3.1.
+  * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
+  * Fix typo in libkiten4 description.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 06 Sep 2009 16:48:24 +0200
+
 kdeedu (4:4.3.0-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
