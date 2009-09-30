@@ -8,3 +8,4 @@ DEB_DH_MAKESHLIBS_ARGS_libmarble4 := -V
 DEB_DH_SHLIBDEPS_ARGS_libmarble4 := -- -xkdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_libkiten4 := -- -xkdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_libkdeedu4 := -- -xkdebase-runtime
+DEB_CMAKE_CUSTOM_FLAGS := -DWITH_DESIGNER_PLUGIN=ON

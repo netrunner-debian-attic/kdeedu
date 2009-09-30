@@ -1,8 +1,14 @@
 kdeedu (4:4.3.1-2) UNRELEASED; urgency=low
 
+  +++ Changes by Lisandro Damián Nicanor Pérez Meyer:
+
+  * Changes to build and ship Marble's Qt Designer's plugin
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Switch from libreadline5-dev to libreadline-dev. 
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 15 Sep 2009 15:26:04 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Sep 2009 22:37:02 -0300
 
 kdeedu (4:4.3.1-1) unstable; urgency=low
 
