@@ -4,7 +4,7 @@ kdeedu (4:4.3.2-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Lisandro Damián Nicanor Pérez Meyer:
 
-  * Changes to build and ship Marble's Qt Designer's plugin
+  * Changes to build and ship Marble's Qt Designer's plugin.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
