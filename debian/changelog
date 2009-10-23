@@ -3,6 +3,8 @@ kdeedu (4:4.3.2-2) UNRELEASED; urgency=low
   +++ Changes by Lisandro Damián Nicanor Pérez Meyer:
 
   * Fixed missing ${shlibs:Depends} in libmarble-dev
+  * Now it has the same version of kdelibs5-dev as package 
+    libmarble4. Thanks Modestas for the tip.
 
   +++ Changes by Karl Ferdinand Ebert:
 

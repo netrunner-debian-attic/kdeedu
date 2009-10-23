@@ -397,7 +397,8 @@ Description: Marble globe widget library
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: libmarble4 (= ${binary:Version}), ${shlibs:Depends}, kdelibs5-dev (>= 4:4.0.82)
+Depends: libmarble4 (= ${binary:Version}), ${shlibs:Depends}, 
+ ${sameVersionDep:kdelibs5-dev:libmarble4}, kdelibs5-dev (>= 4:4.0.82)
 Description: development files for the Marble globe widget library
  This package contains development files for building software that uses the
  Marble globe widget library.
