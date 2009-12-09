@@ -1,2 +1,3 @@
 step_needs_-lcln.diff
 00_kfreebsd.diff
+01_gpsd_2.90_compat.diff

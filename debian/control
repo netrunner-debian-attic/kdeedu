@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4)
  libboost-python-dev, libcfitsio3-dev (>= 3.040),
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
- libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev,
+ libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev (>= 2.90),
  xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev
 Standards-Version: 3.8.3
 Homepage: http://edu.kde.org/

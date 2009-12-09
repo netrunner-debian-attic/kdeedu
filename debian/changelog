@@ -24,6 +24,10 @@ kdeedu (4:4.3.4-1) unstable; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Update install files.
+  * Imperfect attempt to port marble positionprovider to gpsd 2.90 API.
+    Untested, might be buggy and should probably be replaced by proper fix from
+    upstream. Patch 01_gpsd_2.90_compat.diff.
+  * Bump build depends to libgps-dev >= 2.90.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:06 +0200
 
