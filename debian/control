@@ -71,15 +71,15 @@ Description: KDE 4 version of the Simon electronic memory game
 
 Package: cantor
 Architecture: any
-Depends: ${shlibs:Depends}
 Section: math
-Description: interface for doing mathematics and scientific computing
- Cantor is a KDE application aimed to provide a nice interface
- for doing mathematics and scientific computing. It doesn't implement
- its own computation logic, but instead is built around different
- backends.
+Depends: ${shlibs:Depends}
+Description: interface for mathematical applications
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
  .
- Available Backends:
+ Cantor supports the following mathematical applications as backends:
   * Sage Mathematics Software: http://www.sagemath.org
   * Maxima Computer Algebra System: http://maxima.sourceforge.net
   * R Project for Statistical Computing: http://www.r-project.org
@@ -451,10 +451,13 @@ Package: rocs
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}
-Description: a full featured graph editor
- Rocs aims to provide a full featured graph editor and a programming enviroment
- connected to the graph. It can be used to teach graph theory and students can
- use it to implement the various graph algorithms.
+Description: graph theory IDE
+ Rocs aims to be a Graph Theory IDE for helping professors to show the results
+ of a graph algorithm and also helping students to do the algorithms.
+ .
+ Rocs has a scripting module, done in Qt Script, that interacts with the drawn
+ graph and every change in the graph with the script is reflected on the drawn
+ one.
  .
  This package is part of the KDE 4 education module.
 
