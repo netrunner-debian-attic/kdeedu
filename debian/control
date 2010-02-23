@@ -2,14 +2,17 @@ Source: kdeedu
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <debian@pusling.com>,
+ Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>,
+ Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
- kdelibs5-dev (>= 4:4.3.4), libphonon-dev (>= 4:4.3.0),
+ kdelibs5-dev (>= 4:4.4.0), libphonon-dev (>= 4:4.3.0),
  libboost-python-dev, libcfitsio3-dev (>= 3.040),
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
  libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev (>= 2.90),
- xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev
+ xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev,
+ libspectre-dev, libattica-dev
 Standards-Version: 3.8.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeedu/#_trunk_packages_kdeedu_
@@ -26,7 +29,8 @@ Depends: blinken (>= ${source:Version}), indi (>= ${source:Version}),
  kstars (>= ${source:Version}), ktouch (>= ${source:Version}), 
  kturtle (>= ${source:Version}), kwordquiz (>= ${source:Version}), 
  marble (>= ${source:Version}), parley (>= ${source:Version}),
- step (>= ${source:Version})
+ step (>= ${source:Version}), cantor (>= ${source:Version}),
+ rocs (>= ${source:Version})
 Description: educational applications from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -62,6 +66,24 @@ Description: KDE 4 version of the Simon electronic memory game
  player is successful in remembering the sequence of lights in the
  correct order, they advance to the next stage, where an identical
  sequence with one extra step is presented.
+ .
+ This package is part of the KDE 4 education module.
+
+Package: cantor
+Architecture: any
+Depends: ${shlibs:Depends}
+Section: math
+Description: interface for doing mathematics and scientific computing
+ Cantor is a KDE application aimed to provide a nice interface
+ for doing mathematics and scientific computing. It doesn't implement
+ its own computation logic, but instead is built around different
+ backends.
+ .
+ Available Backends:
+  * Sage Mathematics Software: http://www.sagemath.org
+  * Maxima Computer Algebra System: http://maxima.sourceforge.net
+  * R Project for Statistical Computing: http://www.r-project.org
+  * KAlgebra: http://edu.kde.org/kalgebra/
  .
  This package is part of the KDE 4 education module.
 
@@ -422,6 +444,17 @@ Architecture: all
 Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
+ .
+ This package is part of the KDE 4 education module.
+
+Package: rocs
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}
+Description: a full featured graph editor
+ Rocs aims to provide a full featured graph editor and a programming enviroment
+ connected to the graph. It can be used to teach graph theory and students can
+ use it to implement the various graph algorithms.
  .
  This package is part of the KDE 4 education module.
 

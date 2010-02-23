@@ -32,6 +32,7 @@ usr/share/icons/oxygen/22x22/actions/step_object_Tracer.png
 usr/share/icons/oxygen/22x22/actions/step_object_WeightForce.png
 usr/share/kde4/apps/step/examples/brownian.step
 usr/share/kde4/apps/step/examples/doublependulum.step
+usr/share/kde4/apps/step/examples/eightpendula.step
 usr/share/kde4/apps/step/examples/first.step
 usr/share/kde4/apps/step/examples/fourpendula.step
 usr/share/kde4/apps/step/examples/gas.step

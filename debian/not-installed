@@ -8,6 +8,8 @@
 ./usr/lib/libcompoundviewer.so
 ./usr/lib/libSatLib.so
 ./usr/lib/libanalitza.so
+./usr/lib/libanalitzagui.so
+./usr/lib/libcantorlibs.so
 
 # DBus interface XMLs without respective -dev package
 ./usr/share/dbus-1/interfaces/org.kde.kmplot.KmPlot.xml
