@@ -1,6 +1,9 @@
 kdeedu (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - fixes Marble widget not exiting properly. (Closes: #560893)
+    - fixes crash in Parley when switching between list view and start exercise
+      dialog. (Closes: #562955)
 
   * FIXME: cantor links against libs in the kalgebra package.
   * TODO: dependencies: libindi, R
