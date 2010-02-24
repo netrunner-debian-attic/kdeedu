@@ -1,4 +1,4 @@
-kdeedu (4:4.4.0-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - fixes Marble widget not exiting properly. (Closes: #560893)
@@ -20,7 +20,7 @@ kdeedu (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add build dependency to libspectre-dev and libattica-dev.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Feb 2010 20:20:21 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:27 +0200
 
 kdeedu (4:4.3.4-1) unstable; urgency=low
 
