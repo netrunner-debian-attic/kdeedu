@@ -7,7 +7,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <debian@pusling.c
  Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint,
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.6.4),
- kdelibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.3.0),
+ dpkg-dev (>= 1.15.5), kdelibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.3.0),
  libboost-python-dev, libcfitsio3-dev (>= 3.040),
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
