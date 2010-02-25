@@ -3,7 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 DEB_DH_INSTALL_ARGS += -Xusr/share/kde4/apps/marble/data/LICENSE.txt
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
 DEB_DH_SHLIBDEPS_ARGS_libmarble4 := -- -xkdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_libkiten4 := -- -xkdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_libkdeedu4 := -- -xkdebase-runtime
