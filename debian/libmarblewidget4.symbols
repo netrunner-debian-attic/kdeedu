@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.1~ amd64
-libmarblewidget.so.4 libmarble4 #MINVER#
+libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZGVZN6Marble11MarbleDebug10nullDeviceEvE6device@Base 4:4.4.1~
  _ZN6Marble10GeoDataLod15setMaxLodPixelsEd@Base 4:4.4.1~
  _ZN6Marble10GeoDataLod15setMinLodPixelsEd@Base 4:4.4.1~
