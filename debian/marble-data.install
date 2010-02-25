@@ -5,6 +5,8 @@ usr/share/icons/hicolor/22x22/apps/marble.png
 usr/share/icons/hicolor/32x32/apps/marble.png
 usr/share/icons/hicolor/48x48/apps/marble.png
 usr/share/icons/hicolor/64x64/apps/marble.png
-usr/share/kde4/apps/marble/
+usr/share/kde4/apps/marble/data/*
+usr/share/kde4/apps/marble/marble.knsrc
+usr/share/kde4/apps/marble/marbleui.rc
 usr/share/kde4/apps/marble_part/marble_part.rc
 usr/share/kde4/config.kcfg/marble.kcfg

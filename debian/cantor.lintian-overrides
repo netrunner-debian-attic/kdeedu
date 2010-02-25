@@ -1,0 +1,2 @@
+cantor: package-name-doesnt-match-sonames libcantor-config libcantorlibs1
+cantor: shlib-without-versioned-soname usr/lib/libcantor_config.so libcantor_config.so

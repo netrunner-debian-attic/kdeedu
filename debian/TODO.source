@@ -1,0 +1,13 @@
+-----------------------------------------------------------------------------
+-- The following OPTIONAL packages could NOT be located on your system.
+-- Consider installing them to enable more features from this software.
+-----------------------------------------------------------------------------
+   * Experimental Python binding support for the Marble library  <http://techbase.kde.org/Development/Languages/Python>
+     Experimental Python binding support for the Marble library
+     Experimental Python binding support for the Marble library. To activate it pass -DEXPERIMENTAL_PYTHON_BINDINGS=TRUE to cmake.
+   * libindi (0.6 or higher)  <http://indi.sf.net>
+     A framework for controlling astronomical devices such as telescopes, CCDs, filter wheels..etc.
+     Gives KStars support for controlling astronomical devices.
+   * R  <http://www.r-project.org/>
+     A free software environment for statistical computing and graphics
+     Backend to use R with Cantor.

@@ -1,0 +1,13 @@
+usr/lib/kde4/plugins/marble/CompassFloatItem.so
+usr/lib/kde4/plugins/marble/CrosshairsPlugin.so
+usr/lib/kde4/plugins/marble/GeoRendererPlugin.so
+usr/lib/kde4/plugins/marble/GpsdPositionProviderPlugin.so
+usr/lib/kde4/plugins/marble/GraticulePlugin.so
+usr/lib/kde4/plugins/marble/MapScaleFloatItem.so
+usr/lib/kde4/plugins/marble/NavigationFloatItem.so
+usr/lib/kde4/plugins/marble/OverviewMap.so
+usr/lib/kde4/plugins/marble/Photo.so
+usr/lib/kde4/plugins/marble/QNamNetworkPlugin.so
+usr/lib/kde4/plugins/marble/StarsPlugin.so
+usr/lib/kde4/plugins/marble/Weather.so
+usr/lib/kde4/plugins/marble/Wikipedia.so

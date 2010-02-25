@@ -1,22 +1,44 @@
-kdeedu (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.4.1~svn1095363-0r2) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes Marble widget not exiting properly. (Closes: #560893)
     - fixes crash in Parley when switching between list view and start exercise
       dialog. (Closes: #562955)
 
-  * FIXME: cantor links against libs in the kalgebra package.
-  * TODO: dependencies: libindi, R
+  TODO (lintian has a point):
+  * E: kgeography: package-section-games-but-contains-no-game
+  * E: khangman: package-section-games-but-contains-no-game
+  * E: blinken: package-section-games-but-contains-no-game
+  * E: kanagram: package-section-games-but-contains-no-game
+  * W: khangman: duplicate-font-file
+    usr/share/kde4/apps/khangman/fonts/Domestic_Manners.ttf also in ttf-dustin
+  * W: khangman: duplicate-font-file
+    usr/share/kde4/apps/khangman/fonts/Dustismo_Roman.ttf also in ttf-dustin
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
+  * Make cantor depend on kalbebra with strict (=) dependency.
+  * Rename libmarble4 to libmarblewidget4 because it broke API/ABI compatibility.
+  * Add symbol files for public library packages (libkdeedu4, libkiten4 and
+    libmarble4a).
+  * Split off marble plugins from libmarble4 to the marble plugins package.
+  * Add ${misc:Depends} to Depends field of all binary packages.
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Add lintian overrides.
+  * Add python to kig Suggests (for scripting support).
+  * Tweak marble description to satisfy lintian.
+  * Move debian/source.lintian-overrides debian/source/lintian-overrides.
+  * Really do not install extra license file
+    usr/share/kde4/apps/marble/data/LICENSE.txt.
+  * Generate strict interdependecies, bump pkg-kde-tools dependency to 0.6.4.
+  * Replace kdelibs5-dev with libqt4-dev in libmarble-dev Depends.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
-  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.
   * Remove patches 00_kfreebsd.diff and 01_gpsd_2.90_compat.diff
     as they have been merged upstream.
   * Add build dependency to libspectre-dev and libattica-dev.
