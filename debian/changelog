@@ -20,7 +20,7 @@ kdeedu (4:4.4.1~svn1095363-0r2) UNRELEASED; urgency=low
   * Fix Vcs-Browser URL.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
-  * Make cantor depend on kalbebra with strict (=) dependency.
+  * Make cantor depend on kalgebra with strict (=) dependency.
   * Rename libmarble4 to libmarblewidget4 because it broke API/ABI compatibility.
   * Add symbol files for public library packages (libkdeedu4, libkiten4 and
     libmarble4a).
