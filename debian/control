@@ -439,7 +439,7 @@ Description: development files for the Marble globe widget library
 
 Package: parley
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, libwww-perl,
+Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
  parley-data (>= ${source:Version}), kdeedu-kvtml-data (= ${source:Version})
 Replaces: parley-data (<< 4:4.1.86)
 Suggests: khelpcenter4
