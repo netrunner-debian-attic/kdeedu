@@ -21,7 +21,8 @@ kdeedu (4:4.4.1~svn1095363-0r2) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
   * Make cantor depend on kalgebra with strict (=) dependency.
-  * Rename libmarble4 to libmarblewidget4 because it broke API/ABI compatibility.
+  * Rename libmarble4 to libmarblewidget4 because it broke API/ABI
+    compatibility.
   * Add symbol files for public library packages (libkdeedu4, libkiten4 and
     libmarble4a).
   * Split off marble plugins from libmarble4 to the marble plugins package.
