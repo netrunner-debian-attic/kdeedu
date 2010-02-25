@@ -1,6 +1,6 @@
 kdeedu (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
     - fixes Marble widget not exiting properly. (Closes: #560893)
     - fixes crash in Parley when switching between list view and start exercise
       dialog. (Closes: #562955)
