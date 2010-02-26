@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1~ amd64
+# SymbolsHelper-Confirmed: 4:4.4.1 amd64
 libkdeeduui.so.4 libkdeedu4 #MINVER#
  _ZN12GlossaryItem11setPicturesERK7QString@Base 4:4.3.4
  _ZN12GlossaryItem6setRefERK11QStringList@Base 4:4.3.4
@@ -402,13 +402,13 @@ libscience.so.4 libkdeedu4 #MINVER#
  _ZN13IsotopeParserD0Ev@Base 4:4.3.4
  _ZN13IsotopeParserD1Ev@Base 4:4.3.4
  _ZN13IsotopeParserD2Ev@Base 4:4.3.4
- _ZN14MoleculeParser10expandTermERK7QString@Base 4:4.4.1~
+ _ZN14MoleculeParser10expandTermERK7QString@Base 4:4.4.1
  _ZN14MoleculeParser12getNextTokenEv@Base 4:4.3.4
- _ZN14MoleculeParser13expandFormulaERK7QString@Base 4:4.4.1~
+ _ZN14MoleculeParser13expandFormulaERK7QString@Base 4:4.4.1
  _ZN14MoleculeParser13lookupElementERK7QString@Base 4:4.3.4
  _ZN14MoleculeParser16parseSubmoleculeEPdP15ElementCountMap@Base 4:4.3.4
  _ZN14MoleculeParser6weightERK7QStringPdP15ElementCountMap@Base 4:4.3.4
- _ZN14MoleculeParser9aliasListEv@Base 4:4.4.1~
+ _ZN14MoleculeParser9aliasListEv@Base 4:4.4.1
  _ZN14MoleculeParser9parseTermEPdP15ElementCountMap@Base 4:4.3.4
  _ZN14MoleculeParserC1ERK5QListIP7ElementE@Base 4:4.3.4
  _ZN14MoleculeParserC1ERK7QString@Base 4:4.3.4
