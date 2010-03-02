@@ -442,6 +442,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
  parley-data (>= ${source:Version}), kdeedu-kvtml-data (= ${source:Version})
 Replaces: parley-data (<< 4:4.1.86)
+Recommends: krosspython
 Suggests: khelpcenter4
 Description: vocabulary trainer for KDE 4
  Parley is a utility to help train vocabulary when learning a foreign language.
