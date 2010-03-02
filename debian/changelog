@@ -51,8 +51,9 @@ kdeedu (4:4.4.1-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add krosspython as recommend for parley. Parley can work without it, but
     having it by default won't hurt. (Closes: #553709)
+  * Tweak descriptions a bit.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Mar 2010 14:43:59 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Mar 2010 15:04:01 +0100
 
 kdeedu (4:4.3.4-1) unstable; urgency=low
 

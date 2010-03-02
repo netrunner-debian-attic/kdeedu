@@ -32,7 +32,7 @@ Depends: ${misc:Depends}, blinken (>= ${source:Version}), indi (>= ${source:Vers
  marble (>= ${source:Version}), parley (>= ${source:Version}),
  step (>= ${source:Version}), cantor (>= ${source:Version}),
  rocs (>= ${source:Version})
-Description: educational applications from the official KDE 4 release
+Description: educational applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -41,14 +41,14 @@ Description: educational applications from the official KDE 4 release
  educational, graphics and software development.
  .
  This metapackage includes educational applications provided with the
- official release of KDE 4.
+ official release of KDE.
 
 Package: blinken
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sjfonts
 Section: games
 Suggests: khelpcenter4
-Description: KDE 4 version of the Simon electronic memory game
+Description: KDE version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
  challenges players to remember sequences of increasing length.  On
  the face of the device, there are 4 different color buttons, each
@@ -58,7 +58,7 @@ Description: KDE 4 version of the Simon electronic memory game
  correct order, they advance to the next stage, where an identical
  sequence with one extra step is presented.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: cantor
 Architecture: any
@@ -76,17 +76,17 @@ Description: interface for mathematical applications
   * R Project for Statistical Computing: http://www.r-project.org
   * KAlgebra: http://edu.kde.org/kalgebra/
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kalgebra
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: algebraic graphing calculator for KDE 4
+Description: algebraic graphing calculator for KDE
  KAlgebra is a algebraic graphing calculator with support for 3D graphing and
  MathML markup language.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kalzium
 Architecture: any
@@ -94,12 +94,12 @@ Section: science
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalzium-data (>= ${source:Version})
 Replaces: kalzium-data (<< 4:4.1.86)
 Suggests: khelpcenter4
-Description: periodic table and chemistry tools for KDE 4
- Kalzium is a full-featured chemistry application for KDE 4, including a
+Description: periodic table and chemistry tools for KDE
+ Kalzium is a full-featured chemistry application for KDE, including a
  Periodic Table of Elements, chemical reference, chemical equation solver, and
  3D molecule viewer.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kalzium-data
 Architecture: all
@@ -109,28 +109,28 @@ Description: data files for Kalzium
  This package contains architecture-independent data files for Kalzium, the
  KDE periodic table application.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kanagram
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdeedu-kvtml-data
 Section: games
 Suggests: khelpcenter4
-Description: jumble word puzzle for KDE 4
+Description: jumble word puzzle for KDE
  KAnagram is a game where a random word is shown with its letters scrambled.
  To win, the player must rearrange the letters into the correct order.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kbruch
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: fraction learning aid for KDE 4
+Description: fraction learning aid for KDE
  KBruch is an aid for learning how to calculate with fractions.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kgeography
 Architecture: any
@@ -138,12 +138,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kgeography-data (>= ${source:Versio
 Replaces: kgeography-data (<< 4:4.1.86)
 Section: games
 Suggests: khelpcenter4
-Description: geography learning aid for KDE 4
+Description: geography learning aid for KDE
  KGeography is an aid for learning about world geography.  You can use it to
  explore a map, show information about regions and features, and play quiz
  games to test your geography knowledge.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kgeography-data
 Architecture: all
@@ -153,14 +153,14 @@ Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: khangman
 Architecture: any
 Section: games
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-dustin, kdeedu-kvtml-data
 Suggests: khelpcenter4
-Description: Hangman word puzzle for KDE 4
+Description: Hangman word puzzle for KDE
  KHangMan is the well-known Hangman game, aimed towards children aged 6 and
  above.
  .
@@ -168,14 +168,14 @@ Description: Hangman word puzzle for KDE 4
  certain letters.  As the player guesses letters, the word is gradually
  revealed, but 10 wrong guesses will end the game.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kig
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4, python
-Description: interactive geometry tool for KDE 4
+Description: interactive geometry tool for KDE
  Kig is an application for interactive geometric construction, allowing
  students to draw and explore mathematical figures and concepts using the
  computer.
@@ -183,48 +183,48 @@ Description: interactive geometry tool for KDE 4
  Kig supports macros and is scriptable using Python.  It can import and export
  files in various formats, including SVG, Cabri, Dr. Geo, KGeo, KSeg, and XFig.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kiten
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sazanami-gothic | ttf-sazanami-mincho
 Suggests: khelpcenter4
-Description: Japanese reference and study aid for KDE 4
- Kiten is a collection of Japanese reference tools and study aids for KDE 4,
+Description: Japanese reference and study aid for KDE
+ Kiten is a collection of Japanese reference tools and study aids for KDE,
  including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: klettres
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, klettres-data (>= ${source:Version})
 Replaces: klettres-data (<< 4:4.1.86)
 Suggests: khelpcenter4
-Description: foreign alphabet tutor for KDE 4
+Description: foreign alphabet tutor for KDE
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
  .
  Seven languages are currently available: Czech, Danish, Dutch, English,
  French, Italian and Slovak.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: klettres-data
 Architecture: all
 Depends: ${misc:Depends}
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
- the foreign alphabet tutor for KDE 4.
+ the foreign alphabet tutor for KDE.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kmplot
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: mathematical function plotter for KDE 4
- KmPlot is a powerful mathematical plotter KDE 4, capable of plotting multiple
+Description: mathematical function plotter for KDE
+ KmPlot is a powerful mathematical plotter KDE, capable of plotting multiple
  functions simultaneously and combining them into new functions.
  .
  Cartesian, parametric, and differential functions are supported, as well as
@@ -236,17 +236,17 @@ Description: mathematical function plotter for KDE 4
  minima, changing function parameters dynamically, and plotting derivatives
  and integral functions.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 #Package: kpercentage
 #Architecture: any
 #Section: math
 #Depends: ${shlibs:Depends}, ${misc:Depends}
 #Suggests: khelpcenter4
-#Description: percentage calculation learning aid for KDE 4
+#Description: percentage calculation learning aid for KDE
 # KPercentage is an aid for learning how to calculate with percentages.
 # .
-# This package is part of the KDE 4 education module.
+# This package is part of the KDE education module.
 
 Package: kstars
 Architecture: any
@@ -254,14 +254,14 @@ Section: science
 Depends: ${shlibs:Depends}, ${misc:Depends}, kstars-data (>= ${source:Version}), indi (= ${binary:Version})
 Replaces: kstars-data (<< 4:4.1.86)
 Suggests: konqueror, khelpcenter4
-Description: desktop planetarium for KDE 4
- KStars is a desktop planetarium for KDE 4, depicting an accurate graphical
+Description: desktop planetarium for KDE
+ KStars is a desktop planetarium for KDE, depicting an accurate graphical
  simulation of the night sky, from any location on Earth, at any date and time.
  The display includes 130,000 stars, 13,000 deep-sky objects, all 8 planets,
  the Sun and Moon, and thousands of comets and asteroids.  It includes tools
  for astronomical calculations and can control telescopes and cameras.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kstars-data
 Architecture: all
@@ -272,13 +272,13 @@ Description: data files for KStars desktop planetarium
  the graphical desktop planetarium for KDE, including star catalogues and
  astronomical images.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: ktouch
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: touch typing tutor for KDE 4
+Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
  provides a sample text to type and indicates which fingers should be used for
  each key.
@@ -287,28 +287,29 @@ Description: touch typing tutor for KDE 4
  and keyboard layouts, and typing statistics are used to dynamically adjust the
  level of difficulty.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kturtle
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: Logo educational programming environment for KDE 4
- KTurtle is an educational programming environment which uses the Logo
- programming language to make programming as easy and accessible as possible.
+Description: Logo educational programming environment for KDE
+ KTurtle is an educational programming environment which uses the TurtleScript
+ programming language (inspired by Logo) to make programming as easy and
+ accessible as possible.
  .
- The user issues Logo language commands to control the "turtle", which draws on
- the canvas, making KTurtle suitable for teaching elementary mathematics,
- geometry and programming.
+ The user issues TurtleScript language commands to control the "turtle", which
+ draws on the canvas, making KTurtle suitable for teaching elementary
+ mathematics, geometry and programming.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kwordquiz
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdeedu-kvtml-data
 Suggests: khelpcenter4
-Description: flashcard learning program for KDE 4
+Description: flashcard learning program for KDE
  KWordQuiz is a general purpose flashcard program, typically used for
  vocabulary training.
  .
@@ -316,7 +317,7 @@ Description: flashcard learning program for KDE 4
  format used by KDE programs such as Parley, the WQL format used by
  WordQuiz for Windows, the xml.gz format used by Pauker, and CSV text.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libkdeedu4
 Architecture: any
@@ -324,21 +325,21 @@ Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libkdeedu1
 Replaces: libkdeedu1
-Description: libraries for KDE 4 educational applications
- This package contains shared libraries used by KDE 4 educational applications.
+Description: libraries for KDE educational applications
+ This package contains shared libraries used by KDE educational applications.
  It provides support for data plotting and vocabulary data in the kvtml format.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends}, libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.82)
-Description: development files for the KDE 4 educational libraries
+Description: development files for the KDE educational libraries
  This package contains development files for building software that uses the
- KDE 4 educational libraries.
+ KDE educational libraries.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libkiten4
 Architecture: any
@@ -353,7 +354,7 @@ Description: libraries for the Kiten Japanese reference and study aid
  such as dictionary and character lookup widgets, may be useful for other
  applications.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libkiten-dev
 Architecture: any
@@ -363,7 +364,7 @@ Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: indi
 Architecture: any
@@ -376,7 +377,7 @@ Description: Instrument Neutral Distributed Interface for astronomical devices
  instrumentation.  It supports a wide variety of astronomical instruments
  including telescopes, CCDs, focusers, filters, and video capture devices.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: marble
 Architecture: any
@@ -384,12 +385,12 @@ Section: misc
 Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version})
 Replaces: marble-data (<< 4:4.1.86)
 Description: globe and map widget
- Marble is a generic geographical map widget and framework for KDE 4
+ Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
  require hardware acceleration.  A minimal set of geographical data is
  included, so it can be used without an internet connection.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: marble-data
 Architecture: all
@@ -399,7 +400,7 @@ Description: data files for Marble
  This package contains the architecture-independent data files for the Marble
  desktop globe.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: marble-plugins
 Architecture: any
@@ -411,7 +412,7 @@ Description: plugins for Marble
  This package contains various plugins for the Marble desktop globe. The Marble
  globe widget library may not be of much use if this package is not installed.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libmarblewidget4
 Architecture: any
@@ -424,7 +425,7 @@ Provides: libmarblewidget4-api
 Description: Marble globe widget library
  This package contains shared libraries for the Marble globe widget.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: libmarble-dev
 Architecture: any
@@ -435,7 +436,7 @@ Description: development files for the Marble globe widget library
  This package contains development files for building software that uses the
  Marble globe widget library.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: parley
 Architecture: any
@@ -444,11 +445,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
 Replaces: parley-data (<< 4:4.1.86)
 Recommends: krosspython
 Suggests: khelpcenter4
-Description: vocabulary trainer for KDE 4
+Description: vocabulary trainer for KDE
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: parley-data
 Architecture: all
@@ -457,7 +458,7 @@ Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: rocs
 Architecture: any
@@ -471,13 +472,13 @@ Description: graph theory IDE
  graph and every change in the graph with the script is reflected on the drawn
  one.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: step
 Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: interactive physical simulator for KDE 4
+Description: interactive physical simulator for KDE
  With Step you can not only learn but feel how physics works. You place some
  bodies on the scene, add some forces such as gravity or springs, then click
  "Simulate" and Step shows you how your scene will evolve according to the
@@ -485,7 +486,7 @@ Description: interactive physical simulator for KDE 4
  experiment (even during simulation) and see how this will change evolution 
  of the experiment. 
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kdeedu-kvtml-data
 Architecture: all
@@ -494,9 +495,9 @@ Depends: ${misc:Depends}
 Replaces: kanagram (<< 4:4.2.0)
 Description: kvtml files for kdeedu programs
  This package contains architecture-independent data files for several kdeedu
- applications, like kanagram, khangman and kwordquiz.
+ applications, like KAnagram, KHangman and KWordQuiz.
  .
- This package is part of the KDE 4 education module.
+ This package is part of the KDE education module.
 
 Package: kdeedu-dbg
 Architecture: any
@@ -504,7 +505,7 @@ Section: debug
 Priority: extra
 Depends: ${misc:Depends}, kdebase-runtime-dbg
 Suggests: kdeedu (= ${source:Version})
-Description: debugging symbols for the KDE 4 education module
+Description: debugging symbols for the KDE education module
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 education module.
+ binaries included in the KDE education module.
 
