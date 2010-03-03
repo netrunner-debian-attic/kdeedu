@@ -52,8 +52,10 @@ kdeedu (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add krosspython as recommend for parley. Parley can work without it, but
     having it by default won't hurt. (Closes: #553709)
   * Tweak descriptions a bit.
+  * Add r-base-core to the Build-Depends and create a own package
+    (cantor-backend-r) for Cantor's R backend.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Mar 2010 15:04:01 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Mar 2010 12:01:22 +0100
 
 kdeedu (4:4.3.4-1) unstable; urgency=low
 

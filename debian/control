@@ -13,7 +13,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.1),
  libreadline-dev, libusb-dev, libxslt-dev, ocaml, zlib1g-dev,
  libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev (>= 2.90),
  xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev,
- libspectre-dev, libattica-dev
+ libspectre-dev, libattica-dev, r-base-core
 Standards-Version: 3.8.4
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeedu/#_trunk_packages_kdeedu_
@@ -64,6 +64,7 @@ Package: cantor
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra (= ${binary:Version})
+Suggests: cantor-backend-r
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
@@ -73,8 +74,22 @@ Description: interface for mathematical applications
  Cantor supports the following mathematical applications as backends:
   * Sage Mathematics Software: http://www.sagemath.org
   * Maxima Computer Algebra System: http://maxima.sourceforge.net
-  * R Project for Statistical Computing: http://www.r-project.org
   * KAlgebra: http://edu.kde.org/kalgebra/
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-r
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: R backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the R Project for Statistical
+ Computing (http://www.r-project.org) in Cantor.
  .
  This package is part of the KDE education module.
 
