@@ -60,7 +60,11 @@ kdeedu (4:4.4.1-0r2) UNRELEASED; urgency=low
     external libindi. (Closes: #530248)
   * Demote the indi requirement of kstars to a suggest.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Mar 2010 15:55:59 +0100
+  [ Ana Beatriz Guerrero Lopez ]
+  * Add a Depends onr-base-core to cantor-backend-r.
+  * Add a Suggests on R html manuals, r-base-html, to cantor-backend-r.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 03 Mar 2010 18:46:54 +0100
 
 kdeedu (4:4.3.4-1) unstable; urgency=low
 
