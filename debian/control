@@ -46,7 +46,7 @@ Description: educational applications from the official KDE release
 Package: blinken
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sjfonts
-Section: games
+Section: misc
 Suggests: khelpcenter4
 Description: KDE version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
@@ -178,7 +178,7 @@ Description: data files for Kalzium
 Package: kanagram
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdeedu-kvtml-data
-Section: games
+Section: misc
 Suggests: khelpcenter4
 Description: jumble word puzzle for KDE
  KAnagram is a game where a random word is shown with its letters scrambled.
@@ -200,7 +200,7 @@ Package: kgeography
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kgeography-data (>= ${source:Version})
 Replaces: kgeography-data (<< 4:4.1.86)
-Section: games
+Section: misc
 Suggests: khelpcenter4
 Description: geography learning aid for KDE
  KGeography is an aid for learning about world geography.  You can use it to
@@ -211,7 +211,7 @@ Description: geography learning aid for KDE
 
 Package: kgeography-data
 Architecture: all
-Section: games
+Section:misc
 Depends: ${misc:Depends}
 Description: data files for KGeography
  This package contains architecture-independent data files for the
@@ -221,7 +221,7 @@ Description: data files for KGeography
 
 Package: khangman
 Architecture: any
-Section: games
+Section: misc
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-dustin, kdeedu-kvtml-data
 Suggests: khelpcenter4
 Description: Hangman word puzzle for KDE

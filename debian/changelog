@@ -6,10 +6,6 @@ kdeedu (4:4.4.1-0r2) UNRELEASED; urgency=low
       dialog. (Closes: #562955)
 
   TODO (lintian has a point):
-  * E: kgeography: package-section-games-but-contains-no-game
-  * E: khangman: package-section-games-but-contains-no-game
-  * E: blinken: package-section-games-but-contains-no-game
-  * E: kanagram: package-section-games-but-contains-no-game
   * W: khangman: duplicate-font-file
     usr/share/kde4/apps/khangman/fonts/Domestic_Manners.ttf also in ttf-dustin
   * W: khangman: duplicate-font-file
@@ -63,6 +59,7 @@ kdeedu (4:4.4.1-0r2) UNRELEASED; urgency=low
   [ Ana Beatriz Guerrero Lopez ]
   * Add a Depends onr-base-core to cantor-backend-r.
   * Add a Suggests on R html manuals, r-base-html, to cantor-backend-r.
+  * Switch kgeography, khangman, blinken and kanagram to Section: misc.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 03 Mar 2010 18:46:54 +0100
 
