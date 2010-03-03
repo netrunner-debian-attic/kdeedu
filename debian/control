@@ -21,7 +21,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeedu
 
 Package: kdeedu
 Architecture: all
-Depends: ${misc:Depends}, blinken (>= ${source:Version}), indi (>= ${source:Version}),
+Depends: ${misc:Depends}, blinken (>= ${source:Version}),
  kalgebra (>= ${source:Version}), kalzium (>= ${source:Version}),
  kanagram (>= ${source:Version}), kbruch (>= ${source:Version}),
  kgeography (>= ${source:Version}), khangman (>= ${source:Version}),
@@ -314,9 +314,9 @@ Description: mathematical function plotter for KDE
 Package: kstars
 Architecture: any
 Section: science
-Depends: ${shlibs:Depends}, ${misc:Depends}, kstars-data (>= ${source:Version}), indi (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kstars-data (>= ${source:Version})
 Replaces: kstars-data (<< 4:4.1.86)
-Suggests: konqueror, khelpcenter4
+Suggests: konqueror, khelpcenter4, indi
 Description: desktop planetarium for KDE
  KStars is a desktop planetarium for KDE, depicting an accurate graphical
  simulation of the night sky, from any location on Earth, at any date and time.
@@ -426,19 +426,6 @@ Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kdelibs5-dev (>= 4:4.
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
- .
- This package is part of the KDE education module.
-
-Package: indi
-Architecture: any
-Section: science
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Instrument Neutral Distributed Interface for astronomical devices
- Instrument Neutral Distributed Interface is a Distributed Control System
- protocol to enable control, data acquisition and exchange among hardware
- devices and software front ends, with particular focus on astronomical
- instrumentation.  It supports a wide variety of astronomical instruments
- including telescopes, CCDs, focusers, filters, and video capture devices.
  .
  This package is part of the KDE education module.
 
