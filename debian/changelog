@@ -1,4 +1,4 @@
-kdeedu (4:4.4.1-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.4.1-0r2) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes Marble widget not exiting properly. (Closes: #560893)
@@ -57,7 +57,7 @@ kdeedu (4:4.4.1-0r1) UNRELEASED; urgency=low
     packages, setting the appropriate dependencies for them.
   * Make cantor recommend the kalgebra backend and suggest all the other ones.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Mar 2010 12:45:04 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Mar 2010 13:00:29 +0100
 
 kdeedu (4:4.3.4-1) unstable; urgency=low
 
