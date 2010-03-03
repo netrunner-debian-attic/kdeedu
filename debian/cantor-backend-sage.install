@@ -1,0 +1,5 @@
+usr/lib/kde4/cantor_sagebackend.so
+usr/share/icons/hicolor/48x48/apps/sagebackend.png
+usr/share/kde4/config.kcfg/sagebackend.kcfg
+usr/share/kde4/config/cantor_sage.knsrc
+usr/share/kde4/services/cantor/sagebackend.desktop

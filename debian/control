@@ -63,18 +63,51 @@ Description: KDE version of the Simon electronic memory game
 Package: cantor
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra (= ${binary:Version})
-Suggests: cantor-backend-r
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: cantor-backend-kalgebra
+Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
  provides dialogs to assist with common tasks and allows you to share your
  worksheets with others.
  .
- Cantor supports the following mathematical applications as backends:
-  * Sage Mathematics Software: http://www.sagemath.org
-  * Maxima Computer Algebra System: http://maxima.sourceforge.net
-  * KAlgebra: http://edu.kde.org/kalgebra/
+ Cantor supports various mathematical applications as backends (provided in
+ external packages):
+  * KAlgebra (cantor-backend-kalgebra)
+  * Maxima Computer Algebra System (cantor-backend-maxima)
+  * R Project for Statistical Computing (cantor-backend-r)
+  * Sage Mathematics Software (cantor-backend-sage)
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-kalgebra
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra (= ${binary:Version})
+Description: KAlgebra backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using KAlgebra
+ (http://edu.kde.org/kalgebra) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-maxima
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}, maxima
+Description: Maxima backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the Maxima Computer Algebra System
+ (http://maxima.sourceforge.net) in Cantor.
  .
  This package is part of the KDE education module.
 
@@ -90,6 +123,21 @@ Description: R backend for Cantor
  .
  This package provides the backend for using the R Project for Statistical
  Computing (http://www.r-project.org) in Cantor.
+ .
+ This package is part of the KDE education module.
+
+Package: cantor-backend-sage
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}, sagemath
+Description: Sage backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the Sage Mathematics Software
+ (http://www.sagemath.org) in Cantor.
  .
  This package is part of the KDE education module.
 
