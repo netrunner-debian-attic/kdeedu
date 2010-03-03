@@ -1,6 +1,6 @@
 usr/bin/cantor_rserver
 usr/lib/kde4/cantor_rbackend.so
 usr/share/icons/hicolor/48x48/apps/rbackend.png
-usr/share/kde4/config/cantor_r.knsrc
 usr/share/kde4/config.kcfg/rserver.kcfg
+usr/share/kde4/config/cantor_r.knsrc
 usr/share/kde4/services/cantor/rbackend.desktop

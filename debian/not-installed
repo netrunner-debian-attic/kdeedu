@@ -19,3 +19,7 @@
 
 # Shipped in oxygen-icon-theme
 ./usr/share/icons/oxygen/22x22/actions/pointer.png
+
+# Shipped in ttf-dustin
+./usr/share/kde4/apps/khangman/fonts/Domestic_Manners.ttf
+./usr/share/kde4/apps/khangman/fonts/Dustismo_Roman.ttf
