@@ -130,7 +130,8 @@ Description: R backend for Cantor
 Package: cantor-backend-sage
 Architecture: any
 Section: math
-Depends: ${shlibs:Depends}, ${misc:Depends}, sagemath
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: sagemath
 Description: Sage backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
