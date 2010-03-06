@@ -16,6 +16,7 @@ kdeedu (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add symbol files for public library packages (libkdeedu4, libkiten4 and
     libmarble4a).
   * Split off marble plugins from libmarble4 to the marble plugins package.
+  * Add marble-plugins to marble Depends.
   * Add ${misc:Depends} to Depends field of all binary packages.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Add lintian overrides.

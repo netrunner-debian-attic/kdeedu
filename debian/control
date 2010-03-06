@@ -434,7 +434,8 @@ Description: development files for the Kiten Japanese reference libraries
 Package: marble
 Architecture: any
 Section: misc
-Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version}),
+ marble-plugins (= ${binary:Version})
 Replaces: marble-data (<< 4:4.1.86)
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
