@@ -1,4 +1,4 @@
-kdeedu (4:4.4.1-0rc1) UNRELEASED; urgency=low
+kdeedu (4:4.4.1-0rc2) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes Marble widget not exiting properly. (Closes: #560893)
