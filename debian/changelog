@@ -34,7 +34,6 @@ kdeedu (4:4.4.2-0rc1) UNRELEASED; urgency=low
   * Do not ship Domestic_Manners.ttf and Dustismo_Roman.ttf fonts in khangman
     package since they are provided by the ttf-dustin package that khangman
     depends on.
-  * Add 00_improve_detection_of_gpsd_apis.diff patch to improve gpsd API detection.
   * Downgrade sagemath to cantor-backend-sage Recommends because it is a very
     problematic package and may never enter Squeeze.
 
