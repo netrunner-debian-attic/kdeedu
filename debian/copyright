@@ -7,52 +7,82 @@ Upstream Authors:
 
   Blinken: Albert Astals Cid <tsdgeos@terra.es>,
       Danny Allen <danny@dannyallen.co.uk>
+  Cantor: Alexander Rieder <alexanderrieder@gmail.com>
   Kalgebra: Aleix Pol Gonzalez <aleixpol@gmail.com>
-  Kalzium: Carsten Niehaus <cniehaus@kde.org>,
-      Pino Toscano, Benoit Jacob, Thomas Nagy,
-      Jörg Buchwald, Marco Martin, Anne-Marie Mahfouf,
-      Daniel Haas, Brian Beck, Lee Olson, Inge Wallin
+  Kalzium: Carsten Niehaus <cniehaus@kde.org>
   KAnagram: Joshua Keel <joshuakeel@gmail.com>,
-      Danny Allen <danny@dannyallen.co.uk>, Jeremy Whiting <jeremy@scitools.com>
+      Danny Allen <danny@dannyallen.co.uk>,
+      Jeremy Whiting <jeremy@scitools.com>
   KBruch: Sebastian Stein <seb.kde@hpfsc.de>,
-      Eva Brucherseifer <eva@kde.org> and others
+      Paulo Cattai <paulo.cattai@ltia.fc.unesp.br>,
+      Danilo Balzaque <danilo.balzaque@ltia.fc.unesp.br>,
+      Roberto Cunha <roberto.cunha@ltia.fc.unesp.br>,
+      Tadeu Araujo <tadeu.araujo@ltia.fc.unesp.br>,
+      Tiago Porangaba <tiago.porangaba@ltia.fc.unesp.br>
   KGeography: Albert Astals Cid <tsdgeos@terra.es>
-  KHangMan: Primoz Anzur <zerokode@gmx.net>, Anne-Marie Mahfouf <annma@kde.org>
-  Kig: Kig developers <kde-edu-devel@kde.org>
+  KHangMan: Primoz Anzur <zerokode@gmx.net>,
+      Anne-Marie Mahfouf <annma@kde.org>
+  Kig: Dominique Devriese <devriese@kde.org>,
+      Maurizio Paolini <paolini@dmf.unicatt.it>,
+      Pino Toscano <toscano.pino@tiscali.it>,
+      Franco Pasquarelli <pasqui@dmf.unicatt.it>,
+      Francesca Gatti <frency.gatti@gmail.com>,
+      Petr Gajdos <pgajdos@suse.cz>
   Kiten: Jason Katz-Brown <jason@katzbrown.com>,
-      Jim Breen <jwb@csse.monash.edu.au>,
       Neil Stevens <neil@qualityassistant.com>,
-      Joseph Kerian <jkerian@gmail.com>,
-      Eric Kjeldergaard <kjelderg@gmail.com>
+      Joseph Kerian <jkerian@gmail.com>
   KLettres: Anne-Marie Mahfouf <annma@kde.org> and many others
   KmPlot: Klaus-Dieter Möller <kdmoeller@foni.net>,
       Matthias Messmer <bmlmessmer@web.de>,
       Fredrik Edemar <f_edemar@linux.se>,
-      David Saxton <david@bluehaze.org>,
-  KPercentage: Matthias Messmer <bmlmessmer@web.de>,
-      Carsten Niehaus <cniehaus@gmx.de>,
-      Robert Gogolok <mail@robert-gogolok.de>
+      David Saxton <david@bluehaze.org>
   KStars: Jason Harris <jharris@30doradus.org>
-      Jasem Mutlaq <mutlaqja@ikarustech.com>, James Bowlin <bowlin@mindspring.com>,
-      Pablo de Vicente <pvicentea@wanadoo.es>, Thomas Kabelmann <tk78@gmx.de>,
-      Heiko Evermann <heiko.evermann@gmx.de>, Mark Hollomon <mhh@mindspring.com>,
-      Carsten Niehaus <cniehaus@gmx.de>, Vincent Jagot <vincent.jagot@free.fr>,
-      Martin Piskernig <martin.piskernig@stuwo.at>
+      Jasem Mutlaq <mutlaqja@ikarustech.com>,
+      James Bowlin <bowlin@mindspring.com>,
+      Pablo de Vicente <pvicentea@wanadoo.es>,
+      Thomas Kabelmann <tk78@gmx.de>,
+      Heiko Evermann <heiko.evermann@gmx.de>,
+      Carsten Niehaus <cniehaus@gmx.de>,
+      Mark Hollomon <mhh@mindspring.com>,
+      Alexey Khudyakov <alexey.skladnoy@gmail.com>,
+      Médéric Boquien <mboquien@free.fr>,
+      Akarsh Simha <akarsh.simha@kdemail.net>,
+      Jérôme Sonrier <jsid@emor3j.fr.eu.org>,
+      Prakash Mohan <prakash.mohan@kdemail.net>
   KTouch: Håvard Frøiland <haavard@solveien.net>,
       Andreas Nicolai <Andreas.Nicolai@gmx.net>
   KTurtle: Cies Breijs <cies # kde.nl>,
-      Niels Slot <nielsslot # gmail.com>
+      Niels Slot <nielsslot # gmail.com>,
+      Mauricio Piacentini <piacentini@kde.org>
   KWordQuiz: Peter Hedlund <peter@peterandlinda.com>
-  libkdeedu: Scott Wheeler <wheeler@kde.org>
   marble: Torsten Rahn <rahn@kde.org>,
+      Patrick Spendrin <pspendrin@gmail.com>,
+      Jens-Michael Hoffmann <jmho@c-xx.com>,
+      Henry de Valence <hdevalence@gmail.com>,
+      Bastian Holst <bastianholst@gmx.de>,
+      Pino Toscano <pino@kde.org>,
+      Harshit Jain <sonu.itbhu@googlemail.com>,
+      Simon Edwards <simon@simonzone.com>,
+      Dennis Nienhüser <earthwings@gentoo.org>,
+      Magnus Valle,
+      Médéric Boquien <mboquien@free.fr>,
+      Eckhart Wörner <kde@ewsoftware.de>,
+      Shashank Singh <shashank.personal@gmail.com>
+      Carlos Licea <carlos.licea@kdemail.net>,
+      Andrew Manson <g.real.ate@gmail.com>,
+      Murad Tagirov <tmurad@gmail.com>,
       Inge Wallin <inge@lysator.liu.se>
-  parley: Ewald Arnold <ewald@ewald-arnold.de>,
+      and many others
+  parley: Frederik Gladhorn <frederik.gladhorn@kdemail.net>,
+      David Capel <wot.narg@gmail.com>,
+      Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
       Peter Hedlund <peter@peterandlinda.com>,
-      Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+      Ewald Arnold <ewald@ewald-arnold.de>
+
 
 Copyright:
 Unless something else is mentioned, copyright is
-(C) 1996-2009, The K Desktop Environment project http://www.kde.org
+© 1996-2010, The K Desktop Environment project http://www.kde.org
 
 
 License:
@@ -77,13 +107,12 @@ the GNU General Public License:
   Debian systems in /usr/share/common-licenses/GPL-2.
 
 
-
 The documentation docbook files in this package, placed under docs/, are under 
 the GNU Free Documentation License:
 
     | Permission is granted to copy, distribute and/or modify this
     | document under the terms of the GNU Free Documentation License,
-    | Version 1.1 or any later version published by the Free Software
+    | Version 1.2 or any later version published by the Free Software
     | Foundation; with no Invariant Sections, with no Front-Cover Texts,
     | and with no Back-Cover Texts.
 
@@ -96,28 +125,44 @@ otherwise below.
 
 Files under blinken/
 
- Copyright (C) 2005-2007 by Albert Astals Cid <aacid@kde.org>
+ Copyright © 2005-2007 Albert Astals Cid <aacid@kde.org>
+ All files are under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+
+Files under cantor/
+
+ Copyright © 2009 Alexander Rieder <alexanderrieder@gmail.com>
+ Copyright © 2009 by Aleix Pol <aleixpol@kde.org>
+ Copyright © 2006 David Saxton <david@bluehaze.org>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under cmake/
 
- cmake/modules/FindBoostPython.cmake ~ BSD ~ Copyright (c) 2006, Pino Toscano, <toscano.pino@tiscali.it>
- cmake/modules/FindCFitsio.cmake ~ BSD ~ Copyright (c) 2006, Jasem Mutlaq <mutlaqja@ikarustech.com>
- cmake/modules/FindGMM.cmake ~ BSD ~ Copyright (c) 2008 Allen Winter <winter@kde.org>
- cmake/modules/FindGSL.cmake ~ BSD ~ Copyright (c) 2008 Allen Winter <winter@kde.org>
- cmake/modules/FindINDI.cmake ~ BSD ~ Copyright (c) 2006 Jasem Mutlaq <mutlaqja@ikarustech.com>
- cmake/modules/FindKDEEDU.cmake ~ any ~ Copyright (c) Patrick Spenderin <ps_ml@gmx.de>
- cmake/modules/FindLibfacile.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
-                                             Copyright (c) 2006, Montel Laurent, <montel@kde.org>
- cmake/modules/FindMarbleWidget.cmake ~ any ~ Copyright (c) Patrick Spenderin <ps_ml@gmx.de>
- cmake/modules/FindOCaml.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
-                                         Copyright (c) 2006, Montel Laurent, <montel@kde.org>
- cmake/modules/FindOpenBabel2.cmake ~ BSD ~ Copyright (c) 2006, Carsten Niehaus, <cniehaus@gmx.de>
- 					 Copyright (c) Marcus D. Hanwell <marcus@cryos.org>
- cmake/modules/FindQalculate.cmake ~ BSD ~ Copyright (c) 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
+ cmake/modules/FindBoostPython.cmake ~ BSD ~ Copyright © 2006 Pino Toscano <toscano.pino@tiscali.it>
+ cmake/modules/FindCFitsio.cmake ~ BSD ~ Copyright © 2006 Jasem Mutlaq <mutlaqja@ikarustech.com>
+ cmake/modules/FindEigen2.cmake ~ BSD ~ Copyright © 2006, 2007 Montel Laurent <montel@kde.org>
+                                        Copyright © 2008, 2009 Gael Guennebaud <g.gael@free.fr>
+ cmake/modules/FindGMM.cmake ~ BSD ~ Copyright © 2008 Allen Winter <winter@kde.org>
+ cmake/modules/FindGSL.cmake ~ BSD ~ Copyright © 2008 Allen Winter <winter@kde.org>
+ cmake/modules/FindINDI.cmake ~ BSD ~ Copyright © 2006 Jasem Mutlaq <mutlaqja@ikarustech.com>
+ cmake/modules/FindKDEEdu.cmake ~ any ~ Copyright © 2008 Patrick Spenderin <ps_ml@gmx.de>
+ cmake/modules/FindLibfacile.cmake ~ BSD ~ Copyright © 2006 Carsten Niehaus <cniehaus@gmx.de>
+                                           Copyright © 2006 Montel Laurent <montel@kde.org>
+ cmake/modules/FindLibSpectre.cmake ~ BSD ~ Copyright © 2006-2007 Pino Toscano <pino@kde.org>
+                                            Copyright © 2008 Albert Astals Cid <aacid@kde.org>
+ cmake/modules/FindMarbleWidget.cmake ~ any ~ Copyright © 2008 Patrick Spenderin <ps_ml@gmx.de>
+ cmake/modules/FindOCaml.cmake ~ BSD ~ Copyright © 2006 Carsten Niehaus <cniehaus@gmx.de>
+                                       Copyright © 2006 Montel Laurent <montel@kde.org>
+ cmake/modules/FindOpenBabel2.cmake ~ BSD ~ Copyright © 2006, 2009 Pino Toscano <pino@kde.org>
+                                            Copyright © 2006, 2007 Carsten Niehaus <cniehaus@gmx.de>
+                                            Copyright © 2008 Marcus D. Hanwell <marcus@cryos.org>
+ cmake/modules/FindQalculate.cmake ~ BSD ~ Copyright © 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
+ cmake/modules/FindR.cmake ~ unspec ~ unspec
  cmake/modules/FindReadline.cmake ~ unspec ~ unspec
+ cmake/modules/FindR.cmake ~ BSD ~ Copyright © 2008 Jerome SONRIER <jsid@emor3j.fr.eu.org>
 
 On Debian systems, you can find the complete text of the BSD license at:
 /usr/share/common-licenses/BSD
@@ -125,218 +170,408 @@ On Debian systems, you can find the complete text of the BSD license at:
 
 Files under kalgebra/
 
- Copyright (C) 2007-2008 by Aleix Pol <aleixpol@gmail.com>
- All files are under GNU General Public License as published by the Free Software 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2007-2008 Aleix Pol <aleixpol@gmail.com>
+ Files are licensed under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+
+ analitza/analitzaexport.h ~ LGPLv2 ~ Copyright © 2006 Matt Rogers <mattr@kde.org>
+                                      Copyright © 2004 Jaroslaw Staniek <js@iidea.pl>
+
+ src/qtmmlwidget/qtmmlwidget.*
+ |
+ | This file is part of a Qt Solutions component.
+ | 
+ | Copyright © 2009 Nokia Corporation and/or its subsidiary(-ies).
+ | 
+ | Contact:  Qt Software Information (qt-info@nokia.com)
+ | 
+ | Commercial Usage  
+ | Licensees holding valid Qt Commercial licenses may use this file in
+ | accordance with the Qt Solutions Commercial License Agreement provided
+ | with the Software or, alternatively, in accordance with the terms
+ | contained in a written agreement between you and Nokia.
+ | 
+ | GNU Lesser General Public License Usage
+ | Alternatively, this file may be used under the terms of the GNU Lesser
+ | General Public License version 2.1 as published by the Free Software
+ | Foundation and appearing in the file LICENSE.LGPL included in the
+ | packaging of this file.  Please review the following information to
+ | ensure the GNU Lesser General Public License version 2.1 requirements
+ | will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ | 
+ | In addition, as a special exception, Nokia gives you certain
+ | additional rights. These rights are described in the Nokia Qt LGPL
+ | Exception version 1.0, included in the file LGPL_EXCEPTION.txt in this
+ | package.
+ | 
+ | GNU General Public License Usage 
+ | Alternatively, this file may be used under the terms of the GNU
+ | General Public License version 3.0 as published by the Free Software
+ | Foundation and appearing in the file LICENSE.GPL included in the
+ | packaging of this file.  Please review the following information to
+ | ensure the GNU General Public License version 3.0 requirements will be
+ | met: http://www.gnu.org/copyleft/gpl.html.
+ | 
+ | Please note Third Party Software included with Qt Solutions may impose
+ | additional restrictions and it is the user's responsibility to ensure
+ | that they have met the licensing requirements of the GPL, LGPL, or Qt
+ | Solutions Commercial license and the relevant license of the Third
+ | Party Software they are using.
+ | 
+ | If you are unsure which license is appropriate for your use, please
+ | contact the sales department at qt-sales@nokia.com.
+
 
 Files under kalzium/
 
- Copyright (C) 2003-2008 Carsten Niehaus <cniehaus@kde.org>
- Copyright (C) 2007-2008 Marcus D. Hanwell <marcus@cryos.org>
- Copyright (C) 2007 David Faure <faure@kde.org>
- Copyright (C) 2007 Donald Ephraim Curtis
- Copyright (C) 2007-2008 Tim Vandermeersch
- Copyright (C) 1991-2007 Heinz van Saanen
- Copyright (C) 2006-2007 Benoit Jacob
- Copyright (C) 2006-2008 Geoffrey R. Hutchison
- Copyright (C) 2007 Shahzad Ali
- Copyright (C) 2007 Ross Braithwaite
- Copyright (C) 2007 James Bunt
- Copyright (C) 2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
- Copyright (C) 2004 Thomas Nagy 
- Copyright (C) 2005-2006 Pino Toscano <toscano.pino@tiscali.it>
- Copyright (C) 2005 Inge Wallin <inge@lysator.liu.se>
- Copyright (C) 2007 Ian Monroe <ian@monroe.nu>
- 
- All files are under GNU General Public License as published by the Free Software 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2003-2009 Carsten Niehaus <cniehaus@kde.org>
+ Copyright © 2007-2009 Marcus D. Hanwell <marcus@cryos.org>
+ Copyright © 2007 David Faure <faure@kde.org>
+ Copyright © 2007-2009 Donald Ephraim Curtis
+ Copyright © 2007-2009 Tim Vandermeersch
+ Copyright © 1991-2007 Heinz van Saanen
+ Copyright © 2006-2007 Benoit Jacob
+ Copyright © 2006-2009 Geoffrey R. Hutchison
+ Copyright © 2007 Shahzad Ali
+ Copyright © 2007 Ross Braithwaite
+ Copyright © 2007 James Bunt
+ Copyright © 2007-2009 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright © 2004-2006 Thomas Nagy 
+ Copyright © 2004-2008 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright © 2005-2008 Inge Wallin <inge@lysator.liu.se>
+ Copyright © 2007 Ian Monroe <ian@monroe.nu>
+ Copyright © 2009 Kashyap R Puranik <kashthealien@gmail.com>
+ Copyright © 2006-2007 Jerome Pansanel <j.pansanel@pansanel.net> 
+ Copyright © 2003 Jason Harris <kstars@30doradus.org>
+ Copyright © 2008 David Lonie <loniedavid@gmail.com>
+ Copyright © 2006 Georges Khaznadar
+ Copyright © 2007 Johannes Simon
+ Files are licensed under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version. 
- Some files are under other licenses, but renders everything effectively GPLv2 or later.
+ 
+ libavogadro-kalzium/src/animation.cpp ~ GPL (v2) 
+ libavogadro-kalzium/src/meshgenerator.cpp ~ LGPL (v2.1 or later) 
+ libavogadro-kalzium/src/animation.h ~ GPL (v2)
+ libavogadro-kalzium/src/periodictableview.cpp ~ LGPL (v2.1 or later) 
+ libavogadro-kalzium/src/zmatrix.h ~ LGPL (v2.1 or later) 
+ libavogadro-kalzium/src/periodictableview.h ~ LGPL (v2.1 or later) 
+ libavogadro-kalzium/src/engines/iso.h ~ GPL (v2) 
+ libavogadro-kalzium/src/engines/iso.cpp ~ GPL (v2) 
+ libavogadro-kalzium/src/meshgenerator.h ~ LGPL (v2.1 or later) 
+ libavogadro-kalzium/src/tools/manipulatetool.cpp ~ GPL (v2)
+ libavogadro-kalzium/src/tools/autoopttool.cpp ~ GPL (v2)
+ libavogadro-kalzium/src/tools/manipulatetool.h ~ GPL (v2)
+ libavogadro-kalzium/src/tools/autoopttool.h ~ GPL (v2)
+ libavogadro-kalzium/src/zmatrix.cpp ~ LGPL (v2.1 or later) 
+ 
 
 Files under kanagram/
 
- Copyright (C) 2005 by Joshua Keel <joshuakeel@gmail.com>             
-           (C) 2007 by Jeremy Whiting <jeremy@scitools.com> 
+ Copyright © 2005 Joshua Keel <joshuakeel@gmail.com>             
+ Copyright © 2007 Jeremy Whiting <jeremy@scitools.com> 
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
+
 Files under kbruch/
 
- Copyright (c) 2001-2007 by Sebastian Stein <seb.kde@hpfsc.de>
- Copyright (c) 2008 Danilo Balzaque <danilo.balzaque@ltia.fc.unesp.br>
- Copyright (c) 2008 Tadeu Araujo <tadeu.araujo@ltia.fc.unesp.br>
- Copyright (C) 2008 Tiago Porangaba <tiago.porangaba.ltia.fc.unesp.br>
+ Copyright © 2001-2004 Sebastian Stein <seb.kde@hpfsc.de>
+ Copyright © 2001-2004 Eva Brucherseifer
+ Copyright © 2008 Danilo Balzaque <danilo.balzaque@ltia.fc.unesp.br>
+ Copyright © 2008 Tadeu Araujo <tadeu.araujo@ltia.fc.unesp.br>
+ Copyright © 2008 Tiago Porangaba <tiago.porangaba.ltia.fc.unesp.br>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under kgeography/
 
- Copyright (C) 2004-2007 by Albert Astals Cid <aacid@kde.org>
+ Copyright © 2004-2008 Albert Astals Cid <aacid@kde.org>
+ Copyright © 2006 Isaac Clerencia <isaac@warp.es>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under khangman/
 
- Copyright (C) 2001-2008  Anne-Marie Mahfouf <annma@kde.org>
+ Copyright © 2001-2010 Anne-Marie Mahfouf <annma@kde.org>
+ Copyright © 2005 Michael Goettsche <michael.goettsche@kdemail.net>
+ Copyright © 2007 Pino Toscano <pino@kde.org>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under kig/
 
- Copyright (C) 2002-2007 The Kig Developers <kde-edu-devel@kde.org>
- Copyright (c) 2002-2004 Dominique Devriese <devriese@kde.org>
- Copyright (c) 2002-2005 Maurizio Paolini <paolini@dmf.unicatt.it>
- Copyright (c) 2004-2007 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright © 2002-2004 Dominique Devriese <devriese@kde.org>
+ Copyright © 2002-2009 Maurizio Paolini <paolini@dmf.unicatt.it>
+ Copyright © 2004-2007 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright © 2009 Petr Gajdos <pgajdos@suse.cz>
+ Copyright © 2000 Marc Bartsch <marc.bartsch@topmail.de>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+
+ modes/linkslabel.cpp ~ LGPL (v2.1 or later) 
+ modes/linkslabel.h ~ LGPL (v2.1 or later)
 
 
 Files under kiten/
 
- Copyright (C) 2001-2007 Jason Katz-Brown <jason@katzbrown.com>
- Copyright (C) 2005 Paul Temple <paul.temple@gmx.net>
- Copyright (C) 2006 Joseph Kerian <jkerian@gmail.com>
- Copyright (C) 2006 Eric Kjeldergaard <kjelderg@gmail.com>
- All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License, or (at your option) any later version.
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2001 Jason Katz-Brown <jason@katzbrown.com>
+ Copyright © 2005 Paul Temple <paul.temple@gmx.net>
+ Copyright © 2005-2006 Joseph Kerian <jkerian@gmail.com>
+ Copyright © 2006 Eric Kjeldergaard <kjelderg@gmail.com>
+ Files are licensed under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version. 
+
+ File kiten/xjdxgen.c
+  Copyright © 1998 Jim Breen <jwb@csse.monash.edu.au>
+  File under GNU General Public License as published by the Free Software Foundation;
+  either version 1, or (at your option) any later version.
+
+ Files under kiten/lib/
+  All files are under GNU Lesser General Public License as published by the Free Software 
+  Foundation; either version 2 of the License, or (at your option) any later version.
+
+ Files under kiten/radselect/
+  All files are under GNU Lesser General Public License as published by the Free Software 
+  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under klettres/
 
- Copyright (C) 2001-2008  Anne-Marie Mahfouf <annma@kde.org>
- Copyright (c) 2007 Pino Toscano <toscano.pino@tiscali.it>
- Copyright (c) 2001 Eric Bischoff <e.bischoff@noos.fr>
- Copyright (c) 2005 Michael Goettsche <michael.goettsche@kdemail.net>
- All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License, or (at your option) any later version.
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2001-2009 Anne-Marie Mahfouf <annma@kde.org>
+ Copyright © 2007 Pino Toscano <pino@kde.org>
+ Copyright © 2001 Eric Bischoff <e.bischoff@noos.fr>
+ Copyright © 2005 Michael Goettsche <michael.goettsche@kdemail.net>
+ Files are licensed under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version. 
 
+ tests/malayalamtest.h ~ LGPL (v2) ~ Copyright © 2009 Anne-Marie Mahfouf <annma@kde.org>
+ tests/malayalamtest.cpp ~ unspec ~ unspec
 
 Files under kmplot/
 
- Copyright (C) 1998-2007  Klaus-Dieter Möller <kdmoeller@foni.net>
- Copyright (C) 2004-2005 Frederik Edemar <f_edemar@linux.se>
- Copyright (C) 2006-2007 David Saxton <david@bluehaze.org>
+ Copyright © 1998-2008 Klaus-Dieter Möller <kdmoeller@foni.net>
+ Copyright © 2004-2005 Fredrik Edemar <f_edemar@linux.se>
+ Copyright © 2006-2007 David Saxton <david@bluehaze.org>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under kstars/
- Copyright (C) 2008 Akarsh Simha <akarshsimha@gmail.com>
- Copyright (C) 2003 Gyorgy Fekete
- Copyright (C) 2003 Will O'Mullane
- Copyright (C) 2007 James B. Bowlin
- Copyright (C) 2000 Peter Z. Kunszt
- Copyright (C) 1998-2000  A. Szalay
- Copyright (C) 2001 Dennis C. Dinge
- Copyright (C) 2000 Aniruddha R. Thakar
- Copyright (C) 1997 Bruno Grossniklaus
- Copyright (C) 2002 Gyorgy Fekete
- Copyright (C) 2005 Patrick Chevalley
- Copyright (C) 2005 Vincent Suc
- Copyrigth (C) 2005 Jean-Baptiste Butet
- Copyright (C) John A. Magliacan
- Copyright (C) 2001 Yu Yongwei
- Copyright (C) 2005 Thomas Kabelmann
- Copyright (C) 2005 Jason Harris <kstars@30doradus.org>
- Copyright (C) 2008 Jeremy Sonrier <jsid@emor3j.fr.eu.org>
- Copyright (C) 2001-2004 Pablo de Vincente <vincente@oan.es>
- Copyright (C) 2001-2003 Jasem Mutlaq <mutlaqja@ku.edu>
- Copyright (C) 2004 Torsten Rahn <tackat@kde.org>
- Copyright (C) 2002 Mark Hollomon <mhh@mindspring.com>
- Copyright (C) 2001-2007  the KStars Team.
+
+ Copyright © 2008 Akarsh Simha <akarshsimha@gmail.com>
+ Copyright © 2002-2003 Gyorgy Fekete
+ Copyright © 2003 Will O'Mullane
+ Copyright © 2007 James B. Bowlin
+ Copyright © 2000 Peter Z. Kunszt
+ Copyright © 1998-2000 A. Szalay
+ Copyright © 2001 Dennis C. Dinge
+ Copyright © 2000 Aniruddha R. Thakar
+ Copyright © 1997 Bruno Grossniklaus
+ Copyright © 2005 Patrick Chevalley
+ Copyright © 2005 Vincent Suc
+ Copyrigth © 2005 Jean-Baptiste Butet
+ Copyright © 2005 John A. Magliacan
+ Copyright © 2001 Yu Yongwei
+ Copyright © 2001-2005 Thomas Kabelmann <thomas.kabelmann@gmx.de>
+ Copyright © 2001-2008 Jason Harris <kstars@30doradus.org>
+ Copyright © 2008-2009 Jeremy Sonrier <jsid@emor3j.fr.eu.org>
+ Copyright © 2001-2005 Pablo de Vicente <vicente@oan.es>
+ Copyright © 2001-2006 Jasem Mutlaq <mutlaqja@ku.edu>
+ Copyright © 2004 Torsten Rahn <tackat@kde.org>
+ Copyright © 2002 Mark Hollomon <mhh@mindspring.com>
+ Copyright © 2001 Heiko Evermann <heiko@evermann.de>
+ Copyright © 2008-2009 Jerome SONRIER <jsid@emor3j.fr.eu.org>
+ Copyright © 2009 Prakash Mohan <prakash.mohan@kdemail.net>
+ Copyright © 2003 Elwood C. Downey
+ Copyright © 2009 Khudyakov Alexey <alexey.skladnoy@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
- Some files are under a 3 clause bsd license and a few is in public domain. KStars is effectively GPLv2 or later.
+ Some files are under a 3 clause bsd license and a few is in public domain.
+ KStars is effectively GPLv2 or later.
 
 
 Files under ktouch/
- Copyright (C)  2000-2007 Haavard Froeiland <haavard@users.sourceforge.net> 
-                          and Andreas Nicolai  <ghorwin@users.sourceforge.net>
+
+ Copyright © 2000-2007 Håvard Frøiland <haavard@users.sourceforge.net>
+ Copyright © 2000-2007 Andreas Nicolai <ghorwin@users.sourceforge.net>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 Files under kturtle/
 
- Copyright (C)  2003-2008 Cies Breijs <cies@kde.nl>
- Copyright (C)  2007 Niels Slot <nielsslot@gmail.com>
+ Copyright © 2003-2009 Cies Breijs <cies@kde.nl>
+ Copyright © 2007 Niels Slot <nielsslot@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+ Some files are licensed under GPL (v2 only). KTurtle is effectively GPLv2.
 
 
 Files under kwordquiz/
 
- Copyright (C)  2003-2007 Peter Hedlund <peter@peterandlinda.com>
- All files are under GNU General Public License as published by the Free Software 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2003-2007 Peter Hedlund <peter@peterandlinda.com>
+ Files are licensed under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+
+ src/qaview.h ~ LGPL (v2) 
+ src/prefeditor.h ~ LGPL (v2) 
+ src/prefgeneral.cpp ~ LGPL (v2) 
+ src/wqprintdialogpage.cpp ~ LGPL (v2) 
+ src/multipleview.h ~ LGPL (v2) 
+ src/prefquiz.cpp ~ LGPL (v2) 
+ src/prefcharacter.cpp ~ LGPL (v2) 
+ src/prefquiz.h ~ LGPL (v2) 
+ src/prefcharacter.h ~ LGPL (v2) 
+ src/wqprintdialogpage.h ~ LGPL (v2) 
+ src/prefgeneral.h ~ LGPL (v2) 
+ src/prefeditor.cpp ~ LGPL (v2)
 
 
 Files under libkdeedu/
 
- Copyright (C)  2003-2007 Scott Wheeler <wheeler@kde.org>
- Copyright (C)  2003-2008 Carsten Niehaus <cniehaus@kde.org>
- Copyright (C)  2005-2007 Pino Toscano <toscano.pino@tiscali.it>
- Copyright (C)  2005-2006 Albert Astals Cid <aacid@kde.org>
- Copyright (C)  2007 Jeremy Whiting <jeremy@scitools.com>
- Copyright (C)  2007-2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
- Copyright (C)  1999-2002 Ewald Arnold <kvoctrain@ewald-arnold.de>
- Copyright (C)  2003-2008 Peter Hedlund <peter@peterandlinda.com>
- Copyright (C)  2005 Eric Pignet <eric@erixpage.com>
- Copyright (C)  2007 David Faure <faure@kde.org>
- Copyright (C)  2008 Inge Wallin <inge@lysator.liu.se>
- All files are under GNU General Public License as published by the Free Software 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2003-2008 Carsten Niehaus <cniehaus@kde.org>
+ Copyright © 2005-2007 Pino Toscano <toscano.pino@tiscali.it>
+ Copyright © 2005-2006 Albert Astals Cid <aacid@kde.org>
+ Copyright © 2007 Jeremy Whiting <jeremy@scitools.com>
+ Copyright © 2007-2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright © 1999-2002 Ewald Arnold <kvoctrain@ewald-arnold.de>
+ Copyright © 2003-2008 Peter Hedlund <peter@peterandlinda.com>
+ Copyright © 2005 Eric Pignet <eric@erixpage.com>
+ Copyright © 2005 Inge Wallin <inge@lysator.liu.se>
+ Copyright © 2008 David Capel <wot.narg@gmail.com>
+ Files are licensed under GNU General Public License as published by the Free Software 
  Foundation; either version 2 of the License, or (at your option) any later version.
+
+ kdeeduui/libkdeedu_ui_export.h ~ LGPL (v2 or later) ~ Copyright © 2007 David Faure <faure@kde.org>
+ keduvocdocument/libkeduvocdocument_export.h ~ LGPL (v2 or later) ~ Copyright © 2007 David Faure <faure@kde.org>
+ libscience/libkdeedu_science_export.h ~ LGPL (v2 or later) ~ Copyright © 2007 David Faure <faure@kde.org>
 
 
 Files under marble/
 
- Copyright (C) 2008 Simon Edwards <simon@simonzone.com>
- Copyright (C) 2004-2008 Torsten Rahn <tackat@kde.org>
- Copyright (c) 2007-2008 Inge Wallin  <ingwa@kde.org>
- Copyright (c) 2008 Henry de Valance <hdvalance@gmail.com>
- Copyright (C) 2007 Andrew Manson <g.real.ate@gmail.com>
- Copyright (c) 2007 Murad Tagirov <tmurad@gmail.com>
- Copyright (c) 2008 Patrick Spenderin <ps_ml@gmx.de>
- Copyright (c) 2007-2008 Nikolas Zimmermann <zimmermann@kde.org>
- Copyright (c) 2008 Jens-Michael Hoffmann <jensmh@gmx.de>
- Copyright (c) 2007 Carlos Licea <carlos_licea@hotmail.com>
- Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
- Copyright (c) 2008 Pino Toscano <pino@kde.org>
- Copyright (c) 2008 Claudio Covaci <claidio.covaci@gmail.com>
- Copyright (c) 2007 Thomas Zander <zander@kde.org>
- Copyright (c) 2007 Christian Ehrlicher <ch.erlicher@gmx.de>
- Copyright (c) 2008 Simon Schmeisser  <mail_to_wrt@gmx.de>
- Copyright (c) 2008 Dennis Niehaeser <earthwings@gentoo.org>
- Copyright (c) 2008 Shashank Singh <shashank.personal@gmail.com>
- All files are under GNU Lesser General Public License as published by the Free Software 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2004-2009 Torsten Rahn <tackat@kde.org>
+ Copyright © 2007-2008 Inge Wallin  <ingwa@kde.org>
+ Copyright © 2007-2009 Andrew Manson <g.real.ate@gmail.com>
+ Copyright © 2007 Murad Tagirov <tmurad@gmail.com>
+ Copyright © 2008-2009 Patrick Spenderin <ps_ml@gmx.de>
+ Copyright © 2007-2008 Nikolas Zimmermann <zimmermann@kde.org>
+ Copyright © 2008-2009 Jens-Michael Hoffmann <jensmh@gmx.de>
+ Copyright © 2007-2008 Carlos Licea <carlos_licea@hotmail.com>
+ Copyright © 2007 Tobias Koenig <tokoe@kde.org>
+ Copyright © 2008 Pino Toscano <pino@kde.org>
+ Copyright © 2008 Claudio Covaci <claidio.covaci@gmail.com>
+ Copyright © 2007 Thomas Zander <zander@kde.org>
+ Copyright © 2007 Christian Ehrlicher <ch.erlicher@gmx.de>
+ Copyright © 2008 Simon Schmeisser <mail_to_wrt@gmx.de>
+ Copyright © 2008 Dennis Niehaeser <earthwings@gentoo.org>
+ Copyright © 2008 Shashank Singh <shashank.personal@gmail.com>
+ Copyright © 2009 Bastian Holst <bastianholst@gmx.de>
+ Copyright © 2009 Eckhart Wörner <ewoerner@kde.org>
+ Copyright © 2007-2009 Henry de Valence <hdevalence@gmail.com>
+ Copyright © 2008 David Roberts <dvdr18@gmail.com>
+ Copyright © 2007 Tim Sutton <tim@linfiniti.com>
+ Copyright © 2008 Simon Hausmann <hausmann@kde.org>
+ Copyright © 2009 Thibaut GRIDEL <tgridel@free.fr>
+ Files are licensed under GNU Lesser General Public License as published by the Free Software 
  Foundation; version 2.1.
 
-On Debian systems, you can find the complete text of the LGPLG license version 2.1 at:
-/usr/share/common-licenses/LGPL-2.1
+ Some files are under other licenses. Marble is effectively LGPLv2.1.
 
 
 Files under parley/
- Copyright (C) 2000-2007 The Parley Developers
- Copyright (c) 1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
- Copyright (C) 2007-2008 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
- Copyright (c) 2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
- Copyright (c) 2008 Daniel Laidig <d.laidig@gmx.de>
- Copyrigth (c) 2008 Javier Goday <jgoday@gmail.com>
- Copyright (c) 2007 Trolltech ASA. 
- Copyright (c) 2008 David Capel <wot.narg@gmail.com>
- Copyright (c) 2006-2007 Mauricio Piancentini <mauricio@tabuleiro.com>
- Copyright (c) 2007 Matt Williams <matt@milliams.com>
- Copyrigth (c) 2008 Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
 
- All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License.
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
+ Copyright © 2007-2009 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+ Copyright © 2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
+ Copyright © 2008 Daniel Laidig <d.laidig@gmx.de>
+ Copyrigth © 2008 Javier Goday <jgoday@gmail.com>
+ Copyright © 2008 Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
+ Files are licensed under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
 
-Files under Step/
- Copyright (c) 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
+ src/modeltest/modeltest.cpp ~ GPL (v2) ~ Copyright © 2007 Trolltech ASA.
+
+ plugins/wiktionary/mwclient/__init__.py
+ |
+ | Copyright © 2006-2008 Bryan Tong Minh
+ | 
+ | Permission is hereby granted, free of charge, to any person
+ | obtaining a copy of this software and associated documentation
+ | files (the "Software"), to deal in the Software without
+ | restriction, including without limitation the rights to use,
+ | copy, modify, merge, publish, distribute, sublicense, and/or sell
+ | copies of the Software, and to permit persons to whom the
+ | Software is furnished to do so, subject to the following
+ | conditions:
+ | 
+ | The above copyright notice and this permission notice shall be
+ | included in all copies or substantial portions of the Software.
+ | 
+ | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ | EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ | OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ | NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ | HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ | WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ | FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ | OTHER DEALINGS IN THE SOFTWARE.
+
+
+Files under rocs/
+ 
+ Unless something else is mentioned, all files in this directory are:
+ Copyright © 2004-2008 Tomaz Canabrava <tomaz.canabrava@gmail.com>
+ Copyright © 2008 Ugo Sangiori <ugorox@gmail.com>
+ Files are licensed under GNU General Public License as published by the Free Software 
+ Foundation; either version 2 of the License, or (at your option) any later version.
+
+ src/Core/graph.h ~ LGPL (v2 or later) 
+ src/Core/qtScriptBackend.cpp ~ LGPL (v2 or later) 
+ src/Core/node.h ~ LGPL (v2 or later) 
+ src/Core/edge.h ~ LGPL (v2 or later) 
+ src/Core/threadScriptExecution.h ~ LGPL (v2 or later) 
+ src/Core/graphGroups.cpp ~ LGPL (v2 or later) 
+ src/Core/krossBackend.cpp ~ LGPL (v2 or later) 
+ src/Core/node.cpp ~ LGPL (v2 or later) 
+ src/Core/edge.cpp ~ LGPL (v2 or later) 
+ src/Core/graph.cpp ~ LGPL (v2 or later) 
+ src/Core/qtScriptBackend.h ~ LGPL (v2 or later) 
+ src/Core/graphGroups.h ~ LGPL (v2 or later) 
+ src/Core/krossBackend.h ~ LGPL (v2 or later) 
+ src/Tests/testGraph.h ~ LGPL (v2 or later) 
+ src/Tests/testGraph.cpp ~ LGPL (v2 or later) 
+ src/Interface/GraphScene.h ~ LGPL (v2 or later) 
+ src/Interface/edgepropertieswidget.h ~ GPL (v3 or later) 
+ src/Interface/GraphScene.cpp ~ LGPL (v2 or later) 
+ src/Interface/edgepropertieswidget.cpp ~ GPL (v3 or later) 
+
+ The following files doesn't have a license nor a copyright holder specified:
+ src/Models/model_GraphProperties.cpp
+ src/Core/threadScriptExecution.cpp
+ src/Tests/krosspytests.py 
+ src/Interface/NodePropertiesWidget.cpp 
+ src/Interface/CodeEditor.h 
+ src/Interface/CodeEditor.cpp 
+ src/Interface/GraphLayers.cpp 
+ src/Interface/GraphLayers.h 
+
+
+Files under step/
+
+ Copyright © 2007 Vladimir Kuznetsov <ks.vladimir@gmail.com>
  All files are under GNU General Public License as published by the Free Software 
- Foundation; either version 2 of the License.
+ Foundation; either version 2 of the License, or (at your option) any later version.
 
 
 The Debian packaging is (C) 2007-2010, Debian Qt/KDE Maintainers
