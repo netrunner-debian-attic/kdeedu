@@ -15,7 +15,6 @@ usr/lib/libcantor_config.so
 usr/lib/libcantorlibs.so.0.0.1
 usr/lib/libcantorlibs.so.1
 usr/share/applications/kde4/cantor.desktop
-usr/share/applications/kde4/cantor_part.desktop
 usr/share/doc/kde4/HTML/en/cantor/common
 usr/share/doc/kde4/HTML/en/cantor/index.cache.bz2
 usr/share/doc/kde4/HTML/en/cantor/index.docbook
@@ -39,6 +38,7 @@ usr/share/kde4/apps/cantorpart/cantor_part.rc
 usr/share/kde4/config.kcfg/cantor.kcfg
 usr/share/kde4/config.kcfg/cantor_libs.kcfg
 usr/share/kde4/config/cantor.knsrc
+usr/share/kde4/services/cantor/cantor_part.desktop
 usr/share/kde4/services/cantor/creatematrixassistant.desktop
 usr/share/kde4/services/cantor/differentiateassistant.desktop
 usr/share/kde4/services/cantor/eigenvaluesassistant.desktop

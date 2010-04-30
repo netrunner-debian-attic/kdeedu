@@ -1,4 +1,4 @@
-kdeedu (4:4.4.3-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.4.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -7,6 +7,7 @@ kdeedu (4:4.4.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:03 +0300
 
