@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZGVZN6Marble11MarbleDebug10nullDeviceEvE6device@Base 4:4.4.1
- _ZN6Marble10GeoDataLod15setMaxLodPixelsEd@Base 4:4.4.1
- _ZN6Marble10GeoDataLod15setMinLodPixelsEd@Base 4:4.4.1
- _ZN6Marble10GeoDataLod16setMaxFadeExtentEd@Base 4:4.4.1
- _ZN6Marble10GeoDataLod16setMinFadeExtentEd@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoDataLod15setMaxLodPixelsE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoDataLod15setMinLodPixelsE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoDataLod16setMaxFadeExtentE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoDataLod16setMinFadeExtentE{qreal}@Base 4:4.4.1
  _ZN6Marble10GeoDataLod6unpackER11QDataStream@Base 4:4.4.1
  _ZN6Marble10GeoDataLodC1ERKS0_@Base 4:4.4.1
  _ZN6Marble10GeoDataLodC1Ev@Base 4:4.4.1
@@ -30,13 +30,13 @@ libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZN6Marble10GeoPainter13drawRoundRectERKNS_18GeoDataCoordinatesEiiiib@Base 4:4.3.4
  _ZN6Marble10GeoPainter14autoMapQualityEv@Base 4:4.3.4
  (subst)_ZN6Marble10GeoPainter14drawAnnotationERKNS_18GeoDataCoordinatesERK7QString6QSizeF{qreal}{qreal}{qreal}{qreal}@Base 4:4.3.4
- _ZN6Marble10GeoPainter14regionFromLineERKNS_18GeoDataCoordinatesES3_bd@Base 4:4.4.1
- _ZN6Marble10GeoPainter14regionFromRectERKNS_18GeoDataCoordinatesEddbd@Base 4:4.4.1
- _ZN6Marble10GeoPainter15regionFromPointERKNS_12GeoDataPointEd@Base 4:4.4.1
- _ZN6Marble10GeoPainter15regionFromPointERKNS_18GeoDataCoordinatesEd@Base 4:4.4.1
- _ZN6Marble10GeoPainter17regionFromEllipseERKNS_18GeoDataCoordinatesEddbd@Base 4:4.4.1
- _ZN6Marble10GeoPainter17regionFromPolygonERKNS_17GeoDataLinearRingEN2Qt8FillRuleEd@Base 4:4.4.1
- _ZN6Marble10GeoPainter18regionFromPolylineERKNS_17GeoDataLineStringEd@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter14regionFromLineERKNS_18GeoDataCoordinatesES3_b{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter14regionFromRectERKNS_18GeoDataCoordinatesE{qreal}{qreal}b{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter15regionFromPointERKNS_12GeoDataPointE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter15regionFromPointERKNS_18GeoDataCoordinatesE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter17regionFromEllipseERKNS_18GeoDataCoordinatesE{qreal}{qreal}b{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter17regionFromPolygonERKNS_17GeoDataLinearRingEN2Qt8FillRuleE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble10GeoPainter18regionFromPolylineERKNS_17GeoDataLineStringE{qreal}@Base 4:4.4.1
  _ZN6Marble10GeoPainter8drawLineERKNS_18GeoDataCoordinatesES3_b@Base 4:4.3.4
  _ZN6Marble10GeoPainter8drawLineEiiii@Base 4:4.3.4
  _ZN6Marble10GeoPainter8drawRectERK5QRect@Base 4:4.3.4
@@ -472,9 +472,9 @@ libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZN6Marble13GeoDataFolderD0Ev@Base 4:4.3.4
  _ZN6Marble13GeoDataFolderD1Ev@Base 4:4.3.4
  _ZN6Marble13GeoDataFolderD2Ev@Base 4:4.3.4
- _ZN6Marble13GeoDataLookAt11setAltitudeEd@Base 4:4.4.1
- _ZN6Marble13GeoDataLookAt11setLatitudeEdNS_18GeoDataCoordinates4UnitE@Base 4:4.4.1
- _ZN6Marble13GeoDataLookAt12setLongitudeEdNS_18GeoDataCoordinates4UnitE@Base 4:4.4.1
+ (subst)_ZN6Marble13GeoDataLookAt11setAltitudeE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble13GeoDataLookAt11setLatitudeE{qreal}NS_18GeoDataCoordinates4UnitE@Base 4:4.4.1
+ (subst)_ZN6Marble13GeoDataLookAt12setLongitudeE{qreal}NS_18GeoDataCoordinates4UnitE@Base 4:4.4.1
  _ZN6Marble13GeoDataLookAtC1Ev@Base 4:4.4.1
  _ZN6Marble13GeoDataLookAtC2Ev@Base 4:4.4.1
  _ZN6Marble13GeoDataLookAtD0Ev@Base 4:4.4.1
@@ -989,22 +989,22 @@ libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZN6Marble17AbstractFloatItemD0Ev@Base 4:4.3.4
  _ZN6Marble17AbstractFloatItemD1Ev@Base 4:4.3.4
  _ZN6Marble17AbstractFloatItemD2Ev@Base 4:4.3.4
- _ZN6Marble17FrameGraphicsItem10setPaddingEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem10setPaddingE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem12paintContentEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem12setMarginTopEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem12setMarginTopE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem13setBackgroundERK6QBrush@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem13setMarginLeftEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem13setMarginLeftE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem14setBorderBrushERK6QBrush@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem14setBorderStyleEN2Qt8PenStyleE@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem14setBorderWidthEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem14setBorderWidthE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem14setContentSizeERK6QSizeF@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem14setMarginRightEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem14setMarginRightE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem15paintBackgroundEPNS_10GeoPainterE@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem15setMarginBottomEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem15setMarginBottomE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem5frameEv@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem5paintEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItem8setFrameENS0_9FrameTypeE@Base 4:4.4.1
- _ZN6Marble17FrameGraphicsItem9setMarginEd@Base 4:4.4.1
+ (subst)_ZN6Marble17FrameGraphicsItem9setMarginE{qreal}@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItemC1EPNS_18MarbleGraphicsItemE@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItemC1ERK7QPointFRK6QSizeFPNS_18MarbleGraphicsItemE@Base 4:4.4.1
  _ZN6Marble17FrameGraphicsItemC2EPNS_18MarbleGraphicsItemE@Base 4:4.4.1
@@ -1135,14 +1135,14 @@ libmarblewidget.so.4 libmarblewidget4 #MINVER#
  _ZN6Marble18AbstractProjection12latLonAltBoxERK5QRectPKNS_14ViewportParamsE@Base 4:4.4.1
  _ZN6Marble18AbstractProjection16horizonToPolygonEPKNS_14ViewportParamsERKNS_18GeoDataCoordinatesES6_P9QPolygonF@Base 4:4.4.1
  _ZN6Marble18AbstractProjection17screenCoordinatesERKNS_17GeoDataLineStringEPKNS_14ViewportParamsER7QVectorIP9QPolygonFE@Base 4:4.4.1
- _ZN6Marble18AbstractProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsEPdRdRiRb@Base 4:4.4.1
- _ZN6Marble18AbstractProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsERdS7_@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsEP{qreal}R{qreal}RiRb@Base 4:4.4.1
  _ZN6Marble18AbstractProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsERiS7_Rb@Base 4:4.4.1
- _ZN6Marble18AbstractProjection17screenCoordinatesEddPKNS_14ViewportParamsERiS4_@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection17screenCoordinatesERKNS_18GeoDataCoordinatesEPKNS_14ViewportParamsER{qreal}S7_@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection17screenCoordinatesE{qreal}{qreal}PKNS_14ViewportParamsERiS4_@Base 4:4.4.1
  _ZN6Marble18AbstractProjection19lineStringToPolygonERKNS_17GeoDataLineStringEPKNS_14ViewportParamsER7QVectorIP9QPolygonFE@Base 4:4.4.1
- _ZN6Marble18AbstractProjection21tessellateLineSegmentERKNS_18GeoDataCoordinatesEddS3_ddP9QPolygonFPKNS_14ViewportParamsE6QFlagsINS_16TessellationFlagEE@Base 4:4.4.1
- _ZN6Marble18AbstractProjection9setMaxLatEd@Base 4:4.4.1
- _ZN6Marble18AbstractProjection9setMinLatEd@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection21tessellateLineSegmentERKNS_18GeoDataCoordinatesE{qreal}{qreal}S3_{qreal}{qreal}P9QPolygonFPKNS_14ViewportParamsE6QFlagsINS_16TessellationFlagEE@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection9setMaxLatE{qreal}@Base 4:4.4.1
+ (subst)_ZN6Marble18AbstractProjection9setMinLatE{qreal}@Base 4:4.4.1
  _ZN6Marble18AbstractProjectionC1Ev@Base 4:4.4.1
  _ZN6Marble18AbstractProjectionC2Ev@Base 4:4.4.1
  _ZN6Marble18AbstractProjectionD0Ev@Base 4:4.4.1
@@ -1166,11 +1166,11 @@ libmarblewidget.so.4 libmarblewidget4 #MINVER#
  (subst)_ZN6Marble18GeoDataCoordinates11lonToStringE{qreal}NS0_8NotationENS0_4UnitEic@Base 4:4.3.4
  (subst)_ZN6Marble18GeoDataCoordinates11setAltitudeE{qreal}@Base 4:4.3.4
  (subst)_ZN6Marble18GeoDataCoordinates11setLatitudeE{qreal}NS0_4UnitE@Base 4:4.3.4
- _ZN6Marble18GeoDataCoordinates12normalizeLatEdNS0_4UnitE@Base 4:4.4.1
- _ZN6Marble18GeoDataCoordinates12normalizeLonEdNS0_4UnitE@Base 4:4.4.1
+ (subst)_ZN6Marble18GeoDataCoordinates12normalizeLatE{qreal}NS0_4UnitE@Base 4:4.4.1
+ (subst)_ZN6Marble18GeoDataCoordinates12normalizeLonE{qreal}NS0_4UnitE@Base 4:4.4.1
  (subst)_ZN6Marble18GeoDataCoordinates12setLongitudeE{qreal}NS0_4UnitE@Base 4:4.3.4
  _ZN6Marble18GeoDataCoordinates15defaultNotationEv@Base 4:4.3.4
- _ZN6Marble18GeoDataCoordinates15normalizeLonLatERdS1_NS0_4UnitE@Base 4:4.4.1
+ (subst)_ZN6Marble18GeoDataCoordinates15normalizeLonLatER{qreal}S1_NS0_4UnitE@Base 4:4.4.1
  _ZN6Marble18GeoDataCoordinates18setDefaultNotationENS0_8NotationE@Base 4:4.3.4
  (subst)_ZN6Marble18GeoDataCoordinates3setE{qreal}{qreal}{qreal}NS0_4UnitE@Base 4:4.3.4
  _ZN6Marble18GeoDataCoordinates6detachEv@Base 4:4.3.4
