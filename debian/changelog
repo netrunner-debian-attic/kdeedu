@@ -1,8 +1,11 @@
-kdeedu (4:4.4.3-2) UNRELEASED; urgency=low
+kdeedu (4:4.4.4-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Update libmarblewidget4.symbols for armel.
 
- -- Modestas Vainius <modax@debian.org>  Fri, 14 May 2010 17:45:21 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:16 +0300
 
 kdeedu (4:4.4.3-1) unstable; urgency=low
 
