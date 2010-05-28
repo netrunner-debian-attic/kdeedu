@@ -15,11 +15,11 @@ usr/lib/libcantor_config.so
 usr/lib/libcantorlibs.so.0.0.1
 usr/lib/libcantorlibs.so.1
 usr/share/applications/kde4/cantor.desktop
-usr/share/doc/kde4/HTML/en/cantor/common
-usr/share/doc/kde4/HTML/en/cantor/index.cache.bz2
-usr/share/doc/kde4/HTML/en/cantor/index.docbook
-usr/share/doc/kde4/HTML/en/cantor/latex_formula.png
-usr/share/doc/kde4/HTML/en/cantor/screenshot.png
+usr/share/doc/kde/HTML/en/cantor/common
+usr/share/doc/kde/HTML/en/cantor/index.cache.bz2
+usr/share/doc/kde/HTML/en/cantor/index.docbook
+usr/share/doc/kde/HTML/en/cantor/latex_formula.png
+usr/share/doc/kde/HTML/en/cantor/screenshot.png
 usr/share/icons/hicolor/16x16/apps/cantor.png
 usr/share/icons/hicolor/32x32/apps/cantor.png
 usr/share/icons/hicolor/48x48/apps/cantor.png

@@ -2,7 +2,7 @@ usr/bin/kig
 usr/bin/pykig.py
 usr/lib/kde4/kigpart.so
 usr/share/applications/kde4/kig.desktop
-usr/share/doc/kde4/HTML/en/kig/
+usr/share/doc/kde/HTML/en/kig/
 usr/share/icons/hicolor/128x128/apps/kig.png
 usr/share/icons/hicolor/128x128/mimetypes/application-x-kig.png
 usr/share/icons/hicolor/16x16/apps/kig.png

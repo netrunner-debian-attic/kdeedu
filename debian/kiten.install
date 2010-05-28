@@ -2,7 +2,7 @@ usr/bin/kiten
 usr/bin/kitengen
 usr/bin/kitenradselect
 usr/share/applications/kde4/kiten.desktop
-usr/share/doc/kde4/HTML/en/kiten/
+usr/share/doc/kde/HTML/en/kiten/
 usr/share/icons/hicolor/128x128/apps/kiten.png
 usr/share/icons/hicolor/16x16/apps/kiten.png
 usr/share/icons/hicolor/22x22/apps/kiten.png
