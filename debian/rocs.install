@@ -1,8 +1,8 @@
 usr/bin/rocs
 usr/share/applications/kde4/rocs.desktop
-usr/share/doc/kde4/HTML/en/rocs/common
-usr/share/doc/kde4/HTML/en/rocs/index.cache.bz2
-usr/share/doc/kde4/HTML/en/rocs/index.docbook
+usr/share/doc/kde/HTML/en/rocs/common
+usr/share/doc/kde/HTML/en/rocs/index.cache.bz2
+usr/share/doc/kde/HTML/en/rocs/index.docbook
 usr/share/icons/hicolor/16x16/actions/rocsaddedge.png
 usr/share/icons/hicolor/16x16/actions/rocsaddnode.png
 usr/share/icons/hicolor/16x16/actions/rocsallignbottom.png
