@@ -1,6 +1,7 @@
 kdeedu (4:4.4.4-2) UNRELEASED; urgency=low
 
   * Do not ship marble plugins with useless R(UN)PATH=/usr (Closes: #582139).
+  * Add 01 number to step_needs_-lcln.diff patch.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 07 Jun 2010 19:24:02 +0300
 
