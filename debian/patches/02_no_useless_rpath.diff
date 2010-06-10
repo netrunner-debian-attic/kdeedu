@@ -3,6 +3,7 @@ Description: do not ship marble plugins with useless R(UN)PATH=/usr
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=582139
 Forwarded: no
 Last-Update: 2010-06-07
+Fixed-For: 4.5.0
 
 --- a/marble/MarbleMacros.cmake
 +++ b/marble/MarbleMacros.cmake
