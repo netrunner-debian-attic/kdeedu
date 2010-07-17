@@ -1,11 +1,12 @@
 kdeedu (4:4.4.5-1) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * New upstream release.
-  * Do not ship marble plugins with useless R(UN)PATH=/usr (Closes: #582139).
+    - Do not ship marble plugins with useless R(UN)PATH=/usr (Closes: #582139).
   * Add 01 number to step_needs_-lcln.diff patch.
   * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:51 +0300
+ -- Sune Vuorela <sune@debian.org>  Sat, 17 Jul 2010 23:45:09 +0200
 
 kdeedu (4:4.4.4-1) unstable; urgency=low
 
