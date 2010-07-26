@@ -10,6 +10,7 @@ kdeedu (4:4.4.5-1) UNRELEASED; urgency=low
   * Disable INSTALL_RPATH_USE_LINK_PATH in cantor-backend-r and kalzium
     because it triggers unnecessary install RPATH (patch
     02_no_install_rpath_use_link_path.diff).
+  * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
 
   [ Sune Vuorela ]
   * Update my emails
