@@ -1,6 +1,9 @@
 kdeedu (4:4.4.5-2) UNRELEASED; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.
+  * Disable INSTALL_RPATH_USE_LINK_PATH in cantor-backend-r and kalzium
+    because it triggers unnecessary install RPATH (patch
+    02_no_install_rpath_use_link_path.diff).
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:35 +0300
 
