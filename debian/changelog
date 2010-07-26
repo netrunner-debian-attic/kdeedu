@@ -547,11 +547,3 @@ kdeedu (4:3.95.0-1) experimental; urgency=low
   * Write copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Nov 2007 21:12:12 +0100
-
-
-kdeedu (4:3.90.1-1) alioth; urgency=low
-
-  * Initial release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 24 May 2007 04:15:11 +0200
-
