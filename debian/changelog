@@ -1,19 +1,15 @@
-kdeedu (4:4.4.5-2) UNRELEASED; urgency=low
+kdeedu (4:4.4.5-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+    - Do not ship marble plugins with useless R(UN)PATH=/usr (Closes: #582139).
+
+  [ Modestas Vainius ]
+  * Add 01 number to step_needs_-lcln.diff patch.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
   * Point debian/control Vcs fields to the new Git repository.
   * Disable INSTALL_RPATH_USE_LINK_PATH in cantor-backend-r and kalzium
     because it triggers unnecessary install RPATH (patch
     02_no_install_rpath_use_link_path.diff).
-
- -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:35 +0300
-
-kdeedu (4:4.4.5-1) unstable; urgency=low
-
-  [ Modestas Vainius ]
-  * New upstream release.
-    - Do not ship marble plugins with useless R(UN)PATH=/usr (Closes: #582139).
-  * Add 01 number to step_needs_-lcln.diff patch.
-  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
 
   [ Sune Vuorela ]
   * Update my emails
