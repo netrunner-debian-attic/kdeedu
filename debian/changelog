@@ -116,13 +116,13 @@ kdeedu (4:4.3.4-1) unstable; urgency=low
   +++ Changes by Lisandro Damián Nicanor Pérez Meyer:
 
   * Fixed missing ${shlibs:Depends} in libmarble-dev
-  * Now it has the same version of kdelibs5-dev as package 
+  * Now it has the same version of kdelibs5-dev as package
     libmarble4. Thanks Modestas for the tip.
 
   +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
-    debug depends. 
+    debug depends.
 
   +++ Changes by Lukasz Janyst:
 
@@ -144,7 +144,7 @@ kdeedu (4:4.3.4-1) unstable; urgency=low
 
 kdeedu (4:4.3.2-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
   +++ Changes by Lisandro Damián Nicanor Pérez Meyer:
 
@@ -152,13 +152,13 @@ kdeedu (4:4.3.2-1) unstable; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Switch from libreadline5-dev to libreadline-dev. 
+  * Switch from libreadline5-dev to libreadline-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Oct 2009 21:22:48 +0200
 
 kdeedu (4:4.3.1-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Bump KDE build dependencies to 4.3.1.
   * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
   * Fix typo in libkiten4 description.
@@ -176,7 +176,7 @@ kdeedu (4:4.3.0-2) unstable; urgency=low
 
 kdeedu (4:4.3.0-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Bump to Standards-Version: 3.8.2, no changes required.
   * Bump build dependencies to >= 4.3.0.
 
@@ -206,14 +206,14 @@ kdeedu (4:4.2.4-1) unstable; urgency=low
 
   ++++ Changes by Aurelien Jarno:
 
-  * Add 00_kfreebsd to fix build on GNU/kFreeBSD. 
+  * Add 00_kfreebsd to fix build on GNU/kFreeBSD.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 23:37:08 +0200
 
 kdeedu (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release:
-    - fix kmplot when calculating integrals of functions. (Closes: #442281) 
+    - fix kmplot when calculating integrals of functions. (Closes: #442281)
     - kstars, improved usability of the Observing List Wizard. (Closes: #404583)
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Apr 2009 01:59:06 +0200
@@ -233,7 +233,7 @@ kdeedu (4:4.2.1-1) experimental; urgency=low
   * Point Debian Vcs URLs to pkg-kde/trunk (new location).
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Remove 01_r917115_cmake_findopenbabel2, merged ustream.
   * Update installed files: step HTML docs.
 
@@ -247,7 +247,7 @@ kdeedu (4:4.2.0-1) experimental; urgency=low
 
   * Add build depend on libgmm++-dev and re-activate step.
   * Bump KDE build dependencies to 4.2.0.
-  * Drop no longer needed patch 97_fix_target_link_libraries.diff. 
+  * Drop no longer needed patch 97_fix_target_link_libraries.diff.
   * Do not build depend on cmake explicitly.
   * Remove KPercentage, removed from upstream.
   * Bump Standards-Version to 3.8.0 and add README.source.
@@ -317,12 +317,12 @@ kdeedu (4:4.1.1-1) experimental; urgency=low
 
 kdeedu (4:4.1.0-1) experimental; urgency=low
 
-  * New usptream release. 
+  * New usptream release.
   * Add build depend on libfacile-ocaml-dev and libgps-dev. Replace
     libopenbabel-dev with openbabel.
   * Updated installed files.
   * Update 97_fix_target_link_libraries.diff removing links that are not
-    longer needed. 
+    longer needed.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 27 Jul 2008 11:15:45 +0200
 
@@ -478,16 +478,16 @@ kdeedu (4:3.98.0~svn753247-1) experimental; urgency=low
 kdeedu (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Armin Berres:
-  
+
   * Build depend on kdelibs5-dev >= 4:3.97.0.
   * Update installed files and some files from the kiten into libkiten1.
   * Remove no more needed patch 03_noio.h.diff.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps happier.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Update Standards-Version to 3.7.3.
   * Add build-depend on libnova-dev.
   * Update indi.install
