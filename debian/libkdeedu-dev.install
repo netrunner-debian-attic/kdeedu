@@ -1,5 +1,7 @@
 usr/include/libkdeedu/
+usr/include/rocs/
 usr/lib/libkdeeduui.so
 usr/lib/libkeduvocdocument.so
 usr/lib/libscience.so
+usr/lib/librocslib.so
 usr/share/kde4/apps/cmake/modules/FindKDEEdu.cmake

@@ -2,9 +2,9 @@ usr/bin/calgebra
 usr/bin/kalgebra
 usr/lib/kde4/plasma_applet_kalgebra.so
 usr/lib/libanalitza.so.4
-usr/lib/libanalitza.so.4.4.0
+usr/lib/libanalitza.so.4.5.0
 usr/lib/libanalitzagui.so.4
-usr/lib/libanalitzagui.so.4.4.0
+usr/lib/libanalitzagui.so.4.5.0
 usr/share/applications/kde4/kalgebra.desktop
 usr/share/doc/kde/HTML/en/kalgebra/
 usr/share/icons/hicolor/128x128/apps/kalgebra.png

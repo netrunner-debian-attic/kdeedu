@@ -12,7 +12,7 @@ usr/lib/kde4/cantor_runscriptassistant.so
 usr/lib/kde4/cantor_solveassistant.so
 usr/lib/kde4/libcantorpart.so
 usr/lib/libcantor_config.so
-usr/lib/libcantorlibs.so.0.0.1
+usr/lib/libcantorlibs.so.0.0.2
 usr/lib/libcantorlibs.so.1
 usr/share/applications/kde4/cantor.desktop
 usr/share/doc/kde/HTML/en/cantor/common

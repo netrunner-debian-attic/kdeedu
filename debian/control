@@ -472,14 +472,14 @@ Description: plugins for Marble
  .
  This package is part of the KDE education module.
 
-Package: libmarblewidget4
+Package: libmarblewidget10
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version})
 Recommends: marble-plugins (= ${binary:Version})
 Replaces: marble (<< 4:4.2.0-3), libmarble4
 Breaks: marble (<< 4:4.2.0-3), libmarble4
-Provides: libmarblewidget4-api
+Provides: libmarblewidget10-api
 Description: Marble globe widget library
  This package contains shared libraries for the Marble globe widget.
  .
@@ -488,8 +488,8 @@ Description: Marble globe widget library
 Package: libmarble-dev
 Architecture: any
 Section: libdevel
-Depends: ${shlibs:Depends}, ${misc:Depends}, libmarblewidget4 (= ${binary:Version}),
- ${sameVersionDep:libqt4-dev:libmarblewidget4}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmarblewidget10 (= ${binary:Version}),
+ ${sameVersionDep:libqt4-dev:libmarblewidget10}
 Description: development files for the Marble globe widget library
  This package contains development files for building software that uses the
  Marble globe widget library.
