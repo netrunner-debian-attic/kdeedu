@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.5.1 amd64
 libkdeeduui.so.4 libkdeedu4 #MINVER#
  _ZN12GlossaryItem11setPicturesERK7QString@Base 4:4.3.4
  _ZN12GlossaryItem6setRefERK11QStringList@Base 4:4.3.4
@@ -268,6 +268,7 @@ libkeduvocdocument.so.4 libkdeedu4 #MINVER#
  _ZN18KEduVocTranslation10addSynonymEPS_@Base 4:4.3.4
  _ZN18KEduVocTranslation10declensionEv@Base 4:4.3.4
  _ZN18KEduVocTranslation10fromKVTML2ER11QDomElement@Base 4:4.3.4
+ _ZN18KEduVocTranslation10setArticleERK11KEduVocText@Base 4:4.5.1
  _ZN18KEduVocTranslation10setCommentERK7QString@Base 4:4.3.4
  _ZN18KEduVocTranslation10setExampleERK7QString@Base 4:4.3.4
  _ZN18KEduVocTranslation11conjugationERK7QString@Base 4:4.3.4
@@ -287,6 +288,8 @@ libkeduvocdocument.so.4 libkdeedu4 #MINVER#
  _ZN18KEduVocTranslation15setConjugationsERK4QMapI7QString18KEduVocConjugationE@Base 4:4.3.4
  _ZN18KEduVocTranslation16setPronunciationERK7QString@Base 4:4.3.4
  _ZN18KEduVocTranslation17removeFalseFriendEPS_@Base 4:4.3.4
+ _ZN18KEduVocTranslation18setComparativeFormERK11KEduVocText@Base 4:4.5.1
+ _ZN18KEduVocTranslation18setSuperlativeFormERK11KEduVocText@Base 4:4.5.1
  _ZN18KEduVocTranslation25KEduVocTranslationPrivateC1EP17KEduVocExpression@Base 4:4.3.4
  _ZN18KEduVocTranslation25KEduVocTranslationPrivateC2EP17KEduVocExpression@Base 4:4.3.4
  _ZN18KEduVocTranslation25KEduVocTranslationPrivateD1Ev@Base 4:4.3.4
@@ -365,7 +368,10 @@ libkeduvocdocument.so.4 libkdeedu4 #MINVER#
  _ZNK18KEduVocTranslation12conjugationsEv@Base 4:4.3.4
  _ZNK18KEduVocTranslation12falseFriendsEv@Base 4:4.3.4
  _ZNK18KEduVocTranslation13pronunciationEv@Base 4:4.3.4
+ _ZNK18KEduVocTranslation15comparativeFormEv@Base 4:4.5.1
+ _ZNK18KEduVocTranslation15superlativeFormEv@Base 4:4.5.1
  _ZNK18KEduVocTranslation17conjugationTensesEv@Base 4:4.3.4
+ _ZNK18KEduVocTranslation7articleEv@Base 4:4.5.1
  _ZNK18KEduVocTranslation7commentEv@Base 4:4.3.4
  _ZNK18KEduVocTranslation7exampleEv@Base 4:4.3.4
  _ZNK18KEduVocTranslation8antonymsEv@Base 4:4.3.4

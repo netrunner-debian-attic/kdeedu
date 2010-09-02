@@ -9,6 +9,7 @@ kdeedu (4:4.5.1-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
