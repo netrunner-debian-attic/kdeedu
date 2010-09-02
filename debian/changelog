@@ -7,7 +7,10 @@ kdeedu (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Add build depends libavogadro-dev and libglew1.5-dev.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 01 Sep 2010 17:42:37 +0000
+  [ George Kiagiadakis ]
+  * Change my email address in uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
 kdeedu (4:4.4.5-1) unstable; urgency=low
 
