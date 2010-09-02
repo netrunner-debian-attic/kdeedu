@@ -4,4 +4,5 @@ usr/lib/libkdeeduui.so
 usr/lib/libkeduvocdocument.so
 usr/lib/libscience.so
 usr/lib/librocslib.so
+usr/lib/libcompoundviewer.so
 usr/share/kde4/apps/cmake/modules/FindKDEEdu.cmake

@@ -5,6 +5,7 @@ kdeedu (4:4.5.1-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Refreshed 02_no_install_rpath_use_link_path.diff patch.
   * Update installed files.
+  * Add build depends libavogadro-dev and libglew1.5-dev.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 01 Sep 2010 17:42:37 +0000
 
