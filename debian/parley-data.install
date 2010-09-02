@@ -12,4 +12,5 @@ usr/share/kde4/apps/parley/
 usr/share/kde4/config.kcfg/documentsettings.kcfg
 usr/share/kde4/config.kcfg/languagesettings.kcfg
 usr/share/kde4/config.kcfg/parley.kcfg
+usr/share/kde4/config/parley-themes.knsrc
 usr/share/kde4/config/parley.knsrc

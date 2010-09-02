@@ -1,4 +1,8 @@
 usr/bin/rocs
+usr/lib/kde4/rocs_makecompleteplugin.so
+usr/lib/kde4/rocs_plaintxt.so
+usr/lib/librocslib.so.4
+usr/lib/librocslib.so.4.5.0
 usr/share/applications/kde4/rocs.desktop
 usr/share/doc/kde/HTML/en/rocs/common
 usr/share/doc/kde/HTML/en/rocs/index.cache.bz2
@@ -46,5 +50,10 @@ usr/share/icons/hicolor/64x64/actions/rocsalligntop.png
 usr/share/icons/hicolor/64x64/actions/rocsallignvmiddle.png
 usr/share/icons/hicolor/64x64/actions/rocsdelete.png
 usr/share/icons/hicolor/64x64/actions/rocsselect.png
+usr/share/kde4/apps/rocs/iconpacks/default.svg
 usr/share/kde4/apps/rocs/rocsui.rc
 usr/share/kde4/config.kcfg/rocs.kcfg
+usr/share/kde4/services/rocs_makecompleteplugin.desktop
+usr/share/kde4/services/rocs_plaintxtplugin.desktop
+usr/share/kde4/servicetypes/RocsFilePlugin.desktop
+usr/share/kde4/servicetypes/RocsToolsPlugin.desktop

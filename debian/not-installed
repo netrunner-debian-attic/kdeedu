@@ -4,7 +4,6 @@
 ./usr/share/kde4/apps/marble/data/LICENSE.txt
 
 # Devel symlinks without devel headers
-./usr/lib/libavogadro-kalzium.so
 ./usr/lib/libcompoundviewer.so
 ./usr/lib/libSatLib.so
 ./usr/lib/libanalitza.so
@@ -23,3 +22,15 @@
 # Shipped in ttf-dustin
 ./usr/share/kde4/apps/khangman/fonts/Domestic_Manners.ttf
 ./usr/share/kde4/apps/khangman/fonts/Dustismo_Roman.ttf
+
+# rocslib-dev
+./usr/lib/librocslib.so
+./usr/include/rocs/DynamicPropertiesList.h
+./usr/include/rocs/edge.h
+./usr/include/rocs/graphDocument.h
+./usr/include/rocs/graphGroups.h
+./usr/include/rocs/graph.h
+./usr/include/rocs/krossBackend.h
+./usr/include/rocs/node.h
+./usr/include/rocs/qtScriptBackend.h
+./usr/include/rocs/threadDocument.h

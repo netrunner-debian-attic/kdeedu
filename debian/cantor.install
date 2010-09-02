@@ -32,6 +32,7 @@ usr/share/kde4/apps/cantor/cantor_invert_matrix_assistant.rc
 usr/share/kde4/apps/cantor/cantor_plot2d_assistant.rc
 usr/share/kde4/apps/cantor/cantor_plot3d_assistant.rc
 usr/share/kde4/apps/cantor/cantor_runscript_assistant.rc
+usr/share/kde4/apps/cantor/cantor_scripteditor.rc
 usr/share/kde4/apps/cantor/cantor_shell.rc
 usr/share/kde4/apps/cantor/cantor_solve_assistant.rc
 usr/share/kde4/apps/cantorpart/cantor_part.rc
