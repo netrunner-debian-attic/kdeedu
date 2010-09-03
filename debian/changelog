@@ -1,4 +1,4 @@
-kdeedu (4:4.5.1-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.5.1-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,6 +12,7 @@ kdeedu (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Update symbols files.
   * Update lintian overrides.
   * Bump build dependency on kdelibs5-dev to version 4:4.5.
+  * Add libxrender-dev to build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
