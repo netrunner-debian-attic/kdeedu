@@ -14,7 +14,7 @@ when looking at lines 171-172 of kswizard.cpp:
 
 --- a/kstars/kstars/kswizard.cpp
 +++ b/kstars/kstars/kswizard.cpp
-@@ -168,8 +168,8 @@ void KSWizard::slotFilterCities() {
+@@ -156,8 +156,8 @@ void KSWizard::slotFilterCities() {
  
      foreach ( GeoLocation *loc, KStarsData::Instance()->getGeoList() ) {
          if( hasPrefix( loc->translatedName(),     location->CityFilter->text()     ) &&
