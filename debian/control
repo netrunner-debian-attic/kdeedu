@@ -172,6 +172,8 @@ Package: kalzium-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
+Replaces: kalzium (<< 4:4.0.0)
+Breaks: kalzium (<< 4:4.0.0)
 Description: data files for Kalzium
  This package contains architecture-independent data files for Kalzium, the
  KDE periodic table application.
@@ -217,6 +219,8 @@ Package: kgeography-data
 Architecture: all
 Section:misc
 Depends: ${misc:Depends}
+Replaces: kgeography (<< 4:4.0.0)
+Breaks: kgeography (<< 4:4.0.0)
 Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
@@ -281,6 +285,8 @@ Description: foreign alphabet tutor for KDE
 Package: klettres-data
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: klettres (<< 4:4.0.0)
+Breaks: klettres (<< 4:4.0.0)
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE.
@@ -337,6 +343,8 @@ Package: kstars-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
+Replaces: kstars (<< 4:4.0.0)
+Breaks: kstars (<< 4:4.0.0)
 Description: data files for KStars desktop planetarium
  This package contains architecture-independent data files for KStars,
  the graphical desktop planetarium for KDE, including star catalogues and
