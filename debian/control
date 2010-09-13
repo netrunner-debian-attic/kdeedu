@@ -171,6 +171,8 @@ Package: kalzium-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
+Replaces: kalzium (<< 4:4.0.0)
+Breaks: kalzium (<< 4:4.0.0)
 Description: data files for Kalzium
  This package contains architecture-independent data files for Kalzium, the
  KDE periodic table application.
