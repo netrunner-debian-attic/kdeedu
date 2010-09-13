@@ -340,6 +340,8 @@ Package: kstars-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
+Replaces: kstars (<< 4:4.0.0)
+Breaks: kstars (<< 4:4.0.0)
 Description: data files for KStars desktop planetarium
  This package contains architecture-independent data files for KStars,
  the graphical desktop planetarium for KDE, including star catalogues and
