@@ -1,12 +1,12 @@
 kdeedu (4:4.4.5-2) UNRELEASED; urgency=low
 
-  * Add missing Replaces/Breaks to kgeography-data against lenny kgeography
+  * Add missing Replaces/Breaks to kgeography-data against Lenny kgeography
    (Closes: #592663).
-  * Add missing Replaces/Breaks to kalzium-data against lenny kalzium
+  * Add missing Replaces/Breaks to kalzium-data against Lenny kalzium
    (Closes: #592665).
-  * Add missing Replaces/Breaks to kstars-data against lenny kstars
+  * Add missing Replaces/Breaks to kstars-data against Lenny kstars
    (Closes: #592666).
-  * Add missing Replaces/Breaks to klettres-data against lenny klettres
+  * Add missing Replaces/Breaks to klettres-data against Lenny klettres
    (Closes: #592667).
 
  -- Modestas Vainius <modax@debian.org>  Mon, 13 Sep 2010 18:53:56 +0300
