@@ -1,5 +1,7 @@
 kdeedu (4:4.4.5-2) UNRELEASED; urgency=low
 
+  * Add missing Replaces/Breaks to kgeography-data against lenny kgeography
+   (Closes: #592663).
 
  -- Modestas Vainius <modax@debian.org>  Mon, 13 Sep 2010 18:53:56 +0300
 

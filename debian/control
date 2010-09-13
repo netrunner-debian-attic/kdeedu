@@ -216,6 +216,8 @@ Package: kgeography-data
 Architecture: all
 Section:misc
 Depends: ${misc:Depends}
+Replaces: kgeography (<< 4:4.0.0)
+Breaks: kgeography (<< 4:4.0.0)
 Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
