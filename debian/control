@@ -284,6 +284,8 @@ Description: foreign alphabet tutor for KDE
 Package: klettres-data
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: klettres (<< 4:4.0.0)
+Breaks: klettres (<< 4:4.0.0)
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE.
