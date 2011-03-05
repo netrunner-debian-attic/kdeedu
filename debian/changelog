@@ -6,6 +6,7 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Refreshed 02_no_install_rpath_use_link_path.diff patch.
   * Update installed files.
   * Add build depends libavogadro-dev and libglew1.5-dev.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
