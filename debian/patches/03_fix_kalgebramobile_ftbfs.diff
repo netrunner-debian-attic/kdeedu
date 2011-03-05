@@ -1,0 +1,11 @@
+--- a/kalgebra/mobile/CMakeLists.txt
++++ b/kalgebra/mobile/CMakeLists.txt
+@@ -5,6 +5,8 @@
+ 
+ target_link_libraries(kalgebramobile ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTSCRIPT_LIBRARY}
+ # 				${QT_QTSCRIPTTOOLS_LIBRARY}
++				${KDE4_KDECORE_LIBS}
++				${KDE4_KDEUI_LIBS}
+ 				analitza analitzagui)
+ 
+ install(TARGETS kalgebramobile ${INSTALL_TARGETS_DEFAULT_ARGS})

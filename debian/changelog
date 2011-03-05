@@ -3,7 +3,9 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
-  * Refreshed 02_no_install_rpath_use_link_path.diff patch.
+  * Updated patches:
+    - Refreshed 02_no_install_rpath_use_link_path.diff patch.
+    - Add 03_fix_kalgebramobile_ftbfs.diff.
   * Remove kstars_unswap_fields_in_wizard.diff, no longer needed.
   * Update installed files.
   * Add build depends libavogadro-dev and libglew1.5-dev.
