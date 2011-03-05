@@ -4,6 +4,7 @@ Subject: unswap Province/Country fields in kstars startup wizard
 Forwarded: no
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=593159
 Last-Update: 2010-09-13
+Applied-Upstream: 4.6.0
 
 The Province and Country fields are swapped in the startup wizard;
 typing text in one will filter the other.  This error is quite obvious
