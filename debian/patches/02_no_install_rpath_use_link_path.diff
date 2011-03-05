@@ -7,10 +7,8 @@ Subject: disable INSTALL_RPATH_USE_LINK_PATH where it triggers useless RPATH
 Forwarded: not-needed
 Origin: vendor
 Last-Update: 2010-07-27
-Index: kdeedu/cantor/src/backends/R/rserver/CMakeLists.txt
-===================================================================
---- kdeedu.orig/cantor/src/backends/R/rserver/CMakeLists.txt	2010-06-08 12:10:24.000000000 +0200
-+++ kdeedu/cantor/src/backends/R/rserver/CMakeLists.txt	2010-09-02 11:16:21.000000000 +0200
+--- a/cantor/src/backends/R/rserver/CMakeLists.txt
++++ b/cantor/src/backends/R/rserver/CMakeLists.txt
 @@ -17,6 +17,7 @@
  add_custom_target(rautoloads COMMAND ${R_EXECUTABLE} --slave --file=${CMAKE_CURRENT_SOURCE_DIR}/tools/autoloads.r > ${CMAKE_CURRENT_BINARY_DIR}/rautoloads.h )
  
@@ -19,11 +17,9 @@ Index: kdeedu/cantor/src/backends/R/rserver/CMakeLists.txt
  target_link_libraries( cantor_rserver ${KDE4_KDEUI_LIBS} cantorlibs ${R_LIBRARIES} ${KDE4_KIO_LIBS})
  add_dependencies(cantor_rserver renvvars rautoloads)
  
-Index: kdeedu/kalzium/src/CMakeLists.txt
-===================================================================
---- kdeedu.orig/kalzium/src/CMakeLists.txt	2010-06-08 12:11:51.000000000 +0200
-+++ kdeedu/kalzium/src/CMakeLists.txt	2010-09-02 11:16:21.000000000 +0200
-@@ -128,6 +128,7 @@
+--- a/kalzium/src/CMakeLists.txt
++++ b/kalzium/src/CMakeLists.txt
+@@ -130,6 +130,7 @@
  
  kde4_add_executable(kalzium ${kalzium_SRCS})
  
@@ -31,22 +27,18 @@ Index: kdeedu/kalzium/src/CMakeLists.txt
  target_link_libraries(kalzium ${KDE4_KHTML_LIBRARY} ${KDE4_KNEWSTUFF3_LIBS} ${KDE4_KUNITCONVERSION_LIBS} science kdeeduui)
  
  if (OPENBABEL2_FOUND)
-Index: kdeedu/cantor/src/backends/R/CMakeLists.txt
-===================================================================
---- kdeedu.orig/cantor/src/backends/R/CMakeLists.txt	2010-06-08 12:10:25.000000000 +0200
-+++ kdeedu/cantor/src/backends/R/CMakeLists.txt	2010-09-02 11:16:21.000000000 +0200
-@@ -18,6 +18,7 @@
+--- a/cantor/src/backends/R/CMakeLists.txt
++++ b/cantor/src/backends/R/CMakeLists.txt
+@@ -21,6 +21,7 @@
  kde4_add_ui_files(RBackend_SRCS settings.ui)
  
  kde4_add_plugin( cantor_rbackend ${RBackend_SRCS} )
 +set_target_properties( cantor_rbackend PROPERTIES INSTALL_RPATH_USE_LINK_PATH false)
- target_link_libraries( cantor_rbackend ${KDE4_KDEUI_LIBS} cantorlibs ${R_USED_LIBS})
+ target_link_libraries( cantor_rbackend ${KDE4_KDEUI_LIBS} ${KDE4_KIO_LIBS} cantorlibs ${R_USED_LIBS})
  
  install( FILES rbackend.desktop  DESTINATION ${SERVICES_INSTALL_DIR}/cantor)
-Index: kdeedu/kalzium/compoundviewer/CMakeLists.txt
-===================================================================
---- kdeedu.orig/kalzium/compoundviewer/CMakeLists.txt	2010-09-02 22:19:53.587621981 +0200
-+++ kdeedu/kalzium/compoundviewer/CMakeLists.txt	2010-09-02 22:43:16.475583999 +0200
+--- a/kalzium/compoundviewer/CMakeLists.txt
++++ b/kalzium/compoundviewer/CMakeLists.txt
 @@ -22,6 +22,7 @@
     avogadro
  )
