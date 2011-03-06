@@ -116,7 +116,7 @@ Package: cantor-backend-octave
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}, octave
-Description: Ocatve backend for Cantor
+Description: Octave backend for Cantor
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
  provides dialogs to assist with common tasks and allows you to share your
