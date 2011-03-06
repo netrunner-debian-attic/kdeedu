@@ -22,6 +22,9 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump build dependency on kdelibs5-dev to version 4:4.6.
   * Add libxrender-dev to build dependencies.
 
+  [ Pino Toscano ]
+  * cantor: mention cantor-backend-octave in the description, and suggest it
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
 kdeedu (4:4.4.5-2) unstable; urgency=low

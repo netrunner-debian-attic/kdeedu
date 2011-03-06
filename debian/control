@@ -66,7 +66,8 @@ Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: cantor-backend-kalgebra
-Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage
+Suggests: cantor-backend-maxima, cantor-backend-r, cantor-backend-sage,
+ cantor-backend-octave
 Description: interface for mathematical applications
  Cantor is an application to allow you to you use your favorite mathematical
  applications from within an elegant KDE-integrated worksheet interface. It
@@ -79,6 +80,7 @@ Description: interface for mathematical applications
   * Maxima Computer Algebra System (cantor-backend-maxima)
   * R Project for Statistical Computing (cantor-backend-r)
   * Sage Mathematics Software (cantor-backend-sage)
+  * Octave (cantor-backend-octave)
  .
  This package is part of the KDE education module.
 
