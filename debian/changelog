@@ -8,7 +8,10 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
     - Add 03_fix_kalgebramobile_ftbfs.diff.
   * Remove kstars_unswap_fields_in_wizard.diff, no longer needed.
   * Update installed files.
-  * Add build depends libavogadro-dev and libglew1.5-dev.
+  * Add build depends:
+    - libavogadro-dev
+    - libglew1.5-dev
+    - libqtwebkit-dev
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Add new packages:
     - libkdeedu-data
