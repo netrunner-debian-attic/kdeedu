@@ -3,12 +3,14 @@ usr/lib/kde4/concentrationCalculator.so
 usr/lib/kde4/gasCalculator.so
 usr/lib/kde4/nuclearCalculator.so
 usr/lib/kde4/plasma_applet_didyouknow.so
+usr/lib/kde4/plasma_applet_molmassCalculator.so
 usr/lib/kde4/plasma_engine_kalzium.so
 usr/lib/libcompoundviewer.so.4
-usr/lib/libcompoundviewer.so.4.5.0
+usr/lib/libcompoundviewer.so.4.6.0
 usr/share/applications/kde4/kalzium.desktop
 usr/share/kde4/services/concentrationCalculator.desktop
 usr/share/kde4/services/gasCalculator.desktop
 usr/share/kde4/services/nuclearCalculator.desktop
+usr/share/kde4/services/plasma-applet-Molmasscalculator.desktop
 usr/share/kde4/services/plasma-dataengine-kalzium.desktop
 usr/share/kde4/services/plasma_didyouknow.desktop

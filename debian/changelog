@@ -10,6 +10,10 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Add build depends libavogadro-dev and libglew1.5-dev.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Add new packages:
+    - libkdeedu-data
+    - kalgebramobile
+    - cantor-backend-octave
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.

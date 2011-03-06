@@ -1,8 +1,10 @@
 usr/bin/cantor
+usr/lib/kde4/cantor_advancedplotassistant.so
 usr/lib/kde4/cantor_creatematrixassistant.so
 usr/lib/kde4/cantor_differentiateassistant.so
 usr/lib/kde4/cantor_eigenvaluesassistant.so
 usr/lib/kde4/cantor_eigenvectorsassistant.so
+usr/lib/kde4/cantor_helppanelplugin.so
 usr/lib/kde4/cantor_integrateassistant.so
 usr/lib/kde4/cantor_invertmatrixassistant.so
 usr/lib/kde4/cantor_nullbackend.so
@@ -10,6 +12,7 @@ usr/lib/kde4/cantor_plot2dassistant.so
 usr/lib/kde4/cantor_plot3dassistant.so
 usr/lib/kde4/cantor_runscriptassistant.so
 usr/lib/kde4/cantor_solveassistant.so
+usr/lib/kde4/cantor_variablemanagerplugin.so
 usr/lib/kde4/libcantorpart.so
 usr/lib/libcantor_config.so
 usr/lib/libcantorlibs.so.0.0.2
@@ -23,6 +26,7 @@ usr/share/doc/kde/HTML/en/cantor/screenshot.png
 usr/share/icons/hicolor/16x16/apps/cantor.png
 usr/share/icons/hicolor/32x32/apps/cantor.png
 usr/share/icons/hicolor/48x48/apps/cantor.png
+usr/share/kde4/apps/cantor/cantor_advancedplot_assistant.rc
 usr/share/kde4/apps/cantor/cantor_create_matrix_assistant.rc
 usr/share/kde4/apps/cantor/cantor_differentiate_assistant.rc
 usr/share/kde4/apps/cantor/cantor_eigenvalues_assistant.rc
@@ -35,15 +39,18 @@ usr/share/kde4/apps/cantor/cantor_runscript_assistant.rc
 usr/share/kde4/apps/cantor/cantor_scripteditor.rc
 usr/share/kde4/apps/cantor/cantor_shell.rc
 usr/share/kde4/apps/cantor/cantor_solve_assistant.rc
+usr/share/kde4/apps/cantor/xslt/latex.xsl
 usr/share/kde4/apps/cantorpart/cantor_part.rc
 usr/share/kde4/config.kcfg/cantor.kcfg
 usr/share/kde4/config.kcfg/cantor_libs.kcfg
 usr/share/kde4/config/cantor.knsrc
+usr/share/kde4/services/cantor/advancedplotassistant.desktop
 usr/share/kde4/services/cantor/cantor_part.desktop
 usr/share/kde4/services/cantor/creatematrixassistant.desktop
 usr/share/kde4/services/cantor/differentiateassistant.desktop
 usr/share/kde4/services/cantor/eigenvaluesassistant.desktop
 usr/share/kde4/services/cantor/eigenvectorsassistant.desktop
+usr/share/kde4/services/cantor/helppanelplugin.desktop
 usr/share/kde4/services/cantor/integrateassistant.desktop
 usr/share/kde4/services/cantor/invertmatrixassistant.desktop
 usr/share/kde4/services/cantor/nullbackend.desktop
@@ -51,5 +58,7 @@ usr/share/kde4/services/cantor/plot2dassistant.desktop
 usr/share/kde4/services/cantor/plot3dassistant.desktop
 usr/share/kde4/services/cantor/runscriptassistant.desktop
 usr/share/kde4/services/cantor/solveassistant.desktop
+usr/share/kde4/services/cantor/variablemanagerplugin.desktop
 usr/share/kde4/servicetypes/cantor_assistant.desktop
 usr/share/kde4/servicetypes/cantor_backend.desktop
+usr/share/kde4/servicetypes/cantor_panelplugin.desktop

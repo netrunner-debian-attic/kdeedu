@@ -1,5 +1,6 @@
 usr/bin/geodatatest
 usr/bin/marble
+usr/bin/routing-instructions
 usr/bin/tilecreator
 usr/lib/kde4/libmarble_part.so
 usr/lib/kde4/plasma_applet_worldclock.so

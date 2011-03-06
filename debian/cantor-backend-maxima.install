@@ -1,5 +1,6 @@
 usr/lib/kde4/cantor_maximabackend.so
 usr/share/icons/hicolor/48x48/apps/maximabackend.png
+usr/share/kde4/apps/cantor/maximabackend/keywords.xml
 usr/share/kde4/config.kcfg/maximabackend.kcfg
 usr/share/kde4/config/cantor_maxima.knsrc
 usr/share/kde4/services/cantor/maximabackend.desktop

@@ -112,6 +112,21 @@ Description: Maxima backend for Cantor
  .
  This package is part of the KDE education module.
 
+Package: cantor-backend-octave
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}, octave
+Description: Ocatve backend for Cantor
+ Cantor is an application to allow you to you use your favorite mathematical
+ applications from within an elegant KDE-integrated worksheet interface. It
+ provides dialogs to assist with common tasks and allows you to share your
+ worksheets with others.
+ .
+ This package provides the backend for using the GNU Octave language for
+ numerical computations (http://www.octave.org/) in Cantor.
+ .
+ This package is part of the KDE education module.
+
 Package: cantor-backend-r
 Architecture: any
 Section: math
@@ -145,6 +160,16 @@ Description: Sage backend for Cantor
  This package is part of the KDE education module.
 
 Package: kalgebra
+Architecture: any
+Section: math
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: algebraic graphing calculator for KDE
+ KAlgebra is a algebraic graphing calculator with support for 3D graphing and
+ MathML markup language.
+ .
+ This package is part of the KDE education module.
+
+Package: kalgebramobile
 Architecture: any
 Section: math
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -397,10 +422,18 @@ Description: flashcard learning program for KDE
  .
  This package is part of the KDE education module.
 
+Package: libkdeedu-data
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: data files for libkdeedu
+ This package contains the architecture-independent data files for libkdeedu.
+ .
+ This package is part of the KDE education module.
+
 Package: libkdeedu4
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
 Conflicts: libkdeedu1
 Replaces: libkdeedu1
 Description: libraries for KDE educational applications

@@ -16,21 +16,32 @@
 ./usr/share/dbus-1/interfaces/org.kde.kmplot.Parser.xml
 ./usr/share/dbus-1/interfaces/org.kde.kmplot.View.xml
 
-# Shipped in oxygen-icon-theme
-./usr/share/icons/oxygen/22x22/actions/pointer.png
-
 # Shipped in ttf-dustin
 ./usr/share/kde4/apps/khangman/fonts/Domestic_Manners.ttf
 ./usr/share/kde4/apps/khangman/fonts/Dustismo_Roman.ttf
 
+# Manpages are compressed
+./usr/share/man/man1/kalzium.1
+./usr/share/man/man1/kbruch.1
+./usr/share/man/man1/kig.1
+./usr/share/man/man1/kmplot.1
+./usr/share/man/man1/ktouch.1
+./usr/share/man/man6/khangman.6
+
 # rocslib-dev
-./usr/lib/librocslib.so
+./usr/include/rocs/Data.h
+./usr/include/rocs/DataType.h
 ./usr/include/rocs/DynamicPropertiesList.h
-./usr/include/rocs/edge.h
+./usr/include/rocs/FilePluginInterface.h
+./usr/include/rocs/NodeItem.h
+./usr/include/rocs/OrientedEdgeItem.h
+./usr/include/rocs/PluginManager.h
+./usr/include/rocs/Pointer.h
+./usr/include/rocs/ToolsPluginInterface.h
 ./usr/include/rocs/graphDocument.h
-./usr/include/rocs/graphGroups.h
-./usr/include/rocs/graph.h
 ./usr/include/rocs/krossBackend.h
-./usr/include/rocs/node.h
 ./usr/include/rocs/qtScriptBackend.h
+./usr/include/rocs/rocs_typedefs.h
+./usr/include/rocs/rocslib_export.h
 ./usr/include/rocs/threadDocument.h
+./usr/lib/librocslib.so
