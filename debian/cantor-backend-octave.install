@@ -1,0 +1,8 @@
+usr/lib/kde4/cantor_octavebackend.so
+usr/share/icons/hicolor/48x48/apps/octavebackend.png
+usr/share/kde4/apps/cantor/octavebackend/cantor_eigenvectors.m
+usr/share/kde4/apps/cantor/octavebackend/cantor_plot2d.m
+usr/share/kde4/apps/cantor/octavebackend/cantor_plot3d.m
+usr/share/kde4/apps/cantor/octavebackend/cantor_print.m
+usr/share/kde4/config.kcfg/octavebackend.kcfg
+usr/share/kde4/services/cantor/octavebackend.desktop
