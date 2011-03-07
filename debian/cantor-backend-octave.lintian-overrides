@@ -1,0 +1,1 @@
+cantor-backend-octave: virtual-package-depends-without-real-package-depends depends: octave
