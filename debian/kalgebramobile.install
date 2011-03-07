@@ -1,0 +1,11 @@
+usr/bin/kalgebramobile
+usr/share/applications/kde4/kalgebramobile.desktop
+usr/share/kde4/apps/kalgebra/scripts/console/console.js
+usr/share/kde4/apps/kalgebra/scripts/console/kalgebraconsole.desktop
+usr/share/kde4/apps/kalgebra/scripts/plot2d/kalgebraplot2d.desktop
+usr/share/kde4/apps/kalgebra/scripts/plot2d/plot2d.js
+usr/share/kde4/apps/kalgebra/scripts/tables/kalgebratables.desktop
+usr/share/kde4/apps/kalgebra/scripts/tables/tables.js
+usr/share/kde4/apps/kalgebra/scripts/variables/kalgebravariables.desktop
+usr/share/kde4/apps/kalgebra/scripts/variables/variables.js
+usr/share/kde4/servicetypes/kalgebrascript.desktop
