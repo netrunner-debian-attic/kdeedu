@@ -1,13 +1,15 @@
 kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update installed files.
+  * Update symbols files.
+  * Update lintian overrides.
 
   [ José Manuel Santamaría Lema ]
   * Updated patches:
     - Refreshed 02_no_install_rpath_use_link_path.diff patch.
     - Add 03_fix_kalgebramobile_ftbfs.diff.
   * Remove kstars_unswap_fields_in_wizard.diff, no longer needed.
-  * Update installed files.
   * Add build depends:
     - libavogadro-dev
     - libglew1.5-dev
@@ -22,8 +24,6 @@ kdeedu (4:4.6.1-0r0) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
-  * Update symbols files.
-  * Update lintian overrides.
   * Bump build dependency on kdelibs5-dev to version 4:4.6.
   * Add libxrender-dev to build dependencies.
 
