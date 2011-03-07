@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkdeeduui.so.4 libkdeedu4 #MINVER#
  _ZN12GlossaryItem11setPicturesERK7QString@Base 4:4.3.4
  _ZN12GlossaryItem6setRefERK11QStringList@Base 4:4.3.4
@@ -508,6 +508,13 @@ libscience.so.4 libkdeedu4 #MINVER#
  _ZN8TempUnit15unitListSymbolsEv@Base 4:4.3.4
  _ZN8TempUnit7convertEdNS_4UnitES0_@Base 4:4.3.4
  _ZN8TempUnit7convertEdii@Base 4:4.3.4
+ _ZN9pseTables12getTabletypeE7QString@Base 4:4.6.1
+ _ZN9pseTables12getTabletypeEi@Base 4:4.6.1
+ _ZN9pseTables8instanceEv@Base 4:4.6.1
+ _ZN9pseTablesC1Ev@Base 4:4.6.1
+ _ZN9pseTablesC2Ev@Base 4:4.6.1
+ _ZN9pseTablesD1Ev@Base 4:4.6.1
+ _ZN9pseTablesD2Ev@Base 4:4.6.1
  _ZNK18ChemicalDataObject10errorValueEv@Base 4:4.3.4
  _ZNK18ChemicalDataObject12unitAsStringEv@Base 4:4.3.4
  _ZNK18ChemicalDataObject13valueAsStringEv@Base 4:4.3.4
@@ -542,6 +549,7 @@ libscience.so.4 libkdeedu4 #MINVER#
  _ZNK7Isotope9abundanceEv@Base 4:4.3.4
  _ZNK7Isotope9magmomentEv@Base 4:4.3.4
  _ZNK8Spectrum19parentElementNumberEv@Base 4:4.3.4
+ _ZNK9pseTables6tablesEv@Base 4:4.6.1
  _ZTI13IsotopeParser@Base 4:4.3.4
  _ZTI14MoleculeParser@Base 4:4.3.4
  _ZTI14SpectrumParser@Base 4:4.3.4
