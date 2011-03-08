@@ -19,7 +19,7 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
     - libkdeedu-data
     - kalgebramobile
     - cantor-backend-octave
-  * Rename libmarblewidget10 as libmarblewidget11 due to soname bump.
+  * Rename libmarblewidget4 as libmarblewidget11 due to soname bump.
   * Add myself to Uploaders.
 
   [ George Kiagiadakis ]
