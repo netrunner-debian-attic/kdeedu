@@ -29,6 +29,7 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * cantor: mention cantor-backend-octave in the description, and suggest it
+  * Add DEP-3 header to patch 03_fix_kalgebramobile_ftbfs.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
