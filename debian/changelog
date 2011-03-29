@@ -5,6 +5,8 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Update symbols files.
   * Update lintian overrides.
 
+  TODO: split libkdeedu4 into individual packages (4.4->4.6 is BC).
+
   [ José Manuel Santamaría Lema ]
   * Updated patches:
     - Refreshed 02_no_install_rpath_use_link_path.diff patch.
