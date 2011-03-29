@@ -1,4 +1,3 @@
 step_needs_-lcln.diff
 no_install_rpath_use_link_path.diff
-fix_kalgebramobile_ftbfs.diff
 enable_debianabimanager.diff

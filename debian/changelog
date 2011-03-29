@@ -10,7 +10,6 @@ kdeedu (4:4.6.1-0r3) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Updated patches:
     - Refreshed 02_no_install_rpath_use_link_path.diff patch.
-    - Add 03_fix_kalgebramobile_ftbfs.diff.
   * Remove kstars_unswap_fields_in_wizard.diff, no longer needed.
   * Add build depends:
     - libavogadro-dev
@@ -31,7 +30,6 @@ kdeedu (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * cantor: mention cantor-backend-octave in the description, and suggest it
-  * Add DEP-3 header to patch 03_fix_kalgebramobile_ftbfs.diff.
 
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
