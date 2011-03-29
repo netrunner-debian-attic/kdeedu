@@ -164,9 +164,6 @@ Files under cmake/
  cmake/modules/FindReadline.cmake ~ unspec ~ unspec
  cmake/modules/FindR.cmake ~ BSD ~ Copyright © 2008 Jerome SONRIER <jsid@emor3j.fr.eu.org>
 
-On Debian systems, you can find the complete text of the BSD license at:
-/usr/share/common-licenses/BSD
-
 
 Files under kalgebra/
 

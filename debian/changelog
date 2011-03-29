@@ -36,6 +36,7 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Strip sequence numbers from debian/patches.
   * Enable DebianABIManager and ABI-manage libkiten4 (ABI: 0).
   * Add appropriate Build-Depends-Package fields to symbol files.
+  * Remove redudant references to obsolete common-licenses/BSD.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
