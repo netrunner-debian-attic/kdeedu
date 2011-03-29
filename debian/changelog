@@ -34,6 +34,7 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Strip sequence numbers from debian/patches.
+  * Enable DebianABIManager and ABI-manage libkiten4 (ABI: 0).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 

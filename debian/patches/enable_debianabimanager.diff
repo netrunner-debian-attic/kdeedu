@@ -1,0 +1,17 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Use DebianABIManager for this source package. It's Debian-specific.
+Forwarded: not-needed
+
+For more information about DebianABIManager, refer to
+/usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -101,4 +101,7 @@ if (EIGEN2_FOUND AND NOT WIN32)
+   macro_optional_add_subdirectory(step)
+ endif (EIGEN2_FOUND AND NOT WIN32)
+ macro_optional_add_subdirectory(doc)
++
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
++
+ macro_display_feature_log()
