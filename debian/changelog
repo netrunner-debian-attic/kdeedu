@@ -1,4 +1,4 @@
-kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update installed files.
@@ -40,7 +40,7 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Add appropriate Build-Depends-Package fields to symbol files.
   * Remove redudant references to obsolete common-licenses/BSD.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 23:05:24 +0300
 
 kdeedu (4:4.4.5-2) unstable; urgency=low
 
