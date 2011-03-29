@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkdeeduui.so.4 libkdeedu4 #MINVER#
+* Build-Depends-Package: libkdeedu-dev
  _ZN12GlossaryItem11setPicturesERK7QString@Base 4:4.3.4
  _ZN12GlossaryItem6setRefERK11QStringList@Base 4:4.3.4
  _ZN12GlossaryItem7setDescERK7QString@Base 4:4.3.4
@@ -57,6 +58,7 @@ libkdeeduui.so.4 libkdeedu4 #MINVER#
  _ZTV8Glossary@Base 4:4.3.4
  (c++)"non-virtual thunk to GlossaryDialog::~GlossaryDialog()@Base" 4:4.3.4
 libkeduvocdocument.so.4 libkdeedu4 #MINVER#
+* Build-Depends-Package: libkdeedu-dev
  _ZN11KEduVocText10fromKVTML2ER11QDomElement@Base 4:4.3.4
  _ZN11KEduVocText11incBadCountEv@Base 4:4.3.4
  _ZN11KEduVocText11resetGradesEv@Base 4:4.3.4
@@ -399,6 +401,7 @@ libkeduvocdocument.so.4 libkdeedu4 #MINVER#
  _ZTV16KEduVocContainer@Base 4:4.3.4
  _ZTV17KEduVocLeitnerBox@Base 4:4.3.4
 libscience.so.4 libkdeedu4 #MINVER#
+* Build-Depends-Package: libkdeedu-dev
  _ZN13IsotopeParser10charactersERK7QString@Base 4:4.3.4
  _ZN13IsotopeParser10endElementERK7QStringS2_S2_@Base 4:4.3.4
  _ZN13IsotopeParser11getIsotopesEv@Base 4:4.3.4

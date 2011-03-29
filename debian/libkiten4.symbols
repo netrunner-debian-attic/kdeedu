@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkiten.so.4 libkiten4 #MINVER#
+* Build-Depends-Package: libkiten-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN14HistoryPtrList10setCurrentEi@ABI_4_0 4:4.6.1
  _ZN14HistoryPtrList12toStringListEv@ABI_4_0 4:4.6.1
