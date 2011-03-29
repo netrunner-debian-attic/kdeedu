@@ -31,6 +31,9 @@ kdeedu (4:4.6.1-0r1) UNRELEASED; urgency=low
   * cantor: mention cantor-backend-octave in the description, and suggest it
   * Add DEP-3 header to patch 03_fix_kalgebramobile_ftbfs.diff.
 
+  [ Modestas Vainius ]
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Sep 2010 21:17:18 +0300
 
 kdeedu (4:4.4.5-2) unstable; urgency=low
