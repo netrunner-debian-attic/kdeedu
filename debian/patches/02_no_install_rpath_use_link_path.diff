@@ -9,7 +9,7 @@ Origin: vendor
 Last-Update: 2010-07-27
 --- a/cantor/src/backends/R/rserver/CMakeLists.txt
 +++ b/cantor/src/backends/R/rserver/CMakeLists.txt
-@@ -17,6 +17,7 @@
+@@ -17,6 +17,7 @@ add_custom_target(renvvars COMMAND ${R_E
  add_custom_target(rautoloads COMMAND ${R_EXECUTABLE} --slave --file=${CMAKE_CURRENT_SOURCE_DIR}/tools/autoloads.r > ${CMAKE_CURRENT_BINARY_DIR}/rautoloads.h )
  
  kde4_add_executable( cantor_rserver ${RServer_SRCS} )
@@ -19,7 +19,7 @@ Last-Update: 2010-07-27
  
 --- a/kalzium/src/CMakeLists.txt
 +++ b/kalzium/src/CMakeLists.txt
-@@ -130,6 +130,7 @@
+@@ -130,6 +130,7 @@ kde4_add_app_icon(kalzium_SRCS "${CMAKE_
  
  kde4_add_executable(kalzium ${kalzium_SRCS})
  
@@ -29,7 +29,7 @@ Last-Update: 2010-07-27
  if (OPENBABEL2_FOUND)
 --- a/cantor/src/backends/R/CMakeLists.txt
 +++ b/cantor/src/backends/R/CMakeLists.txt
-@@ -21,6 +21,7 @@
+@@ -21,6 +21,7 @@ QT4_ADD_DBUS_INTERFACE(RBackend_SRCS ${n
  kde4_add_ui_files(RBackend_SRCS settings.ui)
  
  kde4_add_plugin( cantor_rbackend ${RBackend_SRCS} )
@@ -39,7 +39,7 @@ Last-Update: 2010-07-27
  install( FILES rbackend.desktop  DESTINATION ${SERVICES_INSTALL_DIR}/cantor)
 --- a/kalzium/compoundviewer/CMakeLists.txt
 +++ b/kalzium/compoundviewer/CMakeLists.txt
-@@ -22,6 +22,7 @@
+@@ -22,6 +22,7 @@ target_link_libraries(compoundviewer
     avogadro
  )
  
