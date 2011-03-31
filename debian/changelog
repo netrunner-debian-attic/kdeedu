@@ -1,6 +1,8 @@
 kdeedu (4:4.6.1-0r4) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes wrong ionisation energy display in Kalzium (Closes: #540474)
+    - Marble now follows XDG basedir specification (Closes: #545037)
   * Update installed files.
   * Update symbols files.
   * Update lintian overrides.
