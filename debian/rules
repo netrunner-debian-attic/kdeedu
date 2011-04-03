@@ -5,19 +5,19 @@ libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DWITH_DESIGNER_PLUGIN=ON
+	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON
 
 .PHONY: override_dh_auto_test
 
 override_dh_install:
-	$(overriden_command) -Xusr/share/kde4/apps/marble/data/LICENSE.txt
+	$(overridden_command) -Xusr/share/kde4/apps/marble/data/LICENSE.txt
 
 override_dh_makeshlibs:
-	$(overriden_command) -V -- -c0
+	$(overridden_command) -V -- -c0
 
 override_dh_shlibdeps:
-	$(overriden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkdebase-runtime
-	$(overriden_command) --remaining-packages
+	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkdebase-runtime
+	$(overridden_command) --remaining-packages
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdeedu-dbg
+	$(overridden_command) --dbg-package=kdeedu-dbg
