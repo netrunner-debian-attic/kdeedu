@@ -186,8 +186,6 @@ Package: kalzium
 Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, ${misc:Depends}, kalzium-data (>= ${source:Version})
-Replaces: kalzium-data (<< 4:4.1.86)
-Breaks: kalzium-data (<< 4:4.1.86)
 Suggests: khelpcenter4
 Description: periodic table and chemistry tools for KDE
  Kalzium is a full-featured chemistry application for KDE, including a
@@ -200,8 +198,6 @@ Package: kalzium-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
-Replaces: kalzium (<< 4:4.0.0)
-Breaks: kalzium (<< 4:4.0.0)
 Description: data files for Kalzium
  This package contains architecture-independent data files for Kalzium, the
  KDE periodic table application.
@@ -232,8 +228,6 @@ Description: fraction learning aid for KDE
 Package: kgeography
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kgeography-data (>= ${source:Version})
-Replaces: kgeography-data (<< 4:4.1.86)
-Breaks: kgeography-data (<< 4:4.1.86)
 Section: misc
 Suggests: khelpcenter4
 Description: geography learning aid for KDE
@@ -247,8 +241,6 @@ Package: kgeography-data
 Architecture: all
 Section:misc
 Depends: ${misc:Depends}
-Replaces: kgeography (<< 4:4.0.0)
-Breaks: kgeography (<< 4:4.0.0)
 Description: data files for KGeography
  This package contains architecture-independent data files for the
  KGeography geography learning tool, including maps, capitals, and flags.
@@ -298,8 +290,6 @@ Description: Japanese reference and study aid for KDE
 Package: klettres
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, klettres-data (>= ${source:Version})
-Replaces: klettres-data (<< 4:4.1.86)
-Breaks: klettres-data (<< 4:4.1.86)
 Suggests: khelpcenter4
 Description: foreign alphabet tutor for KDE
  KLettres is an aid for learning how to read and pronounce the alphabet of a
@@ -313,8 +303,6 @@ Description: foreign alphabet tutor for KDE
 Package: klettres-data
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: klettres (<< 4:4.0.0)
-Breaks: klettres (<< 4:4.0.0)
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE.
@@ -355,8 +343,6 @@ Package: kstars
 Architecture: any
 Section: science
 Depends: ${shlibs:Depends}, ${misc:Depends}, kstars-data (>= ${source:Version})
-Replaces: kstars-data (<< 4:4.1.86)
-Breaks: kstars-data (<< 4:4.1.86)
 Suggests: konqueror, khelpcenter4, indi
 Description: desktop planetarium for KDE
  KStars is a desktop planetarium for KDE, depicting an accurate graphical
@@ -371,8 +357,6 @@ Package: kstars-data
 Architecture: all
 Section: science
 Depends: ${misc:Depends}
-Replaces: kstars (<< 4:4.0.0)
-Breaks: kstars (<< 4:4.0.0)
 Description: data files for KStars desktop planetarium
  This package contains architecture-independent data files for KStars,
  the graphical desktop planetarium for KDE, including star catalogues and
@@ -437,8 +421,8 @@ Package: libkdeedu4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
-Conflicts: libkdeedu1
 Replaces: libkdeedu1
+Breaks: libkdeedu1
 Description: libraries for KDE educational applications
  This package contains shared libraries used by KDE educational applications.
  It provides support for data plotting and vocabulary data in the kvtml format.
@@ -461,7 +445,7 @@ Section: libs
 X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
 Replaces: libkiten1
-Conflicts: libkiten1
+Breaks: libkiten1
 Recommends: ttf-kochi-gothic | ttf-kochi-mincho
 Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
@@ -486,8 +470,6 @@ Architecture: any
 Section: misc
 Depends: ${shlibs:Depends}, ${misc:Depends}, marble-data (>= ${source:Version}),
  marble-plugins (= ${binary:Version})
-Replaces: marble-data (<< 4:4.1.86)
-Breaks: marble-data (<< 4:4.1.86)
 Description: globe and map widget
  Marble is a generic geographical map widget and framework for KDE
  applications. The Marble widget shows the earth as a sphere but does not
@@ -510,8 +492,8 @@ Package: marble-plugins
 Architecture: any
 Section: misc
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libmarble4
 Replaces: libmarble4
+Breaks: libmarble4
 Description: plugins for Marble
  This package contains various plugins for the Marble desktop globe. The Marble
  globe widget library may not be of much use if this package is not installed.
@@ -543,8 +525,6 @@ Package: parley
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
  parley-data (>= ${source:Version}), kdeedu-kvtml-data (= ${source:Version})
-Replaces: parley-data (<< 4:4.1.86)
-Breaks: parley-data (<< 4:4.1.86)
 Recommends: krosspython
 Suggests: khelpcenter4
 Description: vocabulary trainer for KDE
@@ -594,8 +574,6 @@ Package: kdeedu-kvtml-data
 Architecture: all
 Section: kde
 Depends: ${misc:Depends}
-Replaces: kanagram (<< 4:4.2.0)
-Breaks: kanagram (<< 4:4.2.0)
 Description: kvtml files for kdeedu programs
  This package contains architecture-independent data files for several kdeedu
  applications, like KAnagram, KHangman and KWordQuiz.

@@ -41,6 +41,7 @@ kdeedu (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Enable DebianABIManager and ABI-manage libkiten4 (ABI: 0).
   * Add appropriate Build-Depends-Package fields to symbol files.
   * Remove redudant references to obsolete common-licenses/BSD.
+  * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 01:34:29 +0300
 
