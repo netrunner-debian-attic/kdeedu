@@ -1,4 +1,4 @@
-kdeedu (4:4.6.1-0r4) UNRELEASED; urgency=low
+kdeedu (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes wrong ionisation energy display in Kalzium (Closes: #540474)
@@ -19,7 +19,7 @@ kdeedu (4:4.6.1-0r4) UNRELEASED; urgency=low
     - libavogadro-dev
     - libglew1.5-dev
     - libqtwebkit-dev
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Add new packages:
     - libkdeedu-data
     - kalgebramobile
