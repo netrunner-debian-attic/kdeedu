@@ -9,8 +9,6 @@ kdeedu (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Update symbols files.
   * Update lintian overrides.
 
-  TODO: split libkdeedu4 into individual packages (4.4->4.6 is BC).
-
   [ José Manuel Santamaría Lema ]
   * Updated patches:
     - Refreshed 02_no_install_rpath_use_link_path.diff patch.
@@ -25,6 +23,7 @@ kdeedu (4:4.6.2-0r0) UNRELEASED; urgency=low
     - kalgebramobile
     - cantor-backend-octave
   * Rename libmarblewidget4 as libmarblewidget11 due to soname bump.
+  * Split libkdeedu4 into individual library packages.
   * Add myself to Uploaders.
 
   [ George Kiagiadakis ]

@@ -417,22 +417,48 @@ Description: data files for libkdeedu
  .
  This package is part of the KDE education module.
 
-Package: libkdeedu4
+Package: libkdeeduui4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
-Replaces: libkdeedu1
-Breaks: libkdeedu1
-Description: libraries for KDE educational applications
- This package contains shared libraries used by KDE educational applications.
- It provides support for data plotting and vocabulary data in the kvtml format.
+Replaces: libkdeedu4 (<< 4:4.6.2)
+Breaks: libkdeedu4 (<< 4:4.6.2)
+Description: library providing UI elements for KDE educational applications
+ This package contains a library that provides UI elements for KDE educational
+ applications.
+ .
+ This package is part of the KDE education module.
+
+Package: libkeduvocdocument4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
+Replaces: libkdeedu4 (<< 4:4.6.2)
+Breaks: libkdeedu4 (<< 4:4.6.2)
+Description: library for reading and writing vocabulary files
+ This package contains a library for reading and writing vocabulary files. It
+ supports different file formats. KVTML (version 2) is the default. This library
+ is used by Parley, Kanagram, KHangMan and KWordQuiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libscience4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdeedu-data (>= ${source:Version})
+Replaces: libkdeedu4 (<< 4:4.6.2)
+Breaks: libkdeedu4 (<< 4:4.6.2)
+Description: library providing classes for chemical data
+ This package contains a library that provides classes for chemical data. This
+ library is mainly used by Kalzium.
  .
  This package is part of the KDE education module.
 
 Package: libkdeedu-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, libkdeedu4 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.82)
+Depends: ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82), libkdeeduui4 (= ${binary:Version}),
+ libkeduvocdocument4 (= ${binary:Version}), libscience4 (= ${binary:Version})
 Description: development files for the KDE educational libraries
  This package contains development files for building software that uses the
  KDE educational libraries.
