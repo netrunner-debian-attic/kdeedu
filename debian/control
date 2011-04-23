@@ -470,6 +470,8 @@ Architecture: any
 Section: libs
 X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
+Replaces: libkiten1
+Breaks: libkiten1
 Recommends: ttf-kochi-gothic | ttf-kochi-mincho
 Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
