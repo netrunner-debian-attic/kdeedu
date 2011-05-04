@@ -16,7 +16,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
  xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev,
  libspectre-dev, libattica-dev, r-base-core, libavogadro-dev, libglew1.5-dev,
  libxrender-dev, libqtwebkit-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeedu.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeedu.git
