@@ -6,6 +6,9 @@ kdeedu (4:4.6.3-0r0) UNRELEASED; urgency=low
   * Confirm symbol files on more debian arches.
   * Install marble plugins into SOVERSION'ed subdirectory so binary
     incompatible libmarblewidget can't load them.
+  * Ship empty /usr/lib/kde4/plugins/marble/11 in libmarblewidget11
+    in order to keep it from falling back to /usr/lib/kde4/plugins/marble as
+    plugin dir.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.3.

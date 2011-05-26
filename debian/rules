@@ -4,14 +4,19 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-marble_soversion = $(shell dh_listpackages | sed -n '/^libmarblewidget/{s/^libmarblewidget//p}')
+marble_soversion := $(shell dh_listpackages | sed -n '/^libmarblewidget/{s/^libmarblewidget//p}')
+marble_plugin_path = /usr/lib/kde4/plugins/marble/$(marble_soversion)
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
         -DKDEEDU_KTOUCH_BUILD_WITH_PHONON=ON \
-        -DMARBLE_PLUGIN_PATH=/usr/lib/kde4/plugins/marble/$(marble_soversion)
+        -DMARBLE_PLUGIN_PATH=$(marble_plugin_path)
 
 .PHONY: override_dh_auto_test
+
+override_dh_installdirs:
+	$(overridden_command) -plibmarblewidget$(marble_soversion) $(marble_plugin_path)
+	$(overridden_command) --remaining-packages
 
 override_dh_install:
 	$(overridden_command) -Xusr/share/kde4/apps/marble/data/LICENSE.txt
