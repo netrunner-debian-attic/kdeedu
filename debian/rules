@@ -8,6 +8,7 @@ marble_soversion = $(shell dh_listpackages | sed -n '/^libmarblewidget/{s/^libma
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DWITH_DESIGNER_PLUGIN=ON \
+        -DKDEEDU_KTOUCH_BUILD_WITH_PHONON=ON \
         -DMARBLE_PLUGIN_PATH=/usr/lib/kde4/plugins/marble/$(marble_soversion)
 
 .PHONY: override_dh_auto_test
