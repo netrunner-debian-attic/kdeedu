@@ -1,4 +1,4 @@
-kdeedu (4:4.6.3-0r0) UNRELEASED; urgency=low
+kdeedu (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -17,7 +17,7 @@ kdeedu (4:4.6.3-0r0) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Enable the phonon usage in ktouch. (Closes: #628010)
 
- -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:28:48 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 22:01:17 +0300
 
 kdeedu (4:4.6.2-1) experimental; urgency=low
 
