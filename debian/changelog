@@ -1,4 +1,4 @@
-kdeedu (4:4.6.3-2) UNRELEASED; urgency=low
+kdeedu (4:4.6.3-2) unstable; urgency=low
 
   [ Pino Toscano ]
   * Remove the unused libusb-dev build dependency.
@@ -10,7 +10,7 @@ kdeedu (4:4.6.3-2) UNRELEASED; urgency=low
       depends, add libopenbabel-dev to build-conflicts;
     - remove libcompoundviewer* from kalzium.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 01:22:21 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Jun 2011 15:43:21 +0300
 
 kdeedu (4:4.6.3-1) unstable; urgency=low
 
