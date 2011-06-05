@@ -12,10 +12,11 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
  libboost-python-dev, libcfitsio3-dev (>= 3.040),
  libglu1-mesa-dev, libgs-dev, libnova-dev, libqt4-opengl-dev,
  libreadline-dev, libxslt-dev, ocaml, zlib1g-dev,
- libfacile-ocaml-dev, libopenbabel-dev, openbabel, pkg-config, libgps-dev (>= 2.90),
+ libfacile-ocaml-dev, pkg-config, libgps-dev (>= 2.90),
  xplanet, libeigen2-dev (>> 2.0.3), libgsl0-dev, libqalculate-dev, libglib2.0-dev,
- libspectre-dev, libattica-dev, r-base-core, libavogadro-dev, libglew1.5-dev,
+ libspectre-dev, libattica-dev, r-base-core, libglew1.5-dev,
  libxrender-dev, libqtwebkit-dev
+Build-Conflicts: libopenbabel-dev
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeedu.git

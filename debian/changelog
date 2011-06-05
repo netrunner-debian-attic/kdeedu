@@ -3,6 +3,13 @@ kdeedu (4:4.6.3-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Remove the unused libusb-dev build dependency.
 
+  [ Modestas Vainius ]
+  * Temporary drop dependency on OpenBabel as it is RC buggy. This should speed
+    up migration to testing:
+    - remove libopenbabel-dev, openbabel and libavogadro-dev from build
+      depends, add libopenbabel-dev to build-conflicts;
+    - remove libcompoundviewer* from kalzium.install.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 01:22:21 +0200
 
 kdeedu (4:4.6.3-1) unstable; urgency=low
