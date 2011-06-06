@@ -1,3 +1,8 @@
+kdeedu (4:4.6.3-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
+
 kdeedu (4:4.6.3-2) unstable; urgency=low
 
   [ Pino Toscano ]
