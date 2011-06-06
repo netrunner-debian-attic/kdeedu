@@ -1,5 +1,7 @@
 kdeedu (4:4.6.3-3) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
+  * Set architecture of libkdeedu-data to all.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
 

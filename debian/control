@@ -411,8 +411,8 @@ Description: flashcard learning program for KDE
  This package is part of the KDE education module.
 
 Package: libkdeedu-data
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Depends: ${misc:Depends}
 Description: data files for libkdeedu
  This package contains the architecture-independent data files for libkdeedu.
  .
