@@ -1,6 +1,8 @@
 kdeedu (4:4.6.4-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - kstars does not print FPS values to debug output anymore
+      (Closes: #622330)
 
   [ Felix Geyer ]
   * Set architecture of libkdeedu-data to all.
