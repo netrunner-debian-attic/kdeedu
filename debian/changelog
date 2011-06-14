@@ -1,4 +1,6 @@
-kdeedu (4:4.6.3-3) UNRELEASED; urgency=low
+kdeedu (4:4.6.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Felix Geyer ]
   * Set architecture of libkdeedu-data to all.
