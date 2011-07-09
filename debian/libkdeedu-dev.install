@@ -2,4 +2,6 @@ usr/include/libkdeedu/
 usr/lib/libkdeeduui.so
 usr/lib/libkeduvocdocument.so
 usr/lib/libscience.so
-usr/share/kde4/apps/cmake/modules/FindKDEEdu.cmake
+usr/lib/cmake/libkdeedu/LibKdeEduConfig.cmake
+usr/lib/cmake/libkdeedu/LibKdeEduTargets-debian.cmake
+usr/lib/cmake/libkdeedu/LibKdeEduTargets.cmake
