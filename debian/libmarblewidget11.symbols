@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libmarblewidget.so.11 libmarblewidget11 #MINVER#
 * Build-Depends-Package: libmarble-dev
  _ZGVZN6Marble11MarbleDebug10nullDeviceEvE6device@Base 4:4.5.1
@@ -278,6 +278,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble12GeoOnfParser18isValidRootElementEv@Base 4:4.5.1
  _ZN6Marble12GeoOnfParserC1Ev@Base 4:4.5.1
  _ZN6Marble12GeoOnfParserC2Ev@Base 4:4.5.1
+ _ZN6Marble12GeoOnfParserD0Ev@Base 4:4.6.5
+ _ZN6Marble12GeoOnfParserD1Ev@Base 4:4.6.5
+ _ZN6Marble12GeoOnfParserD2Ev@Base 4:4.6.5
  _ZN6Marble12GeoSceneHead10setVisibleEb@Base 4:4.5.1
  _ZN6Marble12GeoSceneHead14setDescriptionERK7QString@Base 4:4.5.1
  _ZN6Marble12GeoSceneHead4iconEv@Base 4:4.5.1
@@ -302,6 +305,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble12GeoSceneZoom11setDiscreteEb@Base 4:4.5.1
  _ZN6Marble12GeoSceneZoomC1Ev@Base 4:4.5.1
  _ZN6Marble12GeoSceneZoomC2Ev@Base 4:4.5.1
+ _ZN6Marble12GeoSceneZoomD0Ev@Base 4:4.6.5
+ _ZN6Marble12GeoSceneZoomD1Ev@Base 4:4.6.5
+ _ZN6Marble12GeoSceneZoomD2Ev@Base 4:4.6.5
  _ZN6Marble12LayerManager10loadLayersEv@Base 4:4.5.1
  _ZN6Marble12LayerManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble12LayerManager11qt_metacastEPKc@Base 4:4.5.1
@@ -470,6 +476,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble12PntMapLoader3runEv@Base 4:4.5.1
  _ZN6Marble12PntMapLoaderC1EPNS_6PntMapERK7QString@Base 4:4.5.1
  _ZN6Marble12PntMapLoaderC2EPNS_6PntMapERK7QString@Base 4:4.5.1
+ _ZN6Marble12PntMapLoaderD0Ev@Base 4:4.6.5
+ _ZN6Marble12PntMapLoaderD1Ev@Base 4:4.6.5
+ _ZN6Marble12PntMapLoaderD2Ev@Base 4:4.6.5
  _ZN6Marble12RenderPlugin10setEnabledEb@Base 4:4.5.1
  _ZN6Marble12RenderPlugin10setVisibleEb@Base 4:4.5.1
  _ZN6Marble12RenderPlugin11eventFilterEP7QObjectP6QEvent@Base 4:4.5.1
@@ -1130,6 +1139,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble16GeoSceneProperty8setValueEb@Base 4:4.5.1
  _ZN6Marble16GeoScenePropertyC1ERK7QString@Base 4:4.5.1
  _ZN6Marble16GeoScenePropertyC2ERK7QString@Base 4:4.5.1
+ _ZN6Marble16GeoScenePropertyD0Ev@Base 4:4.6.5
+ _ZN6Marble16GeoScenePropertyD1Ev@Base 4:4.6.5
+ _ZN6Marble16GeoScenePropertyD2Ev@Base 4:4.6.5
  _ZN6Marble16GeoSceneSettings11addPropertyEPNS_16GeoScenePropertyE@Base 4:4.5.1
  _ZN6Marble16GeoSceneSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble16GeoSceneSettings11qt_metacastEPKc@Base 4:4.5.1
@@ -1514,6 +1526,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble18PrintOptionsWidget33setPrintDrivingInstructionsAdviceEb@Base 4:4.6.1
  _ZN6Marble18PrintOptionsWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.6.1
  _ZN6Marble18PrintOptionsWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:4.6.1
+ _ZN6Marble18PrintOptionsWidgetD0Ev@Base 4:4.6.5
+ _ZN6Marble18PrintOptionsWidgetD1Ev@Base 4:4.6.5
+ _ZN6Marble18PrintOptionsWidgetD2Ev@Base 4:4.6.5
  _ZN6Marble18RoutingInstruction11predecessorEv@Base 4:4.6.1
  _ZN6Marble18RoutingInstruction12setSuccessorEPS0_@Base 4:4.6.1
  _ZN6Marble18RoutingInstruction14calculateAngleEv@Base 4:4.6.1
@@ -1739,6 +1754,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble20GeoPointGraphicsItem8setPointERKNS_12GeoDataPointE@Base 4:4.5.1
  _ZN6Marble20GeoPointGraphicsItemC1Ev@Base 4:4.5.1
  _ZN6Marble20GeoPointGraphicsItemC2Ev@Base 4:4.5.1
+ _ZN6Marble20GeoPointGraphicsItemD0Ev@Base 4:4.6.5
+ _ZN6Marble20GeoPointGraphicsItemD1Ev@Base 4:4.6.5
+ _ZN6Marble20GeoPointGraphicsItemD2Ev@Base 4:4.6.5
  _ZN6Marble20MarbleAbstractRunner11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.1
  _ZN6Marble20MarbleAbstractRunner11qt_metacastEPKc@Base 4:4.6.1
  _ZN6Marble20MarbleAbstractRunner13retrieveRouteEPNS_12RouteRequestE@Base 4:4.6.1
@@ -1752,6 +1770,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble20MarbleAbstractRunner8setModelEPNS_11MarbleModelE@Base 4:4.6.1
  _ZN6Marble20MarbleAbstractRunnerC1EP7QObject@Base 4:4.6.1
  _ZN6Marble20MarbleAbstractRunnerC2EP7QObject@Base 4:4.6.1
+ _ZN6Marble20MarbleAbstractRunnerD0Ev@Base 4:4.6.5
+ _ZN6Marble20MarbleAbstractRunnerD1Ev@Base 4:4.6.5
+ _ZN6Marble20MarbleAbstractRunnerD2Ev@Base 4:4.6.5
  _ZN6Marble20MarblePlacemarkModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble20MarblePlacemarkModel11qt_metacastEPKc@Base 4:4.5.1
  _ZN6Marble20MarblePlacemarkModel13addPlacemarksEii@Base 4:4.5.1
@@ -1771,6 +1792,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble20MarbleSearchListView8centerOnERK11QModelIndex@Base 4:4.5.1
  _ZN6Marble20MarbleSearchListViewC1EP7QWidget@Base 4:4.5.1
  _ZN6Marble20MarbleSearchListViewC2EP7QWidget@Base 4:4.5.1
+ _ZN6Marble20MarbleSearchListViewD0Ev@Base 4:4.6.5
+ _ZN6Marble20MarbleSearchListViewD1Ev@Base 4:4.6.5
+ _ZN6Marble20MarbleSearchListViewD2Ev@Base 4:4.6.5
  _ZN6Marble20QtMarbleConfigDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble20QtMarbleConfigDialog11qt_metacastEPKc@Base 4:4.5.1
  _ZN6Marble20QtMarbleConfigDialog12readSettingsEv@Base 4:4.5.1
@@ -1804,6 +1828,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble20RoutingProfilesModel8moveDownEi@Base 4:4.6.1
  _ZN6Marble20RoutingProfilesModelC1EPNS_13PluginManagerEP7QObject@Base 4:4.6.1
  _ZN6Marble20RoutingProfilesModelC2EPNS_13PluginManagerEP7QObject@Base 4:4.6.1
+ _ZN6Marble20RoutingProfilesModelD0Ev@Base 4:4.6.5
+ _ZN6Marble20RoutingProfilesModelD1Ev@Base 4:4.6.5
+ _ZN6Marble20RoutingProfilesModelD2Ev@Base 4:4.6.5
  _ZN6Marble20TileLevelRangeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble20TileLevelRangeWidget11qt_metacastEPKc@Base 4:4.5.1
  _ZN6Marble20TileLevelRangeWidget15setDefaultLevelEi@Base 4:4.5.1
@@ -1836,6 +1863,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble21GeoSceneXmlDataSource4typeEv@Base 4:4.5.1
  _ZN6Marble21GeoSceneXmlDataSourceC1ERK7QString@Base 4:4.5.1
  _ZN6Marble21GeoSceneXmlDataSourceC2ERK7QString@Base 4:4.5.1
+ _ZN6Marble21GeoSceneXmlDataSourceD0Ev@Base 4:4.6.5
+ _ZN6Marble21GeoSceneXmlDataSourceD1Ev@Base 4:4.6.5
+ _ZN6Marble21GeoSceneXmlDataSourceD2Ev@Base 4:4.6.5
  _ZN6Marble21MarbleThemeSelectView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble21MarbleThemeSelectView11qt_metacastEPKc@Base 4:4.5.1
  _ZN6Marble21MarbleThemeSelectView11resizeEventEP12QResizeEvent@Base 4:4.5.1
@@ -1844,6 +1874,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble21MarbleThemeSelectView16staticMetaObjectE@Base 4:4.5.1
  _ZN6Marble21MarbleThemeSelectViewC1EP7QWidget@Base 4:4.5.1
  _ZN6Marble21MarbleThemeSelectViewC2EP7QWidget@Base 4:4.5.1
+ _ZN6Marble21MarbleThemeSelectViewD0Ev@Base 4:4.6.5
+ _ZN6Marble21MarbleThemeSelectViewD1Ev@Base 4:4.6.5
+ _ZN6Marble21MarbleThemeSelectViewD2Ev@Base 4:4.6.5
  _ZN6Marble21RoutingProfilesWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.1
  _ZN6Marble21RoutingProfilesWidget11qt_metacastEPKc@Base 4:4.6.1
  _ZN6Marble21RoutingProfilesWidget13updateButtonsEv@Base 4:4.6.1
@@ -1910,6 +1943,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble23PointScreenGraphicsItem5paintEPNS_10GeoPainterEPNS_14ViewportParamsERK7QStringPNS_13GeoSceneLayerE@Base 4:4.5.1
  _ZN6Marble23PointScreenGraphicsItemC1Ev@Base 4:4.5.1
  _ZN6Marble23PointScreenGraphicsItemC2Ev@Base 4:4.5.1
+ _ZN6Marble23PointScreenGraphicsItemD0Ev@Base 4:4.6.5
+ _ZN6Marble23PointScreenGraphicsItemD1Ev@Base 4:4.6.5
+ _ZN6Marble23PointScreenGraphicsItemD2Ev@Base 4:4.6.5
  _ZN6Marble24MarbleGraphicsGridLayout10setSpacingEi@Base 4:4.5.1
  _ZN6Marble24MarbleGraphicsGridLayout12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.5.1
  _ZN6Marble24MarbleGraphicsGridLayout12setAlignmentEPNS_18ScreenGraphicsItemE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.5.1
@@ -1944,6 +1980,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble25GeoLineStringGraphicsItem6appendERKNS_18GeoDataCoordinatesE@Base 4:4.5.1
  _ZN6Marble25GeoLineStringGraphicsItemC1Ev@Base 4:4.5.1
  _ZN6Marble25GeoLineStringGraphicsItemC2Ev@Base 4:4.5.1
+ _ZN6Marble25GeoLineStringGraphicsItemD0Ev@Base 4:4.6.5
+ _ZN6Marble25GeoLineStringGraphicsItemD1Ev@Base 4:4.6.5
+ _ZN6Marble25GeoLineStringGraphicsItemD2Ev@Base 4:4.6.5
  _ZN6Marble25InstructionTransformation7processERK7QVectorINS_15RoutingWaypointEE@Base 4:4.6.1
  _ZN6Marble25MarbleCacheSettingsWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble25MarbleCacheSettingsWidget11qt_metacastEPKc@Base 4:4.5.1
@@ -1952,6 +1991,9 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZN6Marble25MarbleCacheSettingsWidget20clearPersistentCacheEv@Base 4:4.5.1
  _ZN6Marble25MarbleCacheSettingsWidgetC1EP7QWidget@Base 4:4.5.1
  _ZN6Marble25MarbleCacheSettingsWidgetC2EP7QWidget@Base 4:4.5.1
+ _ZN6Marble25MarbleCacheSettingsWidgetD0Ev@Base 4:4.6.5
+ _ZN6Marble25MarbleCacheSettingsWidgetD1Ev@Base 4:4.6.5
+ _ZN6Marble25MarbleCacheSettingsWidgetD2Ev@Base 4:4.6.5
  _ZN6Marble26MarblePluginSettingsWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.1
  _ZN6Marble26MarblePluginSettingsWidget11qt_metacastEPKc@Base 4:4.5.1
  _ZN6Marble26MarblePluginSettingsWidget12setAboutIconERK5QIcon@Base 4:4.5.1
@@ -2200,6 +2242,8 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  _ZNK6Marble10ViewParams10projectionEv@Base 4:4.5.1
  _ZNK6Marble10ViewParams10showCloudsEv@Base 4:4.5.1
  _ZNK6Marble10ViewParams11canvasImageEv@Base 4:4.5.1
+ _ZNK6Marble10ViewParams13coastImagePtrEv@Base 4:4.6.5
+ _ZNK6Marble10ViewParams14canvasImagePtrEv@Base 4:4.6.5
  _ZNK6Marble10ViewParams14showAtmosphereEv@Base 4:4.5.1
  _ZNK6Marble10ViewParams17currentProjectionEv@Base 4:4.5.1
  _ZNK6Marble10ViewParams18showElevationModelEv@Base 4:4.5.1
@@ -3508,6 +3552,7 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  (c++)"non-virtual thunk to Marble::GeoDataTimeStamp::unpack(QDataStream&)@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::GeoDataTimeStamp::~GeoDataTimeStamp()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::GeoSceneDocument::~GeoSceneDocument()@Base" 4:4.5.1
+ (c++)"non-virtual thunk to Marble::GeoSceneProperty::~GeoSceneProperty()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Marble::GeoSceneSettings::~GeoSceneSettings()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::GoToDialog::~GoToDialog()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::LatLonBoxWidget::~LatLonBoxWidget()@Base" 4:4.5.1
@@ -3515,16 +3560,20 @@ libmarblewidget.so.11 libmarblewidget11 #MINVER#
  (c++)"non-virtual thunk to Marble::LegendWidget::~LegendWidget()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::MapViewWidget::~MapViewWidget()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::MarbleAboutDialog::~MarbleAboutDialog()@Base" 4:4.5.1
+ (c++)"non-virtual thunk to Marble::MarbleCacheSettingsWidget::~MarbleCacheSettingsWidget()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Marble::MarbleControlBox::~MarbleControlBox()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::MarbleLegendBrowser::~MarbleLegendBrowser()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::MarbleNavigator::~MarbleNavigator()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::MarblePluginSettingsWidget::~MarblePluginSettingsWidget()@Base" 4:4.5.1
+ (c++)"non-virtual thunk to Marble::MarbleSearchListView::~MarbleSearchListView()@Base" 4:4.6.5
+ (c++)"non-virtual thunk to Marble::MarbleThemeSelectView::~MarbleThemeSelectView()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Marble::MarbleWidget::~MarbleWidget()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::NavigationWidget::~NavigationWidget()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::NetworkPlugin::~NetworkPlugin()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::NewFolderInfoDialog::~NewFolderInfoDialog()@Base" 4:4.6.1
  (c++)"non-virtual thunk to Marble::PluginAboutDialog::~PluginAboutDialog()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::PositionProviderPlugin::~PositionProviderPlugin()@Base" 4:4.5.1
+ (c++)"non-virtual thunk to Marble::PrintOptionsWidget::~PrintOptionsWidget()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Marble::QtMarbleConfigDialog::~QtMarbleConfigDialog()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::RenderPlugin::~RenderPlugin()@Base" 4:4.5.1
  (c++)"non-virtual thunk to Marble::RoutingProfilesWidget::~RoutingProfilesWidget()@Base" 4:4.6.1
