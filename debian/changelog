@@ -9,6 +9,7 @@ kdeedu (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
 
