@@ -1,4 +1,4 @@
-kdeedu (4:4.6.4-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - kstars does not print FPS values to debug output anymore
@@ -6,6 +6,9 @@ kdeedu (4:4.6.4-0r1) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * Set architecture of libkdeedu-data to all.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
 
