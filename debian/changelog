@@ -12,6 +12,7 @@ kdeedu (4:4.6.5-0r0) UNRELEASED; urgency=low
   * Refresh patches.
   * Update installed files.
   * Update symbols files.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
 
