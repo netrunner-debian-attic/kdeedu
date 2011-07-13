@@ -9,7 +9,10 @@ kdeedu (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
-  * Refresh patches.
+  * Refresh patches: 
+    - Update no_install_rpath_use_link_path.diff 
+    - Remove step_needs_-lcln.diff, no longer needed; thanks Philip Muškovac
+      for noticing.
   * Update installed files.
   * Update symbols files.
   * Update lintian overrides.
