@@ -8,5 +8,6 @@ usr/share/icons/hicolor/32x32/apps/blinken.png
 usr/share/icons/hicolor/48x48/apps/blinken.png
 usr/share/icons/hicolor/64x64/apps/blinken.png
 usr/share/icons/hicolor/scalable/apps/blinken.svgz
-usr/share/kde4/apps/blinken/
+usr/share/kde4/apps/blinken/images/
+usr/share/kde4/apps/blinken/sounds/
 usr/share/kde4/config.kcfg/blinken.kcfg

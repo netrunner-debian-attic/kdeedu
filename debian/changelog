@@ -17,6 +17,11 @@ kdeedu (4:4.6.5-0r1) UNRELEASED; urgency=low
   * Update symbols files.
   * Update lintian overrides.
 
+  [ Pino Toscano ]
+  * Do not install the steve.ttf font for blinken anymore, as it already
+    depends on ttf-sjfonts which provides it. Drop also the README.packagers
+    explaining the handling of the Steve font.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
 
 kdeedu (4:4.6.3-2) unstable; urgency=low
