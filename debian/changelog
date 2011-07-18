@@ -1,4 +1,4 @@
-kdeedu (4:4.6.5-0r1) UNRELEASED; urgency=low
+kdeedu (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release:
     - kstars does not print FPS values to debug output anymore
@@ -22,7 +22,7 @@ kdeedu (4:4.6.5-0r1) UNRELEASED; urgency=low
     depends on ttf-sjfonts which provides it. Drop also the README.packagers
     explaining the handling of the Steve font.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 21:29:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:56 +0300
 
 kdeedu (4:4.6.3-2) unstable; urgency=low
 
