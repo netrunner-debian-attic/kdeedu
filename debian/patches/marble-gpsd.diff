@@ -1,0 +1,53 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Fix Marble compatibility with gpsd 2.96 and above.
+ Largely inspired by upstream commit 7fd1dd92e421ca6e0b8755a9aa2e47b5fa8c3ac0,
+ but rewritten the part in GpsdConnection::update() to adapt to the older
+ Marble codebase.
+Origin: vendor
+Forwarded: not-needed
+Last-Update: 2011-12-02
+
+--- a/marble/src/plugins/positionprovider/gpsd/GpsdConnection.cpp
++++ b/marble/src/plugins/positionprovider/gpsd/GpsdConnection.cpp
+@@ -20,6 +20,9 @@
+ 
+ GpsdConnection::GpsdConnection( QObject* parent )
+     : QObject( parent ),
++#if defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 5 )
++      m_gpsd( "localhost", DEFAULT_GPSD_PORT ),
++#endif
+       m_timer( 0 )
+ {
+     m_oldLocale = setlocale( LC_NUMERIC, NULL );
+@@ -35,8 +38,14 @@
+ void GpsdConnection::initialize()
+ {
+     m_timer.stop();
++    bool success = false;
++#if defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 5 )
++    success = true;
++#else
+     gps_data_t* data = m_gpsd.open();
+-    if ( data ) {
++    success = ( data != 0 );
++#endif
++    if ( success ) {
+         m_status = PositionProviderStatusAcquiring;
+         emit statusChanged( m_status );
+ 
+@@ -81,7 +90,14 @@
+ 
+ void GpsdConnection::update()
+ {
+-#if defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 3 ) && defined( PACKET_SET )
++#if defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 5 )
++    if ( m_gpsd.waiting( 0 ) ) {
++        gps_data_t* data = m_gpsd.read();
++        if ( data && data->set & PACKET_SET ) {
++            emit gpsdInfo( *data );
++        }
++    }
++#elif defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 3 ) && defined( PACKET_SET )
+     if ( m_gpsd.waiting() ) {
+         gps_data_t* data = m_gpsd.poll();
+         if ( data && data->set & PACKET_SET ) {

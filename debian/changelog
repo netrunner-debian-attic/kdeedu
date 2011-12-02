@@ -1,5 +1,7 @@
 kdeedu (4:4.6.5-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix Marble compatibility with gpsd >= 2.96. (Closes: #648502)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 16:27:42 +0100
 
